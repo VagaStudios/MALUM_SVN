@@ -200,3 +200,900 @@ LogInit: Object subsystem initialized
 [2017.04.01-20.56.41:449][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
 [2017.04.01-20.56.41:544][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
 [2017.04.01-20.56.41:581][  0]LogRenderer: Reallocating scene render targets to support 1252x612 NumSamples 1 (Frame:2).
+[2017.04.01-21.09.45:099][602]SourceControl: Info Source control is disabled
+[2017.04.01-21.10.50:552][810]LogSlate: Took 0.000434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.01-21.10.50:776][810]LogSavePackage: Save=5.86ms
+[2017.04.01-21.10.50:776][810]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Test_0107B8520645E5DF6C889124B17FC3D1E8.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Test_01.umap'
+[2017.04.01-21.10.50:809][810]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Test_01.umap
+[2017.04.01-21.10.50:810][810]LogFileHelpers: Saving map 'Test_01' took 0.105
+[2017.04.01-21.11.00:772][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/NewWorld" FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/NewWorld.uasset" SILENT=true
+[2017.04.01-21.11.00:775][621]LogSavePackage: Save=1.22ms
+[2017.04.01-21.11.00:775][621]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/NewWorld4A8505D145BEFFDBC3F9269811A71716.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/NewWorld.uasset'
+[2017.04.01-21.11.00:777][621]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/NewWorld.uasset
+[2017.04.01-21.11.00:794][621]Cmd: MAP LOAD FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Test_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.01-21.11.00:795][621]LightingResults: New page: Lighting Build
+[2017.04.01-21.11.00:796][621]LoadErrors: New page: Loading map: Test_01.umap
+[2017.04.01-21.11.00:796][621]MapCheck: New page: Map Check
+[2017.04.01-21.11.00:796][621]LightingResults: New page: Lighting Build
+[2017.04.01-21.11.00:884][621]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.01-21.11.00:884][621]LogAIModule: Creating AISystem for world Test_01
+[2017.04.01-21.11.00:885][621]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.01-21.11.02:358][621]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.01-21.11.02:432][621]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.389ms to complete.
+[2017.04.01-21.11.02:432][621]LogFileHelpers: Loading map 'Test_01' took 1.654
+[2017.04.01-21.11.25:158][750]LogSlate: Took 0.075717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.01-21.11.28:352][110]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.04.01-21.11.37:128][114]LogActorFactory: Actor Factory created Plane
+[2017.04.01-21.11.37:655][159]LogActorFactory: Actor Factory created Plane
+[2017.04.01-21.11.39:317][159]LogEditorViewport: Clicking Background
+[2017.04.01-21.11.40:376][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.01-21.11.40:567][291]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.11.51:052][459]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.11.52:401][612]LogEditorViewport: Clicking Background
+[2017.04.01-21.12.16:037][428]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.04.01-21.12.25:179][524]LogEditorViewport: Clicking Background
+[2017.04.01-21.12.25:914][612]SourceControl: Info Source control is disabled
+[2017.04.01-21.12.27:884][848]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.04.01-21.12.30:831][165]Cmd: TRANSACTION UNDO
+[2017.04.01-21.12.30:831][165]LogEditorTransaction: Undo Rotate Actors
+[2017.04.01-21.12.31:181][165]LogSlate: Took 0.000450 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.01-21.12.31:351][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.01-21.12.31:797][228]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.04.01-21.12.32:774][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.01-21.12.32:964][327]PIE: New page: SIE session: Test_01 (Apr 1, 2017, 11:12:32 AM)
+[2017.04.01-21.12.33:075][327]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/UEDPIE_0_Test_01
+[2017.04.01-21.12.33:186][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.111145s)
+[2017.04.01-21.12.33:187][327]LogAIModule: Creating AISystem for world Test_01
+[2017.04.01-21.12.33:187][327]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2017.04.01-21.12.33:236][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Test_01.Test_01 to /Game/FirstPersonBP/UEDPIE_0_Test_01.Test_01 (0.223954s)
+[2017.04.01-21.12.33:465][327]LogInit: XAudio2 using 'Speakers (3- Logitech G930 Gaming Headset)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.04.01-21.12.33:479][327]LogInit: FAudioDevice initialized.
+[2017.04.01-21.12.34:133][327]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.01-21.12.34:518][327]LogWorld: Bringing World /Game/FirstPersonBP/UEDPIE_0_Test_01.Test_01 up for play (max tick rate 0) at 2017.04.01-16.12.34
+[2017.04.01-21.12.34:574][327]LogWorld: Bringing up level for play took: 0.056864
+[2017.04.01-21.12.34:796][327]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.01-21.12.35:756][327]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.04.01-21.12.35:915][327]PIE: Info Play in editor start time for /Game/FirstPersonBP/UEDPIE_0_Test_01 2.795
+[2017.04.01-21.12.39:757][614]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2017.04.01-21.12.40:967][684]LogEditorViewport: Clicking Background
+[2017.04.01-21.12.42:508][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.01-21.12.42:865][892]LogEditorViewport: Clicking Background
+[2017.04.01-21.12.45:570][179]LogEditorViewport: Clicking Background
+[2017.04.01-21.12.52:915][814]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128) - 111 MB total VRAM
+[2017.04.01-21.12.58:399][380]MapCheck: New page: Map Check
+[2017.04.01-21.12.59:457][380]LightingResults: New page: Lighting Build - Apr 1, 2017, 11:12:59 AM
+[2017.04.01-21.13.02:556][380]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.04.01-21.13.03:369][380]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.04.01-21.13.04:077][380]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.04.01-21.13.09:356][380]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.04.01-21.13.09:769][380]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.04.01-21.13.16:538][380]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.04.01-21.13.16:538][380]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8544
+[2017.04.01-21.13.29:620][380]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.04.01-21.13.29:648][380]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.04.01-21.13.29:648][380]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.04.01-21.13.29:648][380]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.04.01-21.13.29:648][380]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.04.01-21.13.29:648][380]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.04.01-21.13.32:871][380]LogEditorBuildUtils: Build time 0:34
+[2017.04.01-21.13.32:914][380]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2017.04.01-21.13.32:983][380]LogTemp:Display: Added material ShaderMap 0x00000149A4AC4480 with Material 0x00000149A4615300 to ShaderMapsBeingCompiled
+[2017.04.01-21.13.32:993][380]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer BasicShapeMaterial, GameThreadShaderMap 0x00000149A4AC4480
+[2017.04.01-21.13.32:998][380]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2017.04.01-21.13.33:000][380]LogTemp:Display: Added material ShaderMap 0x000001498ECC3580 with Material 0x00000149A49E7700 to ShaderMapsBeingCompiled
+[2017.04.01-21.13.33:003][380]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer BasicShapeMaterial, GameThreadShaderMap 0x000001498ECC3580
+[2017.04.01-21.13.33:632][381]LogTemp:Display: Finished compile of shader map 0x000001498ECC3580
+[2017.04.01-21.13.33:632][381]LogTemp:Display: Shader map FLightmassMaterialRenderer BasicShapeMaterial complete, GameThreadShaderMap 0x000001498ECC3580, marking material FLightmassMaterialRenderer BasicShapeMaterial as finished
+[2017.04.01-21.13.33:632][381]LogTemp:Display: Marking material as finished 0x00000149A49E7700
+[2017.04.01-21.13.33:634][381]LogTemp:Display: Finished compile of shader map 0x00000149A4AC4480
+[2017.04.01-21.13.33:634][381]LogTemp:Display: Shader map FLightmassMaterialRenderer BasicShapeMaterial complete, GameThreadShaderMap 0x00000149A4AC4480, marking material FLightmassMaterialRenderer BasicShapeMaterial as finished
+[2017.04.01-21.13.33:634][381]LogTemp:Display: Marking material as finished 0x00000149A4615300
+[2017.04.01-21.13.36:104][385]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2017.04.01-21.13.37:017][456]LogEditorViewport: Clicking Background
+[2017.04.01-21.13.38:193][562]Job is a success!
+[2017.04.01-21.13.49:245][691]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128) - 111 MB total VRAM
+[2017.04.01-21.13.49:245][691]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 128X64) - 111 MB total VRAM
+[2017.04.01-21.13.49:245][691]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128) - 111 MB total VRAM
+[2017.04.01-21.13.49:245][691]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 64X64) - 111 MB total VRAM
+[2017.04.01-21.13.49:245][691]Lightmass on TAYLOR-PC: 11.4 sec total, 360 ms importing, 24 ms setup, 282 ms photons, 10.7 sec processing, 0 ms extra exporting [1/1 mappings]. Threads: 1:14 min total, 26 ms processing.
+[2017.04.01-21.13.49:357][691]LogStaticLightingSystem: Illumination: 40.0 sec (52 ms encoding lightmaps, 202 ms encoding shadowmaps)
+[2017.04.01-21.13.49:357][691]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.04.01-21.13.49:357][691]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.04.01-21.13.49:695][691]DumpUnbuiltLightIteractions
+[2017.04.01-21.13.49:695][691]Lights with unbuilt interactions: 0
+[2017.04.01-21.13.49:695][691]
+[2017.04.01-21.13.49:695][691]Primitives with unbuilt interactions: 0
+[2017.04.01-21.13.49:915][692]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.04.01-21.13.49:915][692]MapCheck: New page: UEDPIE_0_Test_01 - Apr 1, 2017, 11:13:49 AM
+[2017.04.01-21.13.50:213][692]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.04.01-21.13.50:288][692]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 373.149ms to complete.
+[2017.04.01-21.13.50:303][692]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2017.04.01-21.13.51:468][816]LogEditorViewport: Clicking Background
+[2017.04.01-21.15.32:012][706]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.15.38:363][261]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.15.50:903][686]PIE:Warning: Warning Mobility of SkyLight_1 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.50:943][690]PIE:Warning: Warning Mobility of SkyLight_1 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.50:996][695]PIE:Warning: Warning Mobility of SkyLight_1 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.51:523][751]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.15.53:990][ 26]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.01-21.15.54:127][ 37]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.15.55:755][223]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:761][224]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:763][224]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:770][225]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:772][225]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:778][226]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:779][226]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:786][227]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:787][227]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:795][228]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:796][228]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:803][229]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:805][229]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:811][230]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:813][230]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:819][231]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:821][231]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:828][232]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:829][232]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:830][232]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:836][233]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:837][233]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:844][234]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:846][234]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:853][235]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:854][235]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:861][236]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:863][236]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:869][237]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:871][237]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:878][238]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:878][238]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:886][239]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:887][239]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:894][240]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:896][240]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:903][241]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:904][241]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:911][242]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:913][242]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:920][243]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:922][243]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:928][244]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:929][244]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:937][245]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:937][245]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:939][245]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:945][246]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:953][247]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:955][247]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:961][248]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:963][248]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:970][249]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:972][249]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:978][250]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:979][250]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.55:986][251]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:078][262]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:079][262]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:087][263]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:087][263]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:089][263]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:095][264]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:103][265]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:105][265]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:111][266]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:113][266]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:120][267]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:121][267]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:128][268]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:129][268]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:136][269]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:137][269]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:138][269]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:144][270]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:153][271]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:155][271]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:161][272]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:163][272]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:169][273]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:171][273]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:178][274]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:179][274]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:186][275]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:187][275]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:195][276]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:319][291]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:321][291]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:328][292]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:328][292]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:336][293]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:337][293]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:339][293]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:345][294]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:347][294]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:353][295]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:355][295]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:361][296]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:363][296]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:370][297]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:371][297]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:378][298]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:379][298]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:386][299]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:387][299]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:395][300]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:403][301]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:404][301]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:411][302]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:413][302]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:419][303]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:421][303]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:428][304]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:429][304]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:436][305]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:437][305]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:438][305]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:444][306]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:453][307]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:454][307]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:461][308]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:463][308]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:469][309]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:471][309]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:478][310]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:479][310]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:487][311]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:487][311]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:611][326]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:613][326]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:620][327]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:621][327]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:628][328]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:629][328]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:636][329]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:637][329]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:645][330]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:653][331]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:655][331]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:661][332]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:663][332]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:670][333]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:671][333]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:678][334]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:678][334]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:686][335]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:687][335]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:688][335]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:695][336]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:703][337]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:705][337]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:711][338]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:713][338]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:720][339]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:721][339]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:728][340]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:729][340]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:736][341]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:737][341]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:739][341]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:744][342]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:753][343]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:755][343]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:761][344]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:763][344]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:769][345]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:772][345]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:778][346]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:779][346]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:780][346]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:786][347]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:787][347]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:794][348]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:803][349]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:805][349]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:811][350]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:813][350]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:819][351]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:821][351]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:828][352]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:828][352]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:837][353]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:837][353]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:839][353]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:845][354]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:853][355]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:855][355]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:861][356]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:863][356]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:870][357]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:871][357]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:878][358]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:879][358]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:886][359]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:887][359]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:895][360]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:903][361]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:905][361]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:911][362]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:913][362]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:920][363]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:922][363]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:928][364]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:929][364]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:937][365]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:937][365]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:939][365]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:945][366]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:953][367]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:954][367]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:961][368]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:963][368]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:969][369]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:971][369]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:978][370]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:978][370]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:986][371]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:987][371]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:989][371]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:995][372]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.56:997][372]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:003][373]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:005][373]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:011][374]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:013][374]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:020][375]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:021][375]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:023][375]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:028][376]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:036][377]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:045][378]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:053][379]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:070][381]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:071][381]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:078][382]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:079][382]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:086][383]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:087][383]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:095][384]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:097][384]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:103][385]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:105][385]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:111][386]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:113][386]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:120][387]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:122][387]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:128][388]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:129][388]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:136][389]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:137][389]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:139][389]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:145][390]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:153][391]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:155][391]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:161][392]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:163][392]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:170][393]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:171][393]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:178][394]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:179][394]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:186][395]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:187][395]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:189][395]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:195][396]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:203][397]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.57:211][398]PIE:Warning: Warning Mobility of SkyLight2 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.58:128][497]PIE:Warning: Warning Mobility of SkyLight2_3 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.58:149][499]PIE:Warning: Warning Mobility of SkyLight2_3 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.58:170][501]PIE:Warning: Warning Mobility of SkyLight2_3 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.58:191][503]PIE:Warning: Warning Mobility of SkyLight2_3 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.58:212][505]PIE:Warning: Warning Mobility of SkyLight2_3 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.58:222][506]PIE:Warning: Warning Mobility of SkyLight2_3 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.58:243][508]PIE:Warning: Warning Mobility of SkyLight2_3 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.58:264][510]PIE:Warning: Warning Mobility of SkyLight2_3 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.58:294][513]PIE:Warning: Warning Mobility of SkyLight2_3 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.01-21.15.59:672][670]Cmd: DELETE
+[2017.04.01-21.15.59:672][670]Cmd: ACTOR DELETE
+[2017.04.01-21.16.00:204][670]LogEditorActor: Deleted Actor: SkyLight
+[2017.04.01-21.16.00:247][670]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2017.04.01-21.16.34:381][687]LogEditorViewport: Clicking Background
+[2017.04.01-21.16.55:525][ 37]Cmd: MAP LOAD FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Test_02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.01-21.16.55:544][ 37]LightingResults: New page: Lighting Build
+[2017.04.01-21.16.55:545][ 37]LoadErrors: New page: Loading map: Test_02.umap
+[2017.04.01-21.16.55:546][ 37]MapCheck: New page: Map Check
+[2017.04.01-21.16.55:546][ 37]LightingResults: New page: Lighting Build
+[2017.04.01-21.16.55:560][ 37]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.01-21.16.55:560][ 37]LogAIModule: Creating AISystem for world Test_02
+[2017.04.01-21.16.55:598][ 37]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.01-21.16.55:645][ 37]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.164ms to complete.
+[2017.04.01-21.16.55:645][ 37]LogFileHelpers: Loading map 'Test_02' took 3.256
+[2017.04.01-21.17.05:926][263]LogAIModule: Creating AISystem for world Test_01
+[2017.04.01-21.17.13:527][ 35]LogActorFactory: Actor Factory created Plane
+[2017.04.01-21.17.14:430][143]LogActorFactory: Actor Factory created Plane
+[2017.04.01-21.17.15:397][254]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.17.19:918][795]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.17.31:596][192]Cmd: DELETE
+[2017.04.01-21.17.31:596][192]Cmd: ACTOR DELETE
+[2017.04.01-21.17.31:596][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.01-21.17.31:603][192]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.04.01-21.17.34:788][572]LogActorFactory: Actor Factory created Plane
+[2017.04.01-21.17.36:226][744]LogActorFactory: Actor Factory created Plane
+[2017.04.01-21.17.36:968][828]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.17.45:857][885]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.17.52:144][626]LogEditorViewport: Clicking Background
+[2017.04.01-21.18.50:643][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.01-21.18.57:441][403]LogEditorViewport: Clicking Background
+[2017.04.01-21.18.58:633][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.01-21.19.00:622][778]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.04.01-21.19.15:972][607]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.04.01-21.19.19:753][ 53]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.04.01-21.19.24:081][559]Cmd: TRANSACTION UNDO
+[2017.04.01-21.19.24:081][559]LogEditorTransaction: Undo Rotate Actors
+[2017.04.01-21.19.31:256][412]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.04.01-21.26.49:662][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test_02" FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Autosaves/Game/Test_02_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.04.01-21.26.49:674][621]LogSavePackage: Save=9.87ms
+[2017.04.01-21.26.49:674][621]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Test_02_Auto14CBFD750402012F8CE09908EA55A9E54.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Autosaves/Game/Test_02_Auto1.umap'
+[2017.04.01-21.26.49:675][621]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Autosaves/Game/Test_02_Auto1.umap
+[2017.04.01-21.26.49:677][621]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Test_02' took 0.031
+[2017.04.01-21.26.49:677][621]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.031
+[2017.04.01-21.27.03:919][814]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.04.01-21.27.05:809][ 35]Cmd: TRANSACTION UNDO
+[2017.04.01-21.27.05:809][ 35]LogEditorTransaction: Undo Rotate Actors
+[2017.04.01-21.27.07:906][279]Cmd: TRANSACTION UNDO
+[2017.04.01-21.27.07:906][279]LogEditorTransaction: Undo Rotate Actors
+[2017.04.01-21.27.08:452][342]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.04.01-21.27.08:841][388]Cmd: DELETE
+[2017.04.01-21.27.08:841][388]Cmd: ACTOR DELETE
+[2017.04.01-21.27.08:841][388]LogEditorActor: Deleted Actor: SkyLight
+[2017.04.01-21.27.08:849][388]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.04.01-21.27.54:371][294]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.04.01-21.27.58:038][728]Cmd: TRANSACTION UNDO
+[2017.04.01-21.27.58:038][728]LogEditorTransaction: Undo Rotate Actors
+[2017.04.01-21.27.58:702][804]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2017.04.01-21.28.01:563][139]Cmd: TRANSACTION UNDO
+[2017.04.01-21.28.01:563][139]LogEditorTransaction: Undo Rotate Actors
+[2017.04.01-21.28.07:062][792]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.04.01-21.28.17:590][ 49]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2017.04.01-21.28.29:852][512]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.04.01-21.28.29:980][523]Cmd: DELETE
+[2017.04.01-21.28.29:980][523]Cmd: ACTOR DELETE
+[2017.04.01-21.28.29:980][523]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.04.01-21.28.29:988][523]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.04.01-21.28.31:750][734]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2017.04.01-21.28.33:596][948]Cmd: TRANSACTION UNDO
+[2017.04.01-21.28.33:596][948]LogEditorTransaction: Undo Rotate Actors
+[2017.04.01-21.28.34:259][ 25]Cmd: TRANSACTION UNDO
+[2017.04.01-21.28.34:259][ 25]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.01-21.28.34:898][100]Cmd: TRANSACTION UNDO
+[2017.04.01-21.28.34:898][100]LogEditorTransaction: Undo Delete Actors
+[2017.04.01-21.28.36:957][338]LogEditorViewport: Clicking Background
+[2017.04.01-21.28.41:008][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.01-21.28.44:705][243]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.28.54:104][308]LogEditorViewport: Clicking Background
+[2017.04.01-21.28.56:814][631]MapCheck: New page: Map Check
+[2017.04.01-21.28.56:830][631]LightingResults: New page: Lighting Build - Apr 1, 2017, 11:28:56 AM
+[2017.04.01-21.28.56:836][631]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.04.01-21.28.56:838][631]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.04.01-21.28.56:838][631]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.04.01-21.28.56:839][631]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.04.01-21.28.56:839][631]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8544
+[2017.04.01-21.29.01:346][631]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.04.01-21.29.01:346][631]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.04.01-21.29.01:346][631]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.04.01-21.29.01:346][631]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.04.01-21.29.01:346][631]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.04.01-21.29.01:346][631]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.04.01-21.29.01:456][631]LogEditorBuildUtils: Build time 0:04
+[2017.04.01-21.29.02:852][636]Job is a success!
+[2017.04.01-21.29.03:647][638]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 128X64) - 112 MB total VRAM
+[2017.04.01-21.29.03:647][638]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128) - 112 MB total VRAM
+[2017.04.01-21.29.03:647][638]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128) - 112 MB total VRAM
+[2017.04.01-21.29.03:647][638]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 64X64) - 112 MB total VRAM
+[2017.04.01-21.29.03:663][638]Lightmass on TAYLOR-PC: 1.32 sec total, 51 ms importing, 26 ms setup, 269 ms photons, 949 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 6.48 sec total, 52 ms processing.
+[2017.04.01-21.29.03:669][638]LogStaticLightingSystem: Illumination: 6.50 sec (7 ms encoding lightmaps, 1 ms encoding shadowmaps)
+[2017.04.01-21.29.03:669][638]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.04.01-21.29.03:669][638]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.04.01-21.29.04:349][638]DumpUnbuiltLightIteractions
+[2017.04.01-21.29.04:349][638]Lights with unbuilt interactions: 0
+[2017.04.01-21.29.04:349][638]
+[2017.04.01-21.29.04:349][638]Primitives with unbuilt interactions: 0
+[2017.04.01-21.29.04:359][639]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.04.01-21.29.04:360][639]MapCheck: New page: Test_02 - Apr 1, 2017, 11:29:04 AM
+[2017.04.01-21.29.04:431][639]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.497ms to complete.
+[2017.04.01-21.29.13:345][433]LogActorFactory: Actor Factory created Cube
+[2017.04.01-21.29.14:182][533]LogActorFactory: Actor Factory created Cube
+[2017.04.01-21.29.19:822][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.01-21.29.22:129][475]Cmd: TRANSACTION UNDO
+[2017.04.01-21.29.22:129][475]LogEditorTransaction: Undo Scale Actors
+[2017.04.01-21.29.24:128][701]LogEditorViewport: Clicking Background
+[2017.04.01-21.29.25:472][862]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.04.01-21.29.40:231][623]LogEditorViewport: Clicking Background
+[2017.04.01-21.29.44:608][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.04.01-21.29.45:929][301]Cmd: EDIT COPY
+[2017.04.01-21.29.46:167][323]Cmd: EDIT PASTE
+[2017.04.01-21.29.59:535][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.04.01-21.30.05:932][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.04.01-21.30.10:839][220]MapCheck: New page: Map Check
+[2017.04.01-21.30.10:855][220]LightingResults: New page: Lighting Build - Apr 1, 2017, 11:30:10 AM
+[2017.04.01-21.30.10:864][220]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.04.01-21.30.10:866][220]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.04.01-21.30.10:866][220]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.04.01-21.30.10:867][220]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.04.01-21.30.10:867][220]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8544
+[2017.04.01-21.30.15:378][220]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.04.01-21.30.15:378][220]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.04.01-21.30.15:378][220]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.04.01-21.30.15:378][220]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.04.01-21.30.15:378][220]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.04.01-21.30.15:378][220]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.04.01-21.30.15:597][220]LogEditorBuildUtils: Build time 0:04
+[2017.04.01-21.30.16:727][293]Job is a success!
+[2017.04.01-21.30.16:802][294]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 256X128) - 117 MB total VRAM
+[2017.04.01-21.30.16:802][294]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256) - 117 MB total VRAM
+[2017.04.01-21.30.16:802][294]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256) - 117 MB total VRAM
+[2017.04.01-21.30.16:802][294]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 128X64) - 117 MB total VRAM
+[2017.04.01-21.30.16:816][294]Lightmass on TAYLOR-PC: 603 ms total, 72 ms importing, 21 ms setup, 273 ms photons, 222 ms processing, 0 ms extra exporting [3/3 mappings]. Threads: 1.40 sec total, 180 ms processing.
+[2017.04.01-21.30.16:820][294]LogStaticLightingSystem: Illumination: 5.94 sec (24 ms encoding lightmaps, 4 ms encoding shadowmaps)
+[2017.04.01-21.30.16:820][294]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.04.01-21.30.16:820][294]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.04.01-21.30.17:381][294]DumpUnbuiltLightIteractions
+[2017.04.01-21.30.17:381][294]Lights with unbuilt interactions: 0
+[2017.04.01-21.30.17:381][294]
+[2017.04.01-21.30.17:381][294]Primitives with unbuilt interactions: 0
+[2017.04.01-21.30.17:435][295]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.04.01-21.30.17:435][295]MapCheck: New page: Test_02 - Apr 1, 2017, 11:30:17 AM
+[2017.04.01-21.30.17:489][295]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.903ms to complete.
+[2017.04.01-21.30.18:755][440]LogEditorViewport: Clicking Background
+[2017.04.01-21.30.21:034][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.04.01-21.30.23:167][960]LogEditorViewport: Clicking Background
+[2017.04.01-21.30.23:502][  0]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.04.01-21.30.24:528][119]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.04.01-21.30.32:623][ 83]Cmd: TRANSACTION UNDO
+[2017.04.01-21.30.32:623][ 83]LogEditorTransaction: Undo Edit Intensity
+[2017.04.01-21.30.44:282][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.04.01-21.30.46:222][413]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.04.01-21.30.48:881][707]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.04.01-21.30.56:703][630]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.04.01-21.30.58:553][846]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2017.04.01-21.34.00:479][588]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.04.01-21.34.00:487][588]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.04.01-21.34.11:616][917]LogEditorViewport: Clicking Background
+[2017.04.01-21.34.17:663][639]MapCheck: New page: Map Check
+[2017.04.01-21.34.17:679][639]LightingResults: New page: Lighting Build - Apr 1, 2017, 11:34:17 AM
+[2017.04.01-21.34.17:688][639]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.04.01-21.34.17:689][639]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.04.01-21.34.17:689][639]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.04.01-21.34.17:690][639]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.04.01-21.34.17:690][639]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8544
+[2017.04.01-21.34.22:208][639]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.04.01-21.34.22:208][639]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.04.01-21.34.22:208][639]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.04.01-21.34.22:208][639]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.04.01-21.34.22:208][639]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.04.01-21.34.22:208][639]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.04.01-21.34.22:370][639]LogEditorBuildUtils: Build time 0:04
+[2017.04.01-21.34.23:594][719]Job is a success!
+[2017.04.01-21.34.23:666][721]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128) - 117 MB total VRAM
+[2017.04.01-21.34.23:666][721]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256) - 117 MB total VRAM
+[2017.04.01-21.34.23:666][721]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256) - 117 MB total VRAM
+[2017.04.01-21.34.23:666][721]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 128X64) - 117 MB total VRAM
+[2017.04.01-21.34.23:677][721]Lightmass on TAYLOR-PC: 642 ms total, 68 ms importing, 20 ms setup, 272 ms photons, 217 ms processing, 0 ms extra exporting [3/3 mappings]. Threads: 1.36 sec total, 167 ms processing.
+[2017.04.01-21.34.23:681][721]LogStaticLightingSystem: Illumination: 5.98 sec (22 ms encoding lightmaps, 4 ms encoding shadowmaps)
+[2017.04.01-21.34.23:682][721]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.04.01-21.34.23:682][721]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.04.01-21.34.24:211][721]DumpUnbuiltLightIteractions
+[2017.04.01-21.34.24:211][721]Lights with unbuilt interactions: 0
+[2017.04.01-21.34.24:211][721]
+[2017.04.01-21.34.24:211][721]Primitives with unbuilt interactions: 0
+[2017.04.01-21.34.24:264][722]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.04.01-21.34.24:264][722]MapCheck: New page: Test_02 - Apr 1, 2017, 11:34:24 AM
+[2017.04.01-21.34.24:313][722]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.938ms to complete.
+[2017.04.01-21.34.40:225][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.04.01-21.36.53:075][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test_02" FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Autosaves/Game/Test_02_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.04.01-21.36.53:090][ 97]LogSavePackage: Save=12.81ms
+[2017.04.01-21.36.53:090][ 97]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Test_02_Auto2A7C028DF49336610DE1D958F3882B2B6.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Autosaves/Game/Test_02_Auto2.umap'
+[2017.04.01-21.36.53:091][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Autosaves/Game/Test_02_Auto2.umap
+[2017.04.01-21.36.53:092][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Test_02' took 0.027
+[2017.04.01-21.36.53:092][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.027
+[2017.04.01-21.36.53:094][ 97]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Test_02_BuiltData] ([1] browsable assets)...
+[2017.04.01-21.36.53:094][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Test_02_BuiltData]
+[2017.04.01-21.36.53:094][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test_02_BuiltData" FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Autosaves/Game/Test_02_BuiltData_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.04.01-21.36.53:097][ 97]LogSavePackage: Save=2.53ms
+[2017.04.01-21.36.53:097][ 97]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Test_02_BuiltData_Auto2F8F6A7C147C0D88E1786898DA62258AA.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Autosaves/Game/Test_02_BuiltData_Auto2.uasset'
+[2017.04.01-21.36.53:118][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Autosaves/Game/Test_02_BuiltData_Auto2.uasset
+[2017.04.01-21.36.53:118][ 97]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.04.01-21.36.59:742][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test_02" FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Test_02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.01-21.36.59:762][353]LogSavePackage: Save=12.36ms
+[2017.04.01-21.36.59:762][353]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Test_0294D1E9424CE1FB9FCEB19B8935EE71CA.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Test_02.umap'
+[2017.04.01-21.36.59:764][353]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Test_02.umap
+[2017.04.01-21.36.59:775][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test_02_BuiltData" FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Test_02_BuiltData.uasset" SILENT=true
+[2017.04.01-21.36.59:801][353]LogSavePackage: Save=23.80ms
+[2017.04.01-21.36.59:801][353]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Test_02_BuiltData834F3FA84E9A3BC41A18F69CC9DBABC6.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Test_02_BuiltData.uasset'
+[2017.04.01-21.36.59:803][353]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Test_02_BuiltData.uasset
+[2017.04.01-21.37.02:052][601]Cmd: QUIT_EDITOR
+[2017.04.01-21.37.02:988][601]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.01-21.37.02:988][601]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.01-21.37.03:023][601]LogExit: Preparing to exit.
+[2017.04.01-21.37.03:992][601]LogDirectoryWatcher: A directory notification for 'C:/Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/' was aborted.
+[2017.04.01-21.37.04:006][601]LogExit: Editor shut down
+[2017.04.01-21.37.04:007][601]LogExit: Transaction tracking system shut down
+[2017.04.01-21.37.04:060][601]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.01-21.37.04:060][601]LogExit: Object subsystem successfully closed.
+[2017.04.01-21.37.04:073][601]LogD3D11RHI: Shutdown
+[2017.04.01-21.37.04:073][601]LogD3D11RHI: CleanupD3DDevice
+[2017.04.01-21.37.04:138][601]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.01-21.37.04:153][601]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.04.01-21.37.04:159][601]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.04.01-21.37.04:159][601]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.04.01-21.37.04:159][601]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.04.01-21.37.04:159][601]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.04.01-21.37.04:159][601]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.15/FeaturePacks/' was aborted.
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.04.01-21.37.04:160][601]LogDirectoryWatcher: A directory notification for 'C:/Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Collections/' was aborted.
+[2017.04.01-21.37.04:160][601]LogDirectoryWatcher: A directory notification for 'C:/Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Developers/Taylor/Collections/' was aborted.
+[2017.04.01-21.37.04:160][601]LogDirectoryWatcher: A directory notification for 'C:/Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Collections/' was aborted.
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.04.01-21.37.04:160][601]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.04.01-21.37.04:161][601]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.04.01-21.37.04:906][601]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.04.01-21.37.04:906][601]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.04.01-21.37.04:906][601]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.04.01-21.37.04:906][601]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.04.01-21.37.04:907][601]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.04.01-21.37.04:949][601]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.04.01-21.37.05:189][601]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.04.01-21.37.05:190][601]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.04.01-21.37.05:190][601]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.04.01-21.37.05:190][601]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.04.01-21.37.05:190][601]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.04.01-21.37.05:191][601]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.01-21.37.05:191][601]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.01-21.37.05:191][601]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.01-21.37.05:191][601]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.01-21.37.05:292][601]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.01-21.37.05:392][601]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.01-21.37.05:392][601]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.01-21.37.05:392][601]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.01-21.37.05:392][601]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.01-21.37.05:392][601]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.01-21.37.05:392][601]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.01-21.37.05:392][601]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.01-21.37.05:392][601]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.01-21.37.05:393][601]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.01-21.37.05:398][601]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.01-21.37.05:398][601]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.01-21.37.05:398][601]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.01-21.37.05:398][601]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.01-21.37.05:398][601]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.01-21.37.05:398][601]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.01-21.37.05:471][601]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.01-21.37.05:471][601]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/' was aborted.
+[2017.04.01-21.37.05:471][601]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.01-21.37.05:471][601]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.01-21.37.05:472][601]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.01-21.37.05:472][601]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.01-21.37.05:472][601]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.01-21.37.05:472][601]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.01-21.37.05:472][601]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.01-21.37.05:472][601]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.01-21.37.05:472][601]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.01-21.37.05:472][601]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.01-21.37.05:512][601]LogDerivedDataCache: Shutdown
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.01-21.37.05:512][601]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.01-21.37.05:513][601]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.01-21.37.05:513][601]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.01-21.37.05:513][601]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.01-21.37.05:513][601]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.01-21.37.05:513][601]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.01-21.37.05:513][601]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.01-21.37.05:513][601]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.01-21.37.05:513][601]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.01-21.37.05:513][601]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.01-21.37.05:513][601]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.01-21.37.05:513][601]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.01-21.37.05:513][601]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.01-21.37.05:513][601]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.01-21.37.05:513][601]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B37C2DDD3-490F-5A3D-9BA2-319EF5EF2F51%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=8ab68c7b490269decec9beb4f0d57ba2%7C015e811d16c4458ab0bcb9c750e94c42%7Cea7bc23e-2ad3-4f6b-a49b-e2dcf99a90ce&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.01-21.37.05:530][601]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.01-21.37.05:532][601]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.01-21.37.05:532][601]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.01-21.37.05:532][601]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.01-21.37.05:532][601]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.01-21.37.05:532][601]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.01-21.37.05:534][601]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.01-21.37.05:534][601]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.01-21.37.05:534][601]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.01-21.37.05:534][601]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.01-21.37.05:534][601]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.01-21.37.05:534][601]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.01-21.37.05:534][601]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.01-21.37.05:534][601]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.01-21.37.05:534][601]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.01-21.37.05:534][601]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.01-21.37.05:537][601]LogExit: Exiting.
+[2017.04.01-21.37.05:552][601]Log file closed, 04/01/17 16:37:05
