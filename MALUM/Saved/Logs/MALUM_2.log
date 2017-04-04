@@ -1,0 +1,1258 @@
+﻿Log file open, 04/04/17 03:32:19
+LogInit:Display: Running engine for game: MALUM
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1624124416) SRandInit(1624124416).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.071980
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.04-08.32.20:959][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.04-08.32.20:959][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.04-08.32.21:178][  0]LogInit: Computer: TAYLOR-PC
+[2017.04.04-08.32.21:178][  0]LogInit: User: Taylor
+[2017.04.04-08.32.21:178][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.04-08.32.21:178][  0]LogInit: High frequency timer resolution =3.903989 MHz
+[2017.04.04-08.32.21:178][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.04-08.32.21:178][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.04-08.32.21:178][  0]LogMemory: Process Physical Memory: 263.90 MB used, 263.90 MB peak
+[2017.04.04-08.32.21:178][  0]LogMemory: Process Virtual Memory: 262.66 MB used, 262.66 MB peak
+[2017.04.04-08.32.21:178][  0]LogMemory: Physical Memory: 7846.68 MB used,  8476.18 MB free, 16322.87 MB total
+[2017.04.04-08.32.21:178][  0]LogMemory: Virtual Memory: 645.13 MB used,  8476.18 MB free, 134217728.00 MB total
+[2017.04.04-08.32.21:254][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.04-08.32.21:937][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.04-08.32.21:975][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.04.04-08.32.21:975][  0]LogD3D11RHI:       8110/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.04.04-08.32.21:976][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.04-08.32.21:976][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.04-08.32.21:976][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.04-08.32.21:980][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.04-08.32.21:980][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.04-08.32.21:981][  0]LogWindows: EnumDisplayDevices:
+[2017.04.04-08.32.21:981][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.04.04-08.32.21:981][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.04.04-08.32.21:981][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.04.04-08.32.21:981][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.04.04-08.32.21:981][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.04-08.32.21:981][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.04.04-08.32.21:981][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.04.04-08.32.21:981][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.04.04-08.32.21:981][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.04-08.32.21:994][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.04-08.32.22:087][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.04-08.32.22:249][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Intermediate/Shaders/WorkingDirectory/3452/).
+[2017.04.04-08.32.22:249][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Taylor/AppData/Local/Temp/UnrealShaderWorkingDir/009DE5AF4028A5C59F3EC6A56A52FB02/'.
+[2017.04.04-08.32.22:249][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.04-08.32.23:191][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.04-08.32.23:240][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.04-08.32.23:288][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.04-08.32.23:336][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.04-08.32.23:386][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.04-08.32.23:434][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.04-08.32.23:483][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.04-08.32.23:531][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.04-08.32.23:854][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.04-08.32.23:924][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.04-08.32.23:972][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.04-08.32.24:020][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.04-08.32.24:070][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.04-08.32.24:118][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.04-08.32.24:174][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.04-08.32.24:306][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.04-08.32.24:306][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.04-08.32.24:342][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.04-08.32.24:435][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.04-08.32.24:465][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.04-08.32.24:514][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.04-08.32.24:564][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.04-08.32.24:612][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.04-08.32.24:662][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.04-08.32.24:662][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.04-08.32.25:208][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.04-08.32.25:262][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Taylor/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.04-08.32.25:263][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Taylor/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.04-08.32.25:263][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.04-08.32.25:263][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.04-08.32.25:263][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.04-08.32.25:263][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.04-08.32.25:277][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.04-08.32.25:289][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Taylor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.04-08.32.25:296][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.04-08.32.25:297][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.04-08.32.25:297][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.04-08.32.25:531][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.04-08.32.25:534][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.04-08.32.25:731][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.04-08.32.25:774][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.04-08.32.25:822][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.04-08.32.25:822][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.04-08.32.25:822][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.04-08.32.26:836][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: malum, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2995604447
+[2017.04.04-08.32.26:880][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.04.04-08.32.27:383][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.482409 seconds
+[2017.04.04-08.32.27:388][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.04-08.32.27:388][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.04-08.32.27:388][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.04-08.32.27:445][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.04-08.32.31:766][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.04-08.32.31:807][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.04-08.32.34:728][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.04-08.32.35:102][  0]SourceControl: Info Source control is disabled
+[2017.04.04-08.32.35:103][  0]SourceControl: Info Source control is disabled
+[2017.04.04-08.32.35:145][  0]SourceControl: Info Source control is disabled
+[2017.04.04-08.32.35:187][  0]SourceControl: Info Source control is disabled
+[2017.04.04-08.32.35:506][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.04.04-08.32.35:506][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.04.04-08.32.35:506][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.04.04-08.32.36:419][  0]LogEngine: Initializing Engine...
+[2017.04.04-08.32.36:419][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.04-08.32.36:614][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.04-08.32.36:626][  0]LogInit: XAudio2 using 'Speakers (3- Logitech G930 Gaming Headset)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.04.04-08.32.36:692][  0]LogInit: FAudioDevice initialized.
+[2017.04.04-08.32.36:789][  0]LogDerivedDataCache: Saved boot cache 0.10s 50MB C:/Users/Taylor/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.04-08.32.36:795][  0]LogInit: Texture streaming: Enabled
+[2017.04.04-08.32.36:886][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.04-08.32.36:966][  0]LogInit: Transaction tracking system initialized
+[2017.04.04-08.32.37:282][  0]BlueprintLog: New page: Editor Load
+[2017.04.04-08.32.38:126][  0]LocalizationService: Info Localization service is disabled
+[2017.04.04-08.32.38:723][  0]LogConsoleResponse:Display: 
+[2017.04.04-08.32.38:898][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.04-08.32.38:898][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.04-08.32.39:652][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/' took 0.13s
+[2017.04.04-08.32.40:959][  0]SourceControl: Info Source control is disabled
+[2017.04.04-08.32.40:959][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.04-08.32.40:960][  0]LightingResults: New page: Lighting Build
+[2017.04.04-08.32.40:999][  0]MapCheck: New page: Map Check
+[2017.04.04-08.32.40:999][  0]LightingResults: New page: Lighting Build
+[2017.04.04-08.32.53:704][  0]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-08.32.53:705][  0]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/GroundRevealRock001/MI_GroundRevealRock001a.uasset.
+[2017.04.04-08.32.53:705][  0]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/GroundRevealRock001/MI_GroundRevealRock001a : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-08.32.54:109][  0]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-08.32.54:109][  0]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/GroundRevealRock001/MI_GroundRevealRock001a.uasset.
+[2017.04.04-08.32.54:109][  0]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/GroundRevealRock001/MI_GroundRevealRock001a : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-08.32.54:623][  0]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-08.32.54:623][  0]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/River_Rock_01/MI_River_Rock_01.uasset.
+[2017.04.04-08.32.54:623][  0]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/River_Rock_01/MI_River_Rock_01 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-08.32.54:950][  0]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-08.32.54:950][  0]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/River_Rock_01/MI_River_Rock_01.uasset.
+[2017.04.04-08.32.54:950][  0]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/River_Rock_01/MI_River_Rock_01 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-08.32.55:299][  0]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-08.32.55:299][  0]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_GroundRevealRock001a
+[2017.04.04-08.32.55:299][  0]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-08.32.55:299][  0]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_GroundRevealRock001a
+[2017.04.04-08.32.57:226][  0]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-08.32.57:226][  0]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_River_Rock_01
+[2017.04.04-08.32.57:226][  0]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-08.32.57:226][  0]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_River_Rock_01
+[2017.04.04-08.33.09:137][  0]LogMaterial: Incomplete cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-08.33.09:140][  0]LogTemp:Display: Added material ShaderMap 0x000001D173B38480 with Material 0x000001D10A76A080 to ShaderMapsBeingCompiled
+[2017.04.04-08.33.09:372][  0]LogTemp:Display: Kicking off shader compilation for M_Photoscan_Master, GameThreadShaderMap 0x000001D173B38480
+[2017.04.04-08.33.09:497][  0]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-08.33.09:502][  0]LogTemp:Display: Added material ShaderMap 0x000001D10D666080 with Material 0x000001D173B90280 to ShaderMapsBeingCompiled
+[2017.04.04-08.33.09:618][  0]LogTemp:Display: Kicking off shader compilation for M_Photoscan_Master, GameThreadShaderMap 0x000001D10D666080
+[2017.04.04-08.33.11:050][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.04-08.33.11:954][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.04-08.33.11:955][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.04-08.33.12:028][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.926ms to complete.
+[2017.04.04-08.33.12:028][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 31.069
+[2017.04.04-08.33.14:427][  0]LogCollectionManager: Loaded 0 collections in 0.002491 seconds
+[2017.04.04-08.33.14:819][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Collections/' took 0.01s
+[2017.04.04-08.33.14:819][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Developers/Taylor/Collections/' took 0.01s
+[2017.04.04-08.33.14:819][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Collections/' took 0.01s
+[2017.04.04-08.33.14:819][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.04-08.33.14:866][  0]LogContentBrowser: Native class hierarchy populated in 0.0462 seconds. Added 2245 classes and 453 folders.
+[2017.04.04-08.33.14:916][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.04-08.33.14:933][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.04-08.33.15:189][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.04.04-08.33.32:705][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.04.04-08.33.33:213][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.04-08.33.34:829][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.04-08.33.35:213][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.04-08.33.35:461][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.04-08.33.35:461][  0]LogLoad: (Engine Initialization) Total time: 78.15 seconds
+[2017.04.04-08.33.35:461][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.95 seconds
+[2017.04.04-08.33.35:461][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.04-08.33.35:461][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.04-08.33.35:801][  0]LogOcInput: OculusInput pre-init called
+[2017.04.04-08.33.35:947][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.04-08.33.36:127][  0]LogSlate: Took 0.000410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.04-08.33.36:135][  0]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.04-08.33.36:228][  0]LogSlate: Took 0.053294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.04-08.33.38:509][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.04-08.33.38:714][  0]LogRenderer: Reallocating scene render targets to support 1252x612 NumSamples 1 (Frame:2).
+[2017.04.04-08.33.39:218][  2]LogAssetRegistry: Asset discovery search completed in 72.3596 seconds
+[2017.04.04-08.33.39:218][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.04.04-08.33.39:218][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.04.04-08.33.39:567][  3]LogTemp:Display: Finished compile of shader map 0x000001D173B38480
+[2017.04.04-08.33.39:567][  3]LogTemp:Display: Shader map M_Photoscan_Master complete, GameThreadShaderMap 0x000001D173B38480, marking material M_Photoscan_Master as finished
+[2017.04.04-08.33.39:567][  3]LogTemp:Display: Marking material as finished 0x000001D10A76A080
+[2017.04.04-08.33.39:897][  4]LogTemp:Display: Finished compile of shader map 0x000001D10D666080
+[2017.04.04-08.33.39:897][  4]LogTemp:Display: Shader map M_Photoscan_Master complete, GameThreadShaderMap 0x000001D10D666080, marking material M_Photoscan_Master as finished
+[2017.04.04-08.33.39:897][  4]LogTemp:Display: Marking material as finished 0x000001D173B90280
+[2017.04.04-08.33.44:922][292]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.04-08.33.45:542][292]LogSavePackage: Save=245.75ms
+[2017.04.04-08.33.45:542][292]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/FirstPersonExampleMap3F23A2AB4F33C718C0BC7AA485B04785.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.04.04-08.33.45:547][292]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.04.04-08.33.46:640][292]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.04-08.33.46:930][292]LogSavePackage: Save=1334.93ms
+[2017.04.04-08.33.46:930][292]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/FirstPersonExampleMap_BuiltData0BF4D8EA447FA3321CB14F8D1D81FFC2.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.04.04-08.33.46:932][292]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.04.04-08.33.47:539][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cliff02A)
+[2017.04.04-08.33.55:372][646]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.04-08.33.55:379][646]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2017.04.04-08.33.56:034][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.04-08.33.56:041][720]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.04.04-08.33.57:496][889]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.04-08.33.57:503][889]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.04.04-08.33.58:405][981]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.04-08.33.58:412][981]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.04.04-08.33.59:136][ 63]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.04-08.33.59:142][ 63]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.04.04-08.34.09:828][236]LogSavePackage: Save=195.34ms
+[2017.04.04-08.34.09:828][236]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/FirstPersonExampleMapC5FD0D70401D55CBDAFDAFB5F35814D0.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.04.04-08.34.09:839][236]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.04.04-08.34.11:192][236]LogSavePackage: Save=1297.28ms
+[2017.04.04-08.34.11:192][236]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/FirstPersonExampleMap_BuiltData3C80B7934583CCC4A9B7A8BC26AC44EE.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.04.04-08.34.11:211][236]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.04.04-08.38.56:410][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/OpenWorld" FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/OpenWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.04-08.38.56:428][916]LogSavePackage: Save=6.55ms
+[2017.04.04-08.38.56:428][916]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/OpenWorldEBD32CD149E46748D0F6D1A60438A4D2.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/OpenWorld.umap'
+[2017.04.04-08.38.56:431][916]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/OpenWorld.umap
+[2017.04.04-08.38.56:431][916]LogFileHelpers: Saving map 'OpenWorld' took 0.079
+[2017.04.04-08.39.02:988][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PvP_Arena" FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/PvP_Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.04-08.39.03:002][662]LogSavePackage: Save=5.70ms
+[2017.04.04-08.39.03:002][662]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/PvP_Arena6A46C6B14B09877157DADFB1BFB7ABBD.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/PvP_Arena.umap'
+[2017.04.04-08.39.03:004][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/PvP_Arena.umap
+[2017.04.04-08.39.03:004][662]LogFileHelpers: Saving map 'PvP_Arena' took 0.063
+[2017.04.04-08.39.27:275][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Homebase" FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/Homebase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.04-08.39.27:290][272]LogSavePackage: Save=5.35ms
+[2017.04.04-08.39.27:290][272]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Homebase7B0296B344B0C667EAD4BAA5B83CB217.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/Homebase.umap'
+[2017.04.04-08.39.27:292][272]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/Homebase.umap
+[2017.04.04-08.39.27:292][272]LogFileHelpers: Saving map 'Homebase' took 0.063
+[2017.04.04-08.39.27:292][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/OpenWorld_01" FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/OpenWorld_01.uasset" SILENT=true
+[2017.04.04-08.39.27:325][272]LogSavePackage: Save=1.03ms
+[2017.04.04-08.39.27:325][272]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/OpenWorld_01C86749BA46474EDDD896B9A9CE955598.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/OpenWorld_01.uasset'
+[2017.04.04-08.39.27:327][272]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/OpenWorld_01.uasset
+[2017.04.04-08.39.27:328][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PvP_Arena_01" FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/PvP_Arena_01.uasset" SILENT=true
+[2017.04.04-08.39.27:330][272]LogSavePackage: Save=1.19ms
+[2017.04.04-08.39.27:330][272]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/PvP_Arena_01875F7CBC49A48EC70EFB7290F0AF61AE.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/PvP_Arena_01.uasset'
+[2017.04.04-08.39.27:332][272]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/PvP_Arena_01.uasset
+[2017.04.04-08.39.27:352][272]Cmd: MAP LOAD FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/PvP_Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.04-08.39.27:353][272]LightingResults: New page: Lighting Build
+[2017.04.04-08.39.27:354][272]LoadErrors: New page: Loading map: PvP_Arena.umap
+[2017.04.04-08.39.27:354][272]MapCheck: New page: Map Check
+[2017.04.04-08.39.27:354][272]LightingResults: New page: Lighting Build
+[2017.04.04-08.39.27:433][272]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.04-08.39.27:433][272]LogAIModule: Creating AISystem for world PvP_Arena
+[2017.04.04-08.39.27:667][272]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.04-08.39.27:728][272]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.528ms to complete.
+[2017.04.04-08.39.27:728][272]LogFileHelpers: Loading map 'PvP_Arena' took 0.395
+[2017.04.04-08.39.43:358][ 85]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.39.44:517][219]LogEditorViewport: Clicking on Actor (context menu): AtmosphericFog (AtmosphericFog)
+[2017.04.04-08.39.50:990][959]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.39.52:684][160]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.39.56:690][593]LogActorFactory: Actor Factory created male_scale
+[2017.04.04-08.39.57:605][702]LogActorFactory: Actor Factory created male_scale
+[2017.04.04-08.40.00:539][ 39]Cmd: TRANSACTION UNDO
+[2017.04.04-08.40.00:539][ 39]LogEditorTransaction: Undo Rotate Actors
+[2017.04.04-08.40.00:781][ 39]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.04-08.40.01:526][ 70]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.40.06:357][643]LogEditorViewport: Clicking Background
+[2017.04.04-08.40.09:765][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (male_scale)
+[2017.04.04-08.40.15:191][659]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.40.19:528][148]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.40.21:152][329]LogEditorViewport: Clicking Background
+[2017.04.04-08.40.47:640][421]LogEditorViewport: Clicking Background
+[2017.04.04-08.41.28:598][975]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128) - 79 MB total VRAM
+[2017.04.04-08.43.01:194][978]Cmd: TRANSACTION UNDO
+[2017.04.04-08.43.01:194][978]LogEditorTransaction: Undo Edit X
+[2017.04.04-08.43.12:758][248]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512) - 79 MB total VRAM
+[2017.04.04-08.43.12:804][248]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512) - 79 MB total VRAM
+[2017.04.04-08.43.12:846][248]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 512X512) - 79 MB total VRAM
+[2017.04.04-08.43.12:898][248]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 512X512) - 79 MB total VRAM
+[2017.04.04-08.43.12:908][248]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 512X512) - 79 MB total VRAM
+[2017.04.04-08.43.12:918][248]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 512X512) - 79 MB total VRAM
+[2017.04.04-08.43.12:961][248]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 512X512) - 79 MB total VRAM
+[2017.04.04-08.43.13:039][248]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 512X512) - 79 MB total VRAM
+[2017.04.04-08.43.13:051][248]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 512X512) - 79 MB total VRAM
+[2017.04.04-08.43.13:097][248]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 512X512) - 79 MB total VRAM
+[2017.04.04-08.43.13:207][248]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 512X512) - 79 MB total VRAM
+[2017.04.04-08.43.13:333][248]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512) - 80 MB total VRAM
+[2017.04.04-08.43.13:404][248]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 512X512) - 80 MB total VRAM
+[2017.04.04-08.43.13:425][248]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 512X512) - 80 MB total VRAM
+[2017.04.04-08.43.13:493][248]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 512X512) - 80 MB total VRAM
+[2017.04.04-08.43.13:513][248]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 512X512) - 80 MB total VRAM
+[2017.04.04-08.43.13:801][248]LogMaterial: 0.00 seconds spent updating 1 materials, 64 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-08.49.25:609][836]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512) - 114 MB total VRAM
+[2017.04.04-08.49.25:657][836]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512) - 113 MB total VRAM
+[2017.04.04-08.49.25:741][836]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 512X512) - 112 MB total VRAM
+[2017.04.04-08.49.25:766][836]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 512X512) - 110 MB total VRAM
+[2017.04.04-08.49.25:774][836]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 512X512) - 109 MB total VRAM
+[2017.04.04-08.49.25:782][836]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 512X512) - 108 MB total VRAM
+[2017.04.04-08.49.25:870][836]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 512X512) - 107 MB total VRAM
+[2017.04.04-08.49.25:879][836]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 512X512) - 105 MB total VRAM
+[2017.04.04-08.49.25:921][836]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 512X512) - 104 MB total VRAM
+[2017.04.04-08.49.25:949][836]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 512X512) - 103 MB total VRAM
+[2017.04.04-08.49.25:986][836]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 512X512) - 101 MB total VRAM
+[2017.04.04-08.49.26:109][836]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512) - 100 MB total VRAM
+[2017.04.04-08.49.26:119][836]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 512X512) - 99 MB total VRAM
+[2017.04.04-08.49.26:177][836]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.49.26:185][836]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.49.26:250][836]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.49.26:580][836]LogSavePackage: Save=1051.15ms
+[2017.04.04-08.49.26:580][836]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/PvP_Arena_Auto1697D882B470D94E4EBF604AF3BCF8F52.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Autosaves/Game/Levels/PvP_Arena_Auto1.umap'
+[2017.04.04-08.49.26:581][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Autosaves/Game/Levels/PvP_Arena_Auto1.umap
+[2017.04.04-08.49.26:584][836]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/PvP_Arena' took 1.158
+[2017.04.04-08.49.26:584][836]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.158
+[2017.04.04-08.50.26:904][644]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.50.30:110][ 10]LogSlate: Took 0.013830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.04-08.51.28:412][764]LogEditorViewport: Clicking Background
+[2017.04.04-08.52.00:247][535]LogAIModule: Creating AISystem for world OpenWorld
+[2017.04.04-08.52.01:872][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PvP_Arena" FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/PvP_Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.04-08.52.01:915][535]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512) - 114 MB total VRAM
+[2017.04.04-08.52.01:959][535]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512) - 113 MB total VRAM
+[2017.04.04-08.52.01:968][535]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 512X512) - 112 MB total VRAM
+[2017.04.04-08.52.01:976][535]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 512X512) - 110 MB total VRAM
+[2017.04.04-08.52.02:043][535]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 512X512) - 109 MB total VRAM
+[2017.04.04-08.52.02:063][535]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 512X512) - 108 MB total VRAM
+[2017.04.04-08.52.02:145][535]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 512X512) - 107 MB total VRAM
+[2017.04.04-08.52.02:153][535]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 512X512) - 105 MB total VRAM
+[2017.04.04-08.52.02:161][535]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 512X512) - 104 MB total VRAM
+[2017.04.04-08.52.02:169][535]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 512X512) - 103 MB total VRAM
+[2017.04.04-08.52.02:177][535]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 512X512) - 101 MB total VRAM
+[2017.04.04-08.52.02:185][535]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512) - 100 MB total VRAM
+[2017.04.04-08.52.02:193][535]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 512X512) - 99 MB total VRAM
+[2017.04.04-08.52.02:313][535]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.02:327][535]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.02:394][535]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.05:312][535]LogSavePackage: Save=3415.78ms
+[2017.04.04-08.52.05:312][535]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/PvP_Arena1FDE41B741322186802B2E8806D96C7C.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/PvP_Arena.umap'
+[2017.04.04-08.52.05:317][535]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/PvP_Arena.umap
+[2017.04.04-08.52.05:335][535]LogFileHelpers: Saving map 'PvP_Arena' took 3.516
+[2017.04.04-08.52.05:337][535]Cmd: MAP LOAD FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Levels/OpenWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.04-08.52.05:337][535]LightingResults: New page: Lighting Build
+[2017.04.04-08.52.05:339][535]LoadErrors: New page: Loading map: OpenWorld.umap
+[2017.04.04-08.52.05:340][535]MapCheck: New page: Map Check
+[2017.04.04-08.52.05:340][535]LightingResults: New page: Lighting Build
+[2017.04.04-08.52.05:354][535]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.04-08.52.05:368][535]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.04-08.52.05:416][535]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.982ms to complete.
+[2017.04.04-08.52.05:416][535]LogFileHelpers: Loading map 'OpenWorld' took 0.080
+[2017.04.04-08.52.08:326][882]LogTexture:Display: Building textures: Texture2D_3 (G8, 128X128) - 93 MB total VRAM
+[2017.04.04-08.52.26:199][841]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:239][841]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:319][841]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:329][841]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:339][841]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:385][841]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:395][841]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:405][841]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:414][841]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:440][841]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:486][841]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:496][841]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:528][841]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:538][841]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:572][841]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:582][841]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:661][841]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:839][841]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:859][841]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.26:925][841]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:002][841]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:057][841]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:154][841]LogTexture:Display: Building textures: Texture2D_22 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:169][841]LogTexture:Display: Building textures: Texture2D_23 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:185][841]LogTexture:Display: Building textures: Texture2D_24 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:203][841]LogTexture:Display: Building textures: Texture2D_25 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:254][841]LogTexture:Display: Building textures: Texture2D_26 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:264][841]LogTexture:Display: Building textures: Texture2D_27 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:368][841]LogTexture:Display: Building textures: Texture2D_28 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:469][841]LogTexture:Display: Building textures: Texture2D_29 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:680][841]LogTexture:Display: Building textures: Texture2D_30 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:708][841]LogTexture:Display: Building textures: Texture2D_31 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:726][841]LogTexture:Display: Building textures: Texture2D_32 (BGRA8, 512X512) - 93 MB total VRAM
+[2017.04.04-08.52.27:809][841]LogTexture:Display: Building textures: Texture2D_33 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.27:860][841]LogTexture:Display: Building textures: Texture2D_34 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.27:876][841]LogTexture:Display: Building textures: Texture2D_35 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.27:939][841]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:005][841]LogTexture:Display: Building textures: Texture2D_37 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:021][841]LogTexture:Display: Building textures: Texture2D_38 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:037][841]LogTexture:Display: Building textures: Texture2D_39 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:050][841]LogTexture:Display: Building textures: Texture2D_40 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:061][841]LogTexture:Display: Building textures: Texture2D_41 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:071][841]LogTexture:Display: Building textures: Texture2D_42 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:081][841]LogTexture:Display: Building textures: Texture2D_43 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:091][841]LogTexture:Display: Building textures: Texture2D_44 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:193][841]LogTexture:Display: Building textures: Texture2D_45 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:208][841]LogTexture:Display: Building textures: Texture2D_46 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:225][841]LogTexture:Display: Building textures: Texture2D_47 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:242][841]LogTexture:Display: Building textures: Texture2D_48 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:297][841]LogTexture:Display: Building textures: Texture2D_49 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:367][841]LogTexture:Display: Building textures: Texture2D_50 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:377][841]LogTexture:Display: Building textures: Texture2D_51 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:419][841]LogTexture:Display: Building textures: Texture2D_52 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:430][841]LogTexture:Display: Building textures: Texture2D_53 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:740][841]LogTexture:Display: Building textures: Texture2D_54 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:773][841]LogTexture:Display: Building textures: Texture2D_55 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.28:866][841]LogTexture:Display: Building textures: Texture2D_56 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.29:012][841]LogTexture:Display: Building textures: Texture2D_57 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.29:096][841]LogTexture:Display: Building textures: Texture2D_58 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.29:118][841]LogTexture:Display: Building textures: Texture2D_59 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.29:167][841]LogTexture:Display: Building textures: Texture2D_60 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.29:310][841]LogTexture:Display: Building textures: Texture2D_61 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.29:337][841]LogTexture:Display: Building textures: Texture2D_62 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.29:353][841]LogTexture:Display: Building textures: Texture2D_63 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.29:366][841]LogTexture:Display: Building textures: Texture2D_64 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:221][841]LogTexture:Display: Building textures: Texture2D_65 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:243][841]LogTexture:Display: Building textures: Texture2D_66 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:277][841]LogTexture:Display: Building textures: Texture2D_67 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:335][841]LogTexture:Display: Building textures: Texture2D_68 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:530][841]LogTexture:Display: Building textures: Texture2D_69 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:540][841]LogTexture:Display: Building textures: Texture2D_70 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:740][841]LogTexture:Display: Building textures: Texture2D_71 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:776][841]LogTexture:Display: Building textures: Texture2D_72 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:809][841]LogTexture:Display: Building textures: Texture2D_73 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:826][841]LogTexture:Display: Building textures: Texture2D_74 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:881][841]LogTexture:Display: Building textures: Texture2D_75 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:926][841]LogTexture:Display: Building textures: Texture2D_76 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:943][841]LogTexture:Display: Building textures: Texture2D_77 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:960][841]LogTexture:Display: Building textures: Texture2D_78 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:978][841]LogTexture:Display: Building textures: Texture2D_79 (BGRA8, 512X512) - 94 MB total VRAM
+[2017.04.04-08.52.30:992][841]LogTexture:Display: Building textures: Texture2D_80 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:004][841]LogTexture:Display: Building textures: Texture2D_81 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:015][841]LogTexture:Display: Building textures: Texture2D_82 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:027][841]LogTexture:Display: Building textures: Texture2D_83 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:078][841]LogTexture:Display: Building textures: Texture2D_84 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:088][841]LogTexture:Display: Building textures: Texture2D_85 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:099][841]LogTexture:Display: Building textures: Texture2D_86 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:110][841]LogTexture:Display: Building textures: Texture2D_87 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:121][841]LogTexture:Display: Building textures: Texture2D_88 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:132][841]LogTexture:Display: Building textures: Texture2D_89 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:144][841]LogTexture:Display: Building textures: Texture2D_90 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:155][841]LogTexture:Display: Building textures: Texture2D_91 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:575][841]LogTexture:Display: Building textures: Texture2D_92 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:587][841]LogTexture:Display: Building textures: Texture2D_93 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:599][841]LogTexture:Display: Building textures: Texture2D_94 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:611][841]LogTexture:Display: Building textures: Texture2D_95 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:621][841]LogTexture:Display: Building textures: Texture2D_96 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:732][841]LogTexture:Display: Building textures: Texture2D_97 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:743][841]LogTexture:Display: Building textures: Texture2D_98 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:754][841]LogTexture:Display: Building textures: Texture2D_99 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:765][841]LogTexture:Display: Building textures: Texture2D_100 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:776][841]LogTexture:Display: Building textures: Texture2D_101 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:818][841]LogTexture:Display: Building textures: Texture2D_102 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:829][841]LogTexture:Display: Building textures: Texture2D_103 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:884][841]LogTexture:Display: Building textures: Texture2D_104 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:907][841]LogTexture:Display: Building textures: Texture2D_105 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.31:932][841]LogTexture:Display: Building textures: Texture2D_106 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:006][841]LogTexture:Display: Building textures: Texture2D_107 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:029][841]LogTexture:Display: Building textures: Texture2D_108 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:046][841]LogTexture:Display: Building textures: Texture2D_109 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:062][841]LogTexture:Display: Building textures: Texture2D_110 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:073][841]LogTexture:Display: Building textures: Texture2D_111 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:084][841]LogTexture:Display: Building textures: Texture2D_112 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:094][841]LogTexture:Display: Building textures: Texture2D_113 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:104][841]LogTexture:Display: Building textures: Texture2D_114 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:115][841]LogTexture:Display: Building textures: Texture2D_115 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:126][841]LogTexture:Display: Building textures: Texture2D_116 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:334][841]LogTexture:Display: Building textures: Texture2D_117 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:366][841]LogTexture:Display: Building textures: Texture2D_118 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:386][841]LogTexture:Display: Building textures: Texture2D_119 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:452][841]LogTexture:Display: Building textures: Texture2D_120 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:473][841]LogTexture:Display: Building textures: Texture2D_121 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:525][841]LogTexture:Display: Building textures: Texture2D_122 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:545][841]LogTexture:Display: Building textures: Texture2D_123 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:558][841]LogTexture:Display: Building textures: Texture2D_124 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:970][841]LogTexture:Display: Building textures: Texture2D_125 (BGRA8, 512X512) - 95 MB total VRAM
+[2017.04.04-08.52.32:992][841]LogTexture:Display: Building textures: Texture2D_126 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:004][841]LogTexture:Display: Building textures: Texture2D_127 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:015][841]LogTexture:Display: Building textures: Texture2D_128 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:058][841]LogTexture:Display: Building textures: Texture2D_129 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:069][841]LogTexture:Display: Building textures: Texture2D_130 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:080][841]LogTexture:Display: Building textures: Texture2D_131 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:091][841]LogTexture:Display: Building textures: Texture2D_132 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:101][841]LogTexture:Display: Building textures: Texture2D_133 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:121][841]LogTexture:Display: Building textures: Texture2D_134 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:131][841]LogTexture:Display: Building textures: Texture2D_135 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:170][841]LogTexture:Display: Building textures: Texture2D_136 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:180][841]LogTexture:Display: Building textures: Texture2D_137 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:190][841]LogTexture:Display: Building textures: Texture2D_138 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:233][841]LogTexture:Display: Building textures: Texture2D_139 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:243][841]LogTexture:Display: Building textures: Texture2D_140 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:253][841]LogTexture:Display: Building textures: Texture2D_141 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:263][841]LogTexture:Display: Building textures: Texture2D_142 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:305][841]LogTexture:Display: Building textures: Texture2D_143 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:315][841]LogTexture:Display: Building textures: Texture2D_144 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:326][841]LogTexture:Display: Building textures: Texture2D_145 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:335][841]LogTexture:Display: Building textures: Texture2D_146 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:346][841]LogTexture:Display: Building textures: Texture2D_147 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:356][841]LogTexture:Display: Building textures: Texture2D_148 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:366][841]LogTexture:Display: Building textures: Texture2D_149 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:404][841]LogTexture:Display: Building textures: Texture2D_150 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:414][841]LogTexture:Display: Building textures: Texture2D_151 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:445][841]LogTexture:Display: Building textures: Texture2D_152 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:455][841]LogTexture:Display: Building textures: Texture2D_153 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:497][841]LogTexture:Display: Building textures: Texture2D_154 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:507][841]LogTexture:Display: Building textures: Texture2D_155 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:552][841]LogTexture:Display: Building textures: Texture2D_156 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:562][841]LogTexture:Display: Building textures: Texture2D_157 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:610][841]LogTexture:Display: Building textures: Texture2D_158 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:620][841]LogTexture:Display: Building textures: Texture2D_159 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:647][841]LogTexture:Display: Building textures: Texture2D_160 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:657][841]LogTexture:Display: Building textures: Texture2D_161 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:667][841]LogTexture:Display: Building textures: Texture2D_162 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:720][841]LogTexture:Display: Building textures: Texture2D_163 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:741][841]LogTexture:Display: Building textures: Texture2D_164 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:755][841]LogTexture:Display: Building textures: Texture2D_165 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:767][841]LogTexture:Display: Building textures: Texture2D_166 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:779][841]LogTexture:Display: Building textures: Texture2D_167 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:789][841]LogTexture:Display: Building textures: Texture2D_168 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.33:845][841]LogTexture:Display: Building textures: Texture2D_169 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.34:236][841]LogTexture:Display: Building textures: Texture2D_170 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.34:449][841]LogTexture:Display: Building textures: Texture2D_171 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.34:480][841]LogTexture:Display: Building textures: Texture2D_172 (BGRA8, 512X512) - 96 MB total VRAM
+[2017.04.04-08.52.34:500][841]LogTexture:Display: Building textures: Texture2D_173 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.34:512][841]LogTexture:Display: Building textures: Texture2D_174 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.34:637][841]LogTexture:Display: Building textures: Texture2D_175 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.34:652][841]LogTexture:Display: Building textures: Texture2D_176 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.34:668][841]LogTexture:Display: Building textures: Texture2D_177 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:088][841]LogTexture:Display: Building textures: Texture2D_178 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:274][841]LogTexture:Display: Building textures: Texture2D_179 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:292][841]LogTexture:Display: Building textures: Texture2D_180 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:312][841]LogTexture:Display: Building textures: Texture2D_181 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:332][841]LogTexture:Display: Building textures: Texture2D_182 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:377][841]LogTexture:Display: Building textures: Texture2D_183 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:389][841]LogTexture:Display: Building textures: Texture2D_184 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:401][841]LogTexture:Display: Building textures: Texture2D_185 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:413][841]LogTexture:Display: Building textures: Texture2D_186 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:425][841]LogTexture:Display: Building textures: Texture2D_187 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:437][841]LogTexture:Display: Building textures: Texture2D_188 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:450][841]LogTexture:Display: Building textures: Texture2D_189 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:462][841]LogTexture:Display: Building textures: Texture2D_190 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:474][841]LogTexture:Display: Building textures: Texture2D_191 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:487][841]LogTexture:Display: Building textures: Texture2D_192 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:539][841]LogTexture:Display: Building textures: Texture2D_193 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:591][841]LogTexture:Display: Building textures: Texture2D_194 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:601][841]LogTexture:Display: Building textures: Texture2D_195 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:611][841]LogTexture:Display: Building textures: Texture2D_196 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:621][841]LogTexture:Display: Building textures: Texture2D_197 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:631][841]LogTexture:Display: Building textures: Texture2D_198 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:738][841]LogTexture:Display: Building textures: Texture2D_199 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.35:762][841]LogTexture:Display: Building textures: Texture2D_200 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:023][841]LogTexture:Display: Building textures: Texture2D_201 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:034][841]LogTexture:Display: Building textures: Texture2D_202 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:193][841]LogTexture:Display: Building textures: Texture2D_203 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:211][841]LogTexture:Display: Building textures: Texture2D_204 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:275][841]LogTexture:Display: Building textures: Texture2D_205 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:294][841]LogTexture:Display: Building textures: Texture2D_206 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:312][841]LogTexture:Display: Building textures: Texture2D_207 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:332][841]LogTexture:Display: Building textures: Texture2D_208 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:350][841]LogTexture:Display: Building textures: Texture2D_209 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:364][841]LogTexture:Display: Building textures: Texture2D_210 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:506][841]LogTexture:Display: Building textures: Texture2D_211 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:517][841]LogTexture:Display: Building textures: Texture2D_212 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:556][841]LogTexture:Display: Building textures: Texture2D_213 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:588][841]LogTexture:Display: Building textures: Texture2D_214 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.36:606][841]LogTexture:Display: Building textures: Texture2D_215 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.37:333][841]LogTexture:Display: Building textures: Texture2D_216 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.37:628][841]LogTexture:Display: Building textures: Texture2D_217 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.37:655][841]LogTexture:Display: Building textures: Texture2D_218 (BGRA8, 512X512) - 97 MB total VRAM
+[2017.04.04-08.52.37:683][841]LogTexture:Display: Building textures: Texture2D_219 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:028][841]LogTexture:Display: Building textures: Texture2D_220 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:158][841]LogTexture:Display: Building textures: Texture2D_221 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:198][841]LogTexture:Display: Building textures: Texture2D_222 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:226][841]LogTexture:Display: Building textures: Texture2D_223 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:254][841]LogTexture:Display: Building textures: Texture2D_224 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:279][841]LogTexture:Display: Building textures: Texture2D_225 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:296][841]LogTexture:Display: Building textures: Texture2D_226 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:313][841]LogTexture:Display: Building textures: Texture2D_227 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:595][841]LogTexture:Display: Building textures: Texture2D_228 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:612][841]LogTexture:Display: Building textures: Texture2D_229 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:628][841]LogTexture:Display: Building textures: Texture2D_230 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:642][841]LogTexture:Display: Building textures: Texture2D_231 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:652][841]LogTexture:Display: Building textures: Texture2D_232 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:821][841]LogTexture:Display: Building textures: Texture2D_233 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:849][841]LogTexture:Display: Building textures: Texture2D_234 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.38:875][841]LogTexture:Display: Building textures: Texture2D_235 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.39:763][841]LogTexture:Display: Building textures: Texture2D_236 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.39:788][841]LogTexture:Display: Building textures: Texture2D_237 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.39:816][841]LogTexture:Display: Building textures: Texture2D_238 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.39:937][841]LogTexture:Display: Building textures: Texture2D_239 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:169][841]LogTexture:Display: Building textures: Texture2D_240 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:191][841]LogTexture:Display: Building textures: Texture2D_241 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:212][841]LogTexture:Display: Building textures: Texture2D_242 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:233][841]LogTexture:Display: Building textures: Texture2D_243 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:255][841]LogTexture:Display: Building textures: Texture2D_244 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:345][841]LogTexture:Display: Building textures: Texture2D_245 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:359][841]LogTexture:Display: Building textures: Texture2D_246 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:371][841]LogTexture:Display: Building textures: Texture2D_247 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:385][841]LogTexture:Display: Building textures: Texture2D_248 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:398][841]LogTexture:Display: Building textures: Texture2D_249 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:411][841]LogTexture:Display: Building textures: Texture2D_250 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:424][841]LogTexture:Display: Building textures: Texture2D_251 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:949][841]LogTexture:Display: Building textures: Texture2D_252 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.40:977][841]LogTexture:Display: Building textures: Texture2D_253 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.41:007][841]LogTexture:Display: Building textures: Texture2D_254 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.41:021][841]LogTexture:Display: Building textures: Texture2D_255 (BGRA8, 512X512) - 98 MB total VRAM
+[2017.04.04-08.52.41:250][841]LogMaterial: 0.01 seconds spent updating 1 materials, 1024 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-08.53.31:141][198]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.53.33:047][421]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.53.42:505][521]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.53.49:135][298]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.53.57:811][326]LogEditorViewport: Clicking Background
+[2017.04.04-08.54.16:773][597]LogActorFactory: Actor Factory created male_scale
+[2017.04.04-08.54.17:386][669]LogActorFactory: Actor Factory created male_scale
+[2017.04.04-08.54.18:035][741]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.54.23:216][360]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.54.23:552][396]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.04-08.54.29:374][ 61]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.04.04-08.54.33:007][477]Cmd: TRANSACTION UNDO
+[2017.04.04-08.54.33:007][477]LogEditorTransaction: Undo Rotate Actors
+[2017.04.04-08.54.34:025][593]Cmd: TRANSACTION UNDO
+[2017.04.04-08.54.34:025][593]LogEditorTransaction: Undo Rotate Actors
+[2017.04.04-08.59.13:829][660]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.59.22:154][600]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.59.24:974][888]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.59.30:924][594]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.59.36:181][215]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-08.59.59:100][950]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-09.00.59:268][ 30]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.00.59:281][ 30]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Materials/M_Tiling_LandscapeRock001.M_Tiling_LandscapeRock001 with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.00.59:281][ 30]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.01.03:330][507]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.04-09.01.08:001][974]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.01.08:583][974]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.01.08:588][974]LogMaterial:Warning: Failed to compile Material Instance /Game/Levels/OpenWorld.LandscapeMaterialInstanceConstant_1025 with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.01.08:588][974]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.01.08:666][974]LogMaterial: 0.02 seconds spent updating 1 materials, 1024 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.01.25:848][676]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.04-09.01.27:995][782]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.01.28:001][782]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Materials/M_Tiling_LandscapeRock003.M_Tiling_LandscapeRock003 with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.01.28:001][782]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.01.28:688][862]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.01.29:256][862]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.01.29:261][862]LogMaterial:Warning: Failed to compile Material Instance /Game/Levels/OpenWorld.LandscapeMaterialInstanceConstant_1026 with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.01.29:261][862]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.01.29:337][862]LogMaterial: 0.02 seconds spent updating 1 materials, 1024 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.01.31:379][969]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.01.31:385][969]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Materials/M_Tiling_LandscapeRock002.M_Tiling_LandscapeRock002 with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.01.31:385][969]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.01.32:114][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.01.32:679][ 53]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.01.32:685][ 53]LogMaterial:Warning: Failed to compile Material Instance /Game/Levels/OpenWorld.LandscapeMaterialInstanceConstant_1027 with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.01.32:685][ 53]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.01.32:764][ 53]LogMaterial: 0.02 seconds spent updating 1 materials, 1024 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.01.32:944][ 63]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.01.32:950][ 63]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Materials/M_Tiling_LandscapeRock004.M_Tiling_LandscapeRock004 with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.01.32:950][ 63]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.01.33:571][134]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.01.34:133][134]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.01.34:138][134]LogMaterial:Warning: Failed to compile Material Instance /Game/Levels/OpenWorld.LandscapeMaterialInstanceConstant_1028 with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.01.34:138][134]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.01.34:214][134]LogMaterial: 0.02 seconds spent updating 1 materials, 1024 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.01.34:265][134]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.04.04-09.02.02:579][765]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.02.02:580][765]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Foliage/Ferns/M_Fern_01.uasset.
+[2017.04.04-09.02.02:580][765]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Foliage/Ferns/M_Fern_01 : Can't find file for asset. /Game/Demo_Assets/Material/WorldCoords-XY
+[2017.04.04-09.02.02:697][765]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.02.02:697][765]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Foliage/Ferns/M_Fern_01.uasset.
+[2017.04.04-09.02.02:721][765]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.02.02:721][765]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/WorldCoords-XY.WorldCoords-XY Referenced by M_Fern_01
+[2017.04.04-09.02.02:722][765]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.02.02:724][765]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.02.02:724][765]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/WorldCoords-XY.WorldCoords-XY Referenced by MaterialExpressionMaterialFunctionCall_2
+[2017.04.04-09.02.02:725][765]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.02.02:898][765]LogMaterial: Incomplete cached shader map for material M_Fern_01, compiling. 
+[2017.04.04-09.02.02:900][765]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Foliage/Ferns/M_Fern_01.M_Fern_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.02.02:900][765]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.02.03:049][765]LogActorFactory: Actor Factory created SM_Fern_01
+[2017.04.04-09.02.03:589][808]LogActorFactory: Actor Factory created SM_Fern_01
+[2017.04.04-09.02.04:200][875]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-09.02.05:360][ 12]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.04-09.02.06:120][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fern_01)
+[2017.04.04-09.02.12:070][781]Cmd: DELETE
+[2017.04.04-09.02.12:070][781]Cmd: ACTOR DELETE
+[2017.04.04-09.02.12:072][781]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.04-09.02.12:159][781]LogEditorActor: Deleted 1 Actors (0.088 secs)
+[2017.04.04-09.02.15:162][128]LogActorFactory: Actor Factory created SM_Fern_03
+[2017.04.04-09.02.15:389][153]LogActorFactory: Actor Factory created SM_Fern_03
+[2017.04.04-09.02.15:964][216]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-09.02.16:998][338]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.04-09.02.18:342][432]LogMaterial: Missing cached shader map for material M_Fern_01, compiling. 
+[2017.04.04-09.02.18:343][432]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Foliage/Ferns/M_Fern_01_Inst.M_Fern_01_Inst with Base M_Fern_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.02.18:343][432]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.02.22:199][701]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-09.02.25:739][859]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-09.02.33:571][702]LogActorFactory: Actor Factory created BogMyrtleBush_02
+[2017.04.04-09.02.34:003][749]LogActorFactory: Actor Factory created BogMyrtleBush_02
+[2017.04.04-09.02.41:059][579]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.02.41:059][579]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Foliage/Grass/FieldGrass/M_FieldGrass_01.uasset.
+[2017.04.04-09.02.41:059][579]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Foliage/Grass/FieldGrass/M_FieldGrass_01 : Can't find file for asset. /Game/Demo_Assets/Material/WorldCoords-XY
+[2017.04.04-09.02.41:088][579]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.02.41:088][579]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Foliage/Grass/FieldGrass/M_FieldGrass_01.uasset.
+[2017.04.04-09.02.41:093][579]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.02.41:093][579]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/WorldCoords-XY.WorldCoords-XY Referenced by M_FieldGrass_01
+[2017.04.04-09.02.41:093][579]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.02.41:093][579]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.02.41:093][579]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.02.41:094][579]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.02.41:094][579]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/WorldCoords-XY.WorldCoords-XY Referenced by MaterialExpressionMaterialFunctionCall_1
+[2017.04.04-09.02.41:094][579]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.02.41:094][579]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.02.41:094][579]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/WorldCoords-XY.WorldCoords-XY Referenced by MaterialExpressionMaterialFunctionCall_17
+[2017.04.04-09.02.41:094][579]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.02.41:173][579]LogMaterial: Missing cached shader map for material M_FieldGrass_01, compiling. 
+[2017.04.04-09.02.41:174][579]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Foliage/Grass/FieldGrass/M_FieldGrass_01.M_FieldGrass_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.02.41:174][579]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.02.41:228][579]LogMaterial: Missing cached shader map for material M_FieldGrass_01, compiling. 
+[2017.04.04-09.02.41:232][579]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Foliage/Grass/FieldGrass/M_FieldGrass_Inst_01_LOD1.M_FieldGrass_Inst_01_LOD1 with Base M_FieldGrass_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.02.41:232][579]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.02.41:242][579]LogMaterial: Missing cached shader map for material M_FieldGrass_01, compiling. 
+[2017.04.04-09.02.41:244][579]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Foliage/Grass/FieldGrass/M_FieldGrass_Inst_01_LOD2.M_FieldGrass_Inst_01_LOD2 with Base M_FieldGrass_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.02.41:244][579]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.02.41:273][579]LogActorFactory: Actor Factory created SM_FieldGrass_01
+[2017.04.04-09.02.41:803][636]LogActorFactory: Actor Factory created SM_FieldGrass_01
+[2017.04.04-09.02.49:022][496]Cmd: DELETE
+[2017.04.04-09.02.49:022][496]Cmd: ACTOR DELETE
+[2017.04.04-09.02.49:024][496]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.04-09.02.49:034][496]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.04.04-09.02.49:475][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BogMyrtleBush_02)
+[2017.04.04-09.02.49:850][588]Cmd: DELETE
+[2017.04.04-09.02.49:850][588]Cmd: ACTOR DELETE
+[2017.04.04-09.02.49:852][588]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.04-09.02.49:861][588]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.04.04-09.03.07:864][744]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.04-09.03.07:864][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.07:864][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Cliffs/Cliff01/MI_Cliff01.uasset.
+[2017.04.04-09.03.07:865][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Cliffs/Cliff01/MI_Cliff01 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.07:918][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.07:918][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Cliffs/Cliff01/MI_Cliff01.uasset.
+[2017.04.04-09.03.07:919][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.07:919][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_Cliff01
+[2017.04.04-09.03.07:919][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.08:086][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.08:091][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Cliffs/Cliff02/MI_Cliff02_Moss_Inst.MI_Cliff02_Moss_Inst with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.08:091][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.08:093][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.08:098][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Cliffs/Cliff02/MI_Cliff02_Cave_Inst.MI_Cliff02_Cave_Inst with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.08:098][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.08:169][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.08:174][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Cliffs/Cliff03/MI_Seaham_RockFace.MI_Seaham_RockFace with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.08:174][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.08:174][744]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.04-09.03.08:174][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.03.08:221][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.08:226][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Cliffs/Cliff03/MI_Seaham_RockFace_Cave_Inst.MI_Seaham_RockFace_Cave_Inst with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.08:226][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.08:229][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.08:235][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Cliffs/Cliff03/MI_Seaham_Rockface_R.MI_Seaham_Rockface_R with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.08:235][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.08:281][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.08:286][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Cliffs/Cliff03/MI_Seaham_Rockface_R_ValleyInst.MI_Seaham_Rockface_R_ValleyInst with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.08:286][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.08:286][744]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.04-09.03.08:286][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.03.08:400][744]LogMaterial: Missing cached shader map for material M_Seaham_RockFace_007_Cave, compiling. 
+[2017.04.04-09.03.08:401][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Cliffs/Cliff03/M_Seaham_RockFace_007_Cave.M_Seaham_RockFace_007_Cave for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.08:401][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.08:493][744]LogMaterial: Missing cached shader map for material M_Seaham_RockFace_007_DirtTop, compiling. 
+[2017.04.04-09.03.08:494][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Cliffs/Cliff03/M_Seaham_RockFace_007_DirtTop.M_Seaham_RockFace_007_DirtTop for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.08:494][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.08:498][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.08:503][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Cliffs/Cliff03/M_Seaham_RockFace_007_Medows_Inst.M_Seaham_RockFace_007_Medows_Inst with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.08:503][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.08:509][744]LogMaterial: Missing cached shader map for material M_Seaham_RockFace_PebbleTop, compiling. 
+[2017.04.04-09.03.08:510][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Cliffs/Cliff03/M_Seaham_RockFace_PebbleTop.M_Seaham_RockFace_PebbleTop for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.08:510][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.09:406][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.09:421][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Cliffs/Cliff04/MI_RockFace001.MI_RockFace001 with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.09:421][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.09:431][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.09:446][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Cliffs/Cliff04/MI_RockFace0012_Inst.MI_RockFace0012_Inst with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.09:446][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.10:645][744]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.04-09.03.10:646][744]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.04.04-09.03.11:305][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:305][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Foliage/Flowers/Heather/M_HeatherNew_Master.uasset.
+[2017.04.04-09.03.11:305][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Foliage/Flowers/Heather/M_HeatherNew_Master : Can't find file for asset. /Game/Demo_Assets/Material/WorldCoords-XY
+[2017.04.04-09.03.11:340][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:340][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Foliage/Flowers/Heather/M_HeatherNew_Master.uasset.
+[2017.04.04-09.03.11:345][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:345][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/WorldCoords-XY.WorldCoords-XY Referenced by M_HeatherNew_Master
+[2017.04.04-09.03.11:345][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.03.11:346][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:346][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/WorldCoords-XY.WorldCoords-XY Referenced by MaterialExpressionMaterialFunctionCall_0
+[2017.04.04-09.03.11:347][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.03.11:452][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:452][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Foliage/Flowers/Heather/M_HeatherNew_MasterWorldColorVarience.uasset.
+[2017.04.04-09.03.11:452][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Foliage/Flowers/Heather/M_HeatherNew_MasterWorldColorVarience : Can't find file for asset. /Game/Demo_Assets/Material/WorldCoords-XY
+[2017.04.04-09.03.11:466][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:467][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Foliage/Flowers/Heather/M_HeatherNew_MasterWorldColorVarience.uasset.
+[2017.04.04-09.03.11:474][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:474][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/WorldCoords-XY.WorldCoords-XY Referenced by M_HeatherNew_MasterWorldColorVarience
+[2017.04.04-09.03.11:474][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.03.11:475][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:475][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.03.11:475][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:475][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.03.11:475][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:476][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.03.11:477][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:477][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/WorldCoords-XY.WorldCoords-XY Referenced by MaterialExpressionMaterialFunctionCall_10
+[2017.04.04-09.03.11:477][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.03.11:478][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:478][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/WorldCoords-XY.WorldCoords-XY Referenced by MaterialExpressionMaterialFunctionCall_4
+[2017.04.04-09.03.11:478][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.03.11:478][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:478][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/WorldCoords-XY.WorldCoords-XY Referenced by MaterialExpressionMaterialFunctionCall_7
+[2017.04.04-09.03.11:478][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.03.11:479][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/WorldCoords-XY'
+[2017.04.04-09.03.11:479][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/WorldCoords-XY.WorldCoords-XY Referenced by MaterialExpressionMaterialFunctionCall_8
+[2017.04.04-09.03.11:479][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/WorldCoords-XY' while loading NULL.
+[2017.04.04-09.03.11:496][744]LogMaterial: Missing cached shader map for material M_HeatherNew_MasterWorldColorVarience, compiling. 
+[2017.04.04-09.03.11:499][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Foliage/Flowers/Heather/M_HeatherNew_MasterWorldColorVarience.M_HeatherNew_MasterWorldColorVarience for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.11:499][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.11:499][744]LogMaterial:Warning: 	(Node If) If input B must be of type float.
+[2017.04.04-09.03.11:531][744]LogMaterial: Missing cached shader map for material M_HeatherNew_Master, compiling. 
+[2017.04.04-09.03.11:538][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Foliage/Flowers/Heather/M_HeatherPatches_Inst2.M_HeatherPatches_Inst2 with Base M_HeatherNew_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.11:538][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.11:547][744]LogMaterial: Missing cached shader map for material M_HeatherNew_MasterWorldColorVarience, compiling. 
+[2017.04.04-09.03.11:550][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Foliage/Flowers/Heather/M_HeatherPatches_Inst2_BrownPinkVairience.M_HeatherPatches_Inst2_BrownPinkVairience with Base M_HeatherNew_MasterWorldColorVarience for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.11:550][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.11:555][744]LogMaterial: Missing cached shader map for material M_HeatherNew_MasterWorldColorVarience, compiling. 
+[2017.04.04-09.03.11:556][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Foliage/Flowers/Heather/M_HeatherPatches_Inst2_BrownPinkVairience_NoWind.M_HeatherPatches_Inst2_BrownPinkVairience_NoWind with Base M_HeatherNew_MasterWorldColorVarience for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.11:556][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.12:308][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.12:308][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/AlpinePatch001/M_Tile_AlpinePatch001.uasset.
+[2017.04.04-09.03.12:308][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/GroundTiles/AlpinePatch001/M_Tile_AlpinePatch001 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.12:341][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.12:341][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/AlpinePatch001/M_Tile_AlpinePatch001.uasset.
+[2017.04.04-09.03.12:344][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.12:345][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by M_Tile_AlpinePatch001
+[2017.04.04-09.03.12:345][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.12:397][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.12:397][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/AlpinePatch001/M_Tile_AlpinePatch001_alt.uasset.
+[2017.04.04-09.03.12:397][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/GroundTiles/AlpinePatch001/M_Tile_AlpinePatch001_alt : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.12:423][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.12:423][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/AlpinePatch001/M_Tile_AlpinePatch001_alt.uasset.
+[2017.04.04-09.03.12:424][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.12:424][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by M_Tile_AlpinePatch001_alt
+[2017.04.04-09.03.12:424][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.12:469][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.12:470][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/ForestPath_001/MI_Forest_Path_001A.uasset.
+[2017.04.04-09.03.12:470][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/GroundTiles/ForestPath_001/MI_Forest_Path_001A : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.12:492][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.12:492][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/ForestPath_001/MI_Forest_Path_001A.uasset.
+[2017.04.04-09.03.12:494][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.12:495][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_Forest_Path_001A
+[2017.04.04-09.03.12:495][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.12:537][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.12:537][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/ForestPath_001/MI_Forest_Path_001B.uasset.
+[2017.04.04-09.03.12:538][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/GroundTiles/ForestPath_001/MI_Forest_Path_001B : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.12:564][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.12:564][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/ForestPath_001/MI_Forest_Path_001B.uasset.
+[2017.04.04-09.03.12:566][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.12:566][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_Forest_Path_001B
+[2017.04.04-09.03.12:566][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.13:182][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:182][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/GravelTile_01/MI_GravelTile_01.uasset.
+[2017.04.04-09.03.13:182][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/GroundTiles/GravelTile_01/MI_GravelTile_01 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement
+[2017.04.04-09.03.13:253][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:253][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/GravelTile_01/MI_GravelTile_01.uasset.
+[2017.04.04-09.03.13:256][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:256][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement.M_Photoscan_Master_Displacement Referenced by MI_GravelTile_01
+[2017.04.04-09.03.13:256][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading NULL.
+[2017.04.04-09.03.13:339][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:340][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/GravelTile_01/MI_GravelTile_01A.uasset.
+[2017.04.04-09.03.13:340][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/GroundTiles/GravelTile_01/MI_GravelTile_01A : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement
+[2017.04.04-09.03.13:414][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:414][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/GravelTile_01/MI_GravelTile_01A.uasset.
+[2017.04.04-09.03.13:416][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:416][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement.M_Photoscan_Master_Displacement Referenced by MI_GravelTile_01A
+[2017.04.04-09.03.13:417][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading NULL.
+[2017.04.04-09.03.13:465][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:465][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/LavaFlow002/M_Tile_LavaFlow002.uasset.
+[2017.04.04-09.03.13:465][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/GroundTiles/LavaFlow002/M_Tile_LavaFlow002 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement
+[2017.04.04-09.03.13:513][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:513][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/LavaFlow002/M_Tile_LavaFlow002.uasset.
+[2017.04.04-09.03.13:515][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:516][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement.M_Photoscan_Master_Displacement Referenced by M_Tile_LavaFlow002
+[2017.04.04-09.03.13:516][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading NULL.
+[2017.04.04-09.03.13:588][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:588][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/LeafyPath/MI_Tile_LeafPath.uasset.
+[2017.04.04-09.03.13:588][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/GroundTiles/LeafyPath/MI_Tile_LeafPath : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement
+[2017.04.04-09.03.13:665][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:665][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/LeafyPath/MI_Tile_LeafPath.uasset.
+[2017.04.04-09.03.13:668][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:668][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement.M_Photoscan_Master_Displacement Referenced by MI_Tile_LeafPath
+[2017.04.04-09.03.13:668][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading NULL.
+[2017.04.04-09.03.13:718][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:718][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/LeafyPath/MI_Tile_LeafPathStones.uasset.
+[2017.04.04-09.03.13:718][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/GroundTiles/LeafyPath/MI_Tile_LeafPathStones : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement
+[2017.04.04-09.03.13:719][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:719][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/LeafyPath/MI_Tile_LeafPathStones.uasset.
+[2017.04.04-09.03.13:721][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:721][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement.M_Photoscan_Master_Displacement Referenced by MI_Tile_LeafPathStones
+[2017.04.04-09.03.13:721][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading NULL.
+[2017.04.04-09.03.13:724][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:724][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/PebblyRiverbank/MI_PSM_PebblyRiverbank_Tile.uasset.
+[2017.04.04-09.03.13:724][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/GroundTiles/PebblyRiverbank/MI_PSM_PebblyRiverbank_Tile : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement
+[2017.04.04-09.03.13:725][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:725][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/PebblyRiverbank/MI_PSM_PebblyRiverbank_Tile.uasset.
+[2017.04.04-09.03.13:726][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:726][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement.M_Photoscan_Master_Displacement Referenced by MI_PSM_PebblyRiverbank_Tile
+[2017.04.04-09.03.13:726][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading NULL.
+[2017.04.04-09.03.13:728][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:729][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/RiverPebbles/M_Tile_RiverPebbles.uasset.
+[2017.04.04-09.03.13:729][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/GroundTiles/RiverPebbles/M_Tile_RiverPebbles : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement
+[2017.04.04-09.03.13:792][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:792][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/RiverPebbles/M_Tile_RiverPebbles.uasset.
+[2017.04.04-09.03.13:794][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:794][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement.M_Photoscan_Master_Displacement Referenced by M_Tile_RiverPebbles
+[2017.04.04-09.03.13:794][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading NULL.
+[2017.04.04-09.03.13:846][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:847][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/RockFace003/M_Tile_RockFace003.uasset.
+[2017.04.04-09.03.13:847][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/GroundTiles/RockFace003/M_Tile_RockFace003 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement
+[2017.04.04-09.03.13:911][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:912][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/RockFace003/M_Tile_RockFace003.uasset.
+[2017.04.04-09.03.13:914][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.13:914][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement.M_Photoscan_Master_Displacement Referenced by M_Tile_RockFace003
+[2017.04.04-09.03.13:914][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading NULL.
+[2017.04.04-09.03.14:023][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.14:023][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/RockyPath/MI_PSM_RockyPath_Tile.uasset.
+[2017.04.04-09.03.14:023][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/GroundTiles/RockyPath/MI_PSM_RockyPath_Tile : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement
+[2017.04.04-09.03.14:071][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.14:072][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/GroundTiles/RockyPath/MI_PSM_RockyPath_Tile.uasset.
+[2017.04.04-09.03.14:076][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement'
+[2017.04.04-09.03.14:077][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master_Displacement.M_Photoscan_Master_Displacement Referenced by MI_PSM_RockyPath_Tile
+[2017.04.04-09.03.14:077][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master_Displacement' while loading NULL.
+[2017.04.04-09.03.14:320][744]LogMaterial: Missing cached shader map for material M_Landscape_01, compiling. 
+[2017.04.04-09.03.14:335][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Landscape/Materials/M_Landscape_01.M_Landscape_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.14:335][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.14:335][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.03.14:335][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.03.14:336][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2017.04.04-09.03.14:336][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2017.04.04-09.03.14:336][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.03.14:336][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.03.14:336][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property Metallic
+[2017.04.04-09.03.14:336][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property Metallic
+[2017.04.04-09.03.14:336][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property Specular
+[2017.04.04-09.03.14:336][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property Specular
+[2017.04.04-09.03.14:336][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.03.14:336][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.03.14:352][744]LogMaterial: Missing cached shader map for material M_Landscape_01, compiling. 
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Landscape/Materials/M_Grass_Landscape_01_INST.M_Grass_Landscape_01_INST with Base M_Landscape_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property Metallic
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property Metallic
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property Specular
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property Specular
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.03.14:360][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.03.14:367][744]LogMaterial: Missing cached shader map for material M_Landscape_01, compiling. 
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Landscape/Materials/M_Grass_Landscape_01_INST_HOLE.M_Grass_Landscape_01_INST_HOLE with Base M_Landscape_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property Metallic
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property Metallic
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property Specular
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property Specular
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: 	Function MatLayerBlend_StandardWithDisplacement: (Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.03.14:372][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: (Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.03.16:161][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.16:174][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Rocks/Boulder_04/M_Boulder_04_Valley_Inst.M_Boulder_04_Valley_Inst with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.16:174][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.16:272][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master_WorldVar, compiling. 
+[2017.04.04-09.03.16:274][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Materials/M_Photoscan_Master_WorldVar.M_Photoscan_Master_WorldVar for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.16:275][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.16:285][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master_WorldVar, compiling. 
+[2017.04.04-09.03.16:288][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Rocks/Boulder_04/M_Boulder_04_Valley_WorldMoss.M_Boulder_04_Valley_WorldMoss with Base M_Photoscan_Master_WorldVar for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.16:289][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.16:588][744]LogMaterial: Missing cached shader map for material M_Boulder_05, compiling. 
+[2017.04.04-09.03.16:592][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Rocks/Boulder_05/M_Boulder_05.M_Boulder_05 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.16:592][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.16:774][744]LogMaterial: Missing cached shader map for material M_Boulder_05_TopDirt, compiling. 
+[2017.04.04-09.03.16:776][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Rocks/Boulder_05/M_Boulder_05_TopDirt.M_Boulder_05_TopDirt for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.16:776][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.16:844][744]LogMaterial: Missing cached shader map for material M_Boulder_05_TopGrass, compiling. 
+[2017.04.04-09.03.16:849][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Rocks/Boulder_05/M_Boulder_05_TopGrass.M_Boulder_05_TopGrass for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.16:849][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.16:863][744]LogMaterial: Missing cached shader map for material M_Boulder_05_TopGrassWorldScale, compiling. 
+[2017.04.04-09.03.16:866][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Rocks/Boulder_05/M_Boulder_05_TopGrassWorldScale.M_Boulder_05_TopGrassWorldScale for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.16:866][744]LogMaterial:Warning: 	Function MatLayerBlend_Standard: Missing Preview connection for function input 'Base Material'
+[2017.04.04-09.03.17:275][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.17:275][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Boulder_05a/MI_Boulder05a.uasset.
+[2017.04.04-09.03.17:275][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/Boulder_05a/MI_Boulder05a : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.17:323][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.17:323][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Boulder_05a/MI_Boulder05a.uasset.
+[2017.04.04-09.03.17:324][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.17:324][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_Boulder05a
+[2017.04.04-09.03.17:325][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.18:026][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.18:026][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/GroundRevealRock002/MI_GroundRevealRock002.uasset.
+[2017.04.04-09.03.18:027][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/GroundRevealRock002/MI_GroundRevealRock002 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.18:054][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.18:055][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/GroundRevealRock002/MI_GroundRevealRock002.uasset.
+[2017.04.04-09.03.18:056][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.18:056][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_GroundRevealRock002
+[2017.04.04-09.03.18:057][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.18:270][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.18:271][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/LargePlainsBoulder002/MI_LargePlainsBoulder002.uasset.
+[2017.04.04-09.03.18:271][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/LargePlainsBoulder002/MI_LargePlainsBoulder002 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.18:306][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.18:306][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/LargePlainsBoulder002/MI_LargePlainsBoulder002.uasset.
+[2017.04.04-09.03.18:329][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.18:329][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_LargePlainsBoulder002
+[2017.04.04-09.03.18:330][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.18:556][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.18:573][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Rocks/Large_plains_Bulder_001/MI_LargePlainsBoulder.MI_LargePlainsBoulder with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.18:573][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.18:718][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.18:719][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Large_Volcanic_Rock_001/MI_Large_VolcanicRock_002.uasset.
+[2017.04.04-09.03.18:719][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/Large_Volcanic_Rock_001/MI_Large_VolcanicRock_002 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.18:748][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.18:748][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Large_Volcanic_Rock_001/MI_Large_VolcanicRock_002.uasset.
+[2017.04.04-09.03.18:752][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.18:752][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_Large_VolcanicRock_002
+[2017.04.04-09.03.18:752][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.19:248][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.19:259][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Rocks/Massive_Boulder_001/MI_Massive_Boulder_001_Desat_Inst.MI_Massive_Boulder_001_Desat_Inst with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.19:259][744]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.04-09.03.19:259][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.03.19:268][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.19:282][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Rocks/Massive_Boulder_001/MI_Massive_Boulder_001_Grass.MI_Massive_Boulder_001_Grass with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.19:282][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.19:539][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.19:540][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Medium_Boulder_001/MI_MediumBoulder_0012.uasset.
+[2017.04.04-09.03.19:540][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/Medium_Boulder_001/MI_MediumBoulder_0012 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.19:573][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.19:573][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Medium_Boulder_001/MI_MediumBoulder_0012.uasset.
+[2017.04.04-09.03.19:592][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.19:592][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_MediumBoulder_0012
+[2017.04.04-09.03.19:592][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.19:741][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.19:741][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Medium_Boulder_002/MI_MediumBoulder_002.uasset.
+[2017.04.04-09.03.19:741][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/Medium_Boulder_002/MI_MediumBoulder_002 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.19:742][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.19:742][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Medium_Boulder_002/MI_MediumBoulder_002.uasset.
+[2017.04.04-09.03.19:744][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.19:744][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_MediumBoulder_002
+[2017.04.04-09.03.19:744][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.19:826][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.19:826][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Mountain_RockFace_002/MI_MountainRock.uasset.
+[2017.04.04-09.03.19:827][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/Mountain_RockFace_002/MI_MountainRock : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.19:858][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.19:858][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Mountain_RockFace_002/MI_MountainRock.uasset.
+[2017.04.04-09.03.19:860][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.19:860][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_MountainRock
+[2017.04.04-09.03.19:860][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.19:907][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.19:908][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Mountain_RockFace_002/MI_MountainRock_Closed.uasset.
+[2017.04.04-09.03.19:908][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/Mountain_RockFace_002/MI_MountainRock_Closed : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.19:946][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.19:946][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Mountain_RockFace_002/MI_MountainRock_Closed.uasset.
+[2017.04.04-09.03.19:956][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.19:956][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_MountainRock_Closed
+[2017.04.04-09.03.19:956][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.20:263][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.20:277][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Rocks/PenshawBoulder_01/MI_PenshawBoulder_01Mossy.MI_PenshawBoulder_01Mossy with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.20:277][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.20:280][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master_WorldVar, compiling. 
+[2017.04.04-09.03.20:281][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Rocks/PenshawBoulder_01/MI_PenshawBoulder_01WorldMoss.MI_PenshawBoulder_01WorldMoss with Base M_Photoscan_Master_WorldVar for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.20:281][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.20:300][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.20:302][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Rocks/PenshawBoulder_01/MI_PenshawBoulder_01_River.MI_PenshawBoulder_01_River with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.20:302][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.20:306][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.04.04-09.03.20:313][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Rocks/PenshawBoulder_01/MI_PenshawBoulder_Darker_Inst.MI_PenshawBoulder_Darker_Inst with Base M_Photoscan_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.20:313][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.20:313][744]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.04-09.03.20:313][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.03.20:652][744]LogMaterial: Missing cached shader map for material M_Photoscan_Master_WorldVar, compiling. 
+[2017.04.04-09.03.20:653][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Environments/Rocks/PenshawBoulder_07/MI_PenshawBoulder_07WorldMoss.MI_PenshawBoulder_07WorldMoss with Base M_Photoscan_Master_WorldVar for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.20:653][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.20:811][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.20:811][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Scree001/MI_Scree_001_CC.uasset.
+[2017.04.04-09.03.20:812][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/Scree001/MI_Scree_001_CC : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.20:846][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.20:846][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Scree001/MI_Scree_001_CC.uasset.
+[2017.04.04-09.03.20:848][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.20:849][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_Scree_001_CC
+[2017.04.04-09.03.20:849][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.21:265][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.21:265][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Scree002/MI_Scree002_NEW.uasset.
+[2017.04.04-09.03.21:265][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Rocks/Scree002/MI_Scree002_NEW : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.21:308][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.21:309][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Rocks/Scree002/MI_Scree002_NEW.uasset.
+[2017.04.04-09.03.21:325][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.21:325][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_Scree002_NEW
+[2017.04.04-09.03.21:326][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.26:234][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.26:235][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Trees/Tree_Stump_01/MI_Tree_Stump_01.uasset.
+[2017.04.04-09.03.26:235][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Trees/Tree_Stump_01/MI_Tree_Stump_01 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.26:236][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.26:237][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Trees/Tree_Stump_01/MI_Tree_Stump_01.uasset.
+[2017.04.04-09.03.26:239][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.26:239][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_Tree_Stump_01
+[2017.04.04-09.03.26:240][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.26:306][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.26:307][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Trees/Vegetation_Debris_002/MI_Vegetation_Debris_002.uasset.
+[2017.04.04-09.03.26:307][744]LoadErrors:Error: Error /Game/Demo_Assets/Environments/Trees/Vegetation_Debris_002/MI_Vegetation_Debris_002 : Can't find file for asset. /Game/Demo_Assets/Material/M_Photoscan_Master
+[2017.04.04-09.03.26:364][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.26:365][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Demo_Assets/Environments/Trees/Vegetation_Debris_002/MI_Vegetation_Debris_002.uasset.
+[2017.04.04-09.03.26:369][744]LogLinker:Warning: Can't find file '/Game/Demo_Assets/Material/M_Photoscan_Master'
+[2017.04.04-09.03.26:369][744]LoadErrors: Info Failed to load /Game/Demo_Assets/Material/M_Photoscan_Master.M_Photoscan_Master Referenced by MI_Vegetation_Debris_002
+[2017.04.04-09.03.26:370][744]LogLinker:Warning: Can't find file for asset '/Game/Demo_Assets/Material/M_Photoscan_Master' while loading NULL.
+[2017.04.04-09.03.26:540][744]LogMaterial: Missing cached shader map for material M_DetailTextureBlend_01, compiling. 
+[2017.04.04-09.03.26:541][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Materials/M_DetailTextureBlend_01.M_DetailTextureBlend_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.26:541][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.26:555][744]LogMaterial: Missing cached shader map for material M_DetailTextureBlend_01, compiling. 
+[2017.04.04-09.03.26:555][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Materials/M_DetailTextureBlend_01_Inst.M_DetailTextureBlend_01_Inst with Base M_DetailTextureBlend_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.26:555][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.26:562][744]LogMaterial: Missing cached shader map for material M_TilingDisplacementTest_01, compiling. 
+[2017.04.04-09.03.26:563][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Materials/M_TilingDisplacementTest_01.M_TilingDisplacementTest_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.26:563][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.26:648][744]LogMaterial: Missing cached shader map for material M_TilingDisplacementTest_01, compiling. 
+[2017.04.04-09.03.26:649][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Materials/M_TilingDisplacementTest_01_LAKE.M_TilingDisplacementTest_01_LAKE with Base M_TilingDisplacementTest_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.26:649][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.26:766][744]LogMaterial: Missing cached shader map for material M_TilingRocks_02, compiling. 
+[2017.04.04-09.03.26:768][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Materials/M_TilingRocks_02.M_TilingRocks_02 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.26:768][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.26:774][744]LogMaterial: Missing cached shader map for material M_TilingRocks_02, compiling. 
+[2017.04.04-09.03.26:775][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Materials/M_TilingRocks_01_Inst.M_TilingRocks_01_Inst with Base M_TilingRocks_02 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.26:775][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.26:775][744]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.04-09.03.26:780][744]LogMaterial: Missing cached shader map for material M_DetailTextureBlend_01, compiling. 
+[2017.04.04-09.03.26:781][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Materials/Instances/M_DetailTextureBlend_01_Cliff_GroundReveal_01_INST.M_DetailTextureBlend_01_Cliff_GroundReveal_01_INST with Base M_DetailTextureBlend_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.26:781][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.26:785][744]LogMaterial: Missing cached shader map for material M_DetailTextureBlend_01, compiling. 
+[2017.04.04-09.03.26:786][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Materials/Instances/M_DetailTextureBlend_01_Cliff_GroundReveal_NewTex_01_INST.M_DetailTextureBlend_01_Cliff_GroundReveal_NewTex_01_INST with Base M_DetailTextureBlend_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.26:786][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.26:789][744]LogMaterial: Missing cached shader map for material M_DetailTextureBlend_01, compiling. 
+[2017.04.04-09.03.26:789][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Materials/Instances/M_DetailTextureBlend_01_GroundReveal_02_WorldAlinged.M_DetailTextureBlend_01_GroundReveal_02_WorldAlinged with Base M_DetailTextureBlend_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.26:789][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.03.26:791][744]LogMaterial: Missing cached shader map for material M_DetailTextureBlend_01, compiling. 
+[2017.04.04-09.03.26:791][744]LogMaterial:Warning: Failed to compile Material Instance /Game/Demo_Assets/Materials/Instances/M_DetailTextureBlend_01_GroundReveal_02_UVs.M_DetailTextureBlend_01_GroundReveal_02_UVs with Base M_DetailTextureBlend_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.03.26:791][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.10.03:427][744]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.10.03:465][744]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.10.06:566][744]LogTexture:Display: Building textures: T_Rock_Face_001_D_CC_R (AutoDXT, 8192X8192) - 417 MB total VRAM
+[2017.04.04-09.14.32:930][744]LogMaterial: Missing cached shader map for material M_Seaham_RockFace_PebbleTop, compiling. 
+[2017.04.04-09.14.37:628][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Cliffs/Cliff03/M_Seaham_RockFace_PebbleTop.M_Seaham_RockFace_PebbleTop for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.14.37:642][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.14.37:642][744]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.04-09.14.37:642][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.14.37:642][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.14.37:642][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.14.47:243][744]LogMaterial: Missing cached shader map for material M_Seaham_RockFace_PebbleTop, compiling. 
+[2017.04.04-09.14.47:245][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Cliffs/Cliff03/M_Seaham_RockFace_PebbleTop.M_Seaham_RockFace_PebbleTop for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.14.47:245][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.14.47:245][744]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.04-09.14.47:245][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.14.47:245][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.14.47:245][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.14.52:693][744]LogMaterial: 0.16 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.14.54:532][744]LogMaterial: Missing cached shader map for material M_Seaham_RockFace_007_DirtTop, compiling. 
+[2017.04.04-09.14.54:534][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Cliffs/Cliff03/M_Seaham_RockFace_007_DirtTop.M_Seaham_RockFace_007_DirtTop for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.14.54:534][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.14.54:534][744]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.04-09.14.54:534][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.14.54:534][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.14.54:534][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.14.54:539][744]LogMaterial: Missing cached shader map for material M_Seaham_RockFace_007_DirtTop, compiling. 
+[2017.04.04-09.14.54:541][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Cliffs/Cliff03/M_Seaham_RockFace_007_DirtTop.M_Seaham_RockFace_007_DirtTop for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.14.54:541][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.14.54:541][744]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.04-09.14.54:541][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.14.54:541][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.14.54:541][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.14.54:546][744]LogMaterial: Missing cached shader map for material M_Seaham_RockFace_007_DirtTop, compiling. 
+[2017.04.04-09.14.54:548][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Cliffs/Cliff03/M_Seaham_RockFace_007_DirtTop.M_Seaham_RockFace_007_DirtTop for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.14.54:808][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.14.54:808][744]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.04-09.14.54:808][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.14.54:808][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.14.54:808][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.14.55:540][744]LogMaterial: Missing cached shader map for material M_Seaham_RockFace_007_Cave, compiling. 
+[2017.04.04-09.14.55:821][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Cliffs/Cliff03/M_Seaham_RockFace_007_Cave.M_Seaham_RockFace_007_Cave for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.14.55:821][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.14.55:821][744]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.04-09.14.55:821][744]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.04.04-09.14.55:821][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.14.55:821][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.14.55:821][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.14.55:824][744]LogMaterial: Missing cached shader map for material M_Seaham_RockFace_007_Cave, compiling. 
+[2017.04.04-09.14.55:825][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Cliffs/Cliff03/M_Seaham_RockFace_007_Cave.M_Seaham_RockFace_007_Cave for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.14.55:825][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.14.55:825][744]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.04-09.14.55:825][744]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.04.04-09.14.55:825][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.14.55:825][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.14.55:825][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.14.55:831][744]LogMaterial: Missing cached shader map for material M_Seaham_RockFace_007_Cave, compiling. 
+[2017.04.04-09.14.55:833][744]LogMaterial:Warning: Failed to compile Material /Game/Demo_Assets/Environments/Cliffs/Cliff03/M_Seaham_RockFace_007_Cave.M_Seaham_RockFace_007_Cave for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.04-09.14.55:833][744]LogMaterial:Warning: 	Missing Material Function
+[2017.04.04-09.14.55:833][744]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.04-09.14.55:833][744]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.04.04-09.14.55:833][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2017.04.04-09.14.55:833][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.04-09.14.55:833][744]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.04-09.14.56:789][744]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.14.57:825][744]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.14.58:059][744]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.14.58:365][744]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-09.15.54:805][744]LogTexture:Display: Building textures: T_Seaham_RockFace_007_D_CC_R (AutoDXT, 8192X8192) - 417 MB total VRAM

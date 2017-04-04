@@ -1,0 +1,685 @@
+﻿Log file open, 04/04/17 01:38:15
+LogInit:Display: Running engine for game: MALUM
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(677856855) SRandInit(677856855).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.075264
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.04-06.38.15:842][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.04-06.38.15:842][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.04-06.38.15:849][  0]LogInit: Computer: TAYLOR-PC
+[2017.04.04-06.38.15:849][  0]LogInit: User: Taylor
+[2017.04.04-06.38.15:849][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.04-06.38.15:849][  0]LogInit: High frequency timer resolution =3.903989 MHz
+[2017.04.04-06.38.15:849][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.04-06.38.15:849][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.04-06.38.15:849][  0]LogMemory: Process Physical Memory: 263.75 MB used, 263.75 MB peak
+[2017.04.04-06.38.15:849][  0]LogMemory: Process Virtual Memory: 262.59 MB used, 262.59 MB peak
+[2017.04.04-06.38.15:849][  0]LogMemory: Physical Memory: 5853.49 MB used,  10469.38 MB free, 16322.87 MB total
+[2017.04.04-06.38.15:849][  0]LogMemory: Virtual Memory: 645.13 MB used,  10469.38 MB free, 134217728.00 MB total
+[2017.04.04-06.38.15:921][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.04-06.38.16:425][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.04-06.38.16:448][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.04.04-06.38.16:448][  0]LogD3D11RHI:       8110/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.04.04-06.38.16:449][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.04-06.38.16:449][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.04-06.38.16:449][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.04-06.38.16:453][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.04-06.38.16:453][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.04-06.38.16:453][  0]LogWindows: EnumDisplayDevices:
+[2017.04.04-06.38.16:453][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.04.04-06.38.16:453][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.04.04-06.38.16:453][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.04.04-06.38.16:453][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.04.04-06.38.16:453][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.04-06.38.16:453][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.04.04-06.38.16:453][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.04.04-06.38.16:453][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.04.04-06.38.16:453][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.04-06.38.16:465][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.04-06.38.16:476][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.04-06.38.16:572][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Intermediate/Shaders/WorkingDirectory/8604/).
+[2017.04.04-06.38.16:572][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Taylor/AppData/Local/Temp/UnrealShaderWorkingDir/2ABF4CE84D56EF5A8D4DFCB22EEB3BD3/'.
+[2017.04.04-06.38.16:572][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.04-06.38.17:526][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.04-06.38.17:574][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.04-06.38.17:623][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.04-06.38.17:671][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.04-06.38.17:720][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.04-06.38.17:767][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.04-06.38.17:815][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.04-06.38.17:863][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.04-06.38.17:903][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.04-06.38.17:950][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.04-06.38.17:999][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.04-06.38.18:049][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.04-06.38.18:106][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.04-06.38.18:154][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.04-06.38.18:202][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.04-06.38.18:314][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.04-06.38.18:314][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.04-06.38.18:355][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.04-06.38.18:468][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.04-06.38.18:506][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.04-06.38.18:564][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.04-06.38.18:622][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.04-06.38.18:675][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.04-06.38.18:727][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.04-06.38.18:727][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.04-06.38.19:153][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.04-06.38.19:199][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Taylor/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.04-06.38.19:199][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Taylor/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.04-06.38.19:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.04-06.38.19:199][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.04-06.38.19:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.04-06.38.19:199][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.04-06.38.19:214][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.04-06.38.19:226][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Taylor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.04-06.38.19:236][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.04-06.38.19:237][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.04-06.38.19:237][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.04-06.38.19:475][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.04-06.38.19:477][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.04-06.38.19:691][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.04-06.38.19:736][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.04-06.38.19:780][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.04-06.38.19:780][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.04-06.38.19:780][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.04-06.38.20:207][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: malum, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2995604447
+[2017.04.04-06.38.20:249][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2017.04.04-06.38.20:297][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.027125 seconds
+[2017.04.04-06.38.20:302][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.04-06.38.20:302][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.04-06.38.20:302][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.04-06.38.20:357][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.04-06.38.21:886][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.04-06.38.21:923][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.04-06.38.22:377][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.04-06.38.22:721][  0]SourceControl: Info Source control is disabled
+[2017.04.04-06.38.22:721][  0]SourceControl: Info Source control is disabled
+[2017.04.04-06.38.22:764][  0]SourceControl: Info Source control is disabled
+[2017.04.04-06.38.22:806][  0]SourceControl: Info Source control is disabled
+[2017.04.04-06.38.23:117][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.04.04-06.38.23:117][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.04.04-06.38.23:117][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.04.04-06.38.24:008][  0]LogEngine: Initializing Engine...
+[2017.04.04-06.38.24:008][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.04-06.38.24:201][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.04-06.38.24:214][  0]LogInit: XAudio2 using 'Speakers (3- Logitech G930 Gaming Headset)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.04.04-06.38.24:230][  0]LogInit: FAudioDevice initialized.
+[2017.04.04-06.38.24:254][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Taylor/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.04-06.38.24:431][  0]LogInit: Texture streaming: Enabled
+[2017.04.04-06.38.24:525][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.04-06.38.24:609][  0]LogInit: Transaction tracking system initialized
+[2017.04.04-06.38.24:935][  0]BlueprintLog: New page: Editor Load
+[2017.04.04-06.38.25:843][  0]LocalizationService: Info Localization service is disabled
+[2017.04.04-06.38.26:476][  0]LogConsoleResponse:Display: 
+[2017.04.04-06.38.26:580][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.04-06.38.26:580][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.04-06.38.26:848][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/' took 0.03s
+[2017.04.04-06.38.27:572][  0]SourceControl: Info Source control is disabled
+[2017.04.04-06.38.27:572][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.04-06.38.27:572][  0]LightingResults: New page: Lighting Build
+[2017.04.04-06.38.27:608][  0]MapCheck: New page: Map Check
+[2017.04.04-06.38.27:608][  0]LightingResults: New page: Lighting Build
+[2017.04.04-06.38.27:848][  0]LogLinker:Warning: Can't find file '/Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst'
+[2017.04.04-06.38.27:848][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2017.04.04-06.38.27:848][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst
+[2017.04.04-06.38.27:849][  0]LogLinker:Warning: Can't find file '/Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst'
+[2017.04.04-06.38.27:849][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2017.04.04-06.38.27:849][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst
+[2017.04.04-06.38.27:851][  0]LogLinker:Warning: Can't find file '/Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst'
+[2017.04.04-06.38.27:851][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst' while loading NULL.
+[2017.04.04-06.38.27:851][  0]LogLinker:Warning: Can't find file '/Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst'
+[2017.04.04-06.38.27:851][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst' while loading NULL.
+[2017.04.04-06.38.27:868][  0]LogLinker:Warning: Can't find file '/Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst'
+[2017.04.04-06.38.27:868][  0]LoadErrors: Info Failed to load /Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst.M_Cave_Rock_Large_Dry_Inst Referenced by StaticMeshComponent0
+[2017.04.04-06.38.27:868][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst' while loading NULL.
+[2017.04.04-06.38.27:868][  0]LoadErrors: Info Failed to load /Game/Effects/Environment/Materials/Rock/M_Cave_Rock_Large_Dry_Inst.M_Cave_Rock_Large_Dry_Inst Referenced by StaticMeshComponent0
+[2017.04.04-06.38.27:969][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.04-06.38.27:990][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.04-06.38.27:991][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.04-06.38.28:036][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.147ms to complete.
+[2017.04.04-06.38.28:036][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.464
+[2017.04.04-06.38.28:107][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.04-06.38.28:107][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.04-06.38.28:206][  0]LogCollectionManager: Loaded 0 collections in 0.001662 seconds
+[2017.04.04-06.38.28:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/Collections/' took 0.01s
+[2017.04.04-06.38.28:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Developers/Taylor/Collections/' took 0.01s
+[2017.04.04-06.38.28:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Collections/' took 0.01s
+[2017.04.04-06.38.28:286][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.04.04-06.38.28:293][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2245 classes and 453 folders.
+[2017.04.04-06.38.28:295][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.04-06.38.28:295][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.04-06.38.28:353][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.04-06.38.28:391][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.04-06.38.28:430][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.04-06.38.28:473][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.04-06.38.28:478][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.04-06.38.28:540][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.04-06.38.28:540][  0]LogLoad: (Engine Initialization) Total time: 14.51 seconds
+[2017.04.04-06.38.28:540][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.17 seconds
+[2017.04.04-06.38.28:540][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.04-06.38.28:540][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.04-06.38.28:550][  0]LogOcInput: OculusInput pre-init called
+[2017.04.04-06.38.28:570][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.04-06.38.28:585][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.04-06.38.28:587][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.04-06.38.28:592][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.04-06.38.28:686][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.04-06.38.28:723][  1]LogAssetRegistry: Asset discovery search completed in 8.4960 seconds
+[2017.04.04-06.38.28:723][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.04.04-06.38.28:723][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2017.04.04-06.38.28:749][  2]LogRenderer: Reallocating scene render targets to support 864x424 NumSamples 1 (Frame:2).
+[2017.04.04-06.38.31:740][348]LogRenderer: Reallocating scene render targets to support 1252x612 NumSamples 1 (Frame:329).
+[2017.04.04-06.39.13:594][804]LogActorFactory: Actor Factory created SM_Boulder_05_Boulder_05_Low001
+[2017.04.04-06.39.16:014][ 93]LogActorFactory: Actor Factory created SM_Boulder_05_Boulder_05_Low001
+[2017.04.04-06.39.18:600][395]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-06.39.27:028][368]Cmd: DELETE
+[2017.04.04-06.39.27:028][368]Cmd: ACTOR DELETE
+[2017.04.04-06.39.27:029][368]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.04-06.39.27:041][368]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.04.04-06.39.52:084][327]LogActorFactory: Actor Factory created SM_Scree002b
+[2017.04.04-06.39.52:490][375]LogActorFactory: Actor Factory created SM_Scree002b
+[2017.04.04-06.39.53:463][485]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.04-06.39.59:636][198]LogMaterial: Missing cached shader map for material T_Scree002_D_R_Mat, compiling. 
+[2017.04.04-06.39.59:637][198]LogTemp:Display: Added material ShaderMap 0x00000160142CB200 with Material 0x0000016013785C00 to ShaderMapsBeingCompiled
+[2017.04.04-06.39.59:657][198]LogTemp:Display: Kicking off shader compilation for T_Scree002_D_R_Mat, GameThreadShaderMap 0x00000160142CB200
+[2017.04.04-06.39.59:668][198]LogMaterial:Warning: Material /Game/Environments/Rocks/Scree002/T_Scree002_D_R_Mat.T_Scree002_D_R_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.04.04-06.39.59:672][198]LogMaterial: Missing cached shader map for material T_Scree002_D_R_Mat, compiling. 
+[2017.04.04-06.39.59:673][198]LogTemp:Display: Added material ShaderMap 0x0000016037F55980 with Material 0x0000016013785C00 to ShaderMapsBeingCompiled
+[2017.04.04-06.39.59:691][198]LogTemp:Display: Kicking off shader compilation for T_Scree002_D_R_Mat, GameThreadShaderMap 0x0000016037F55980
+[2017.04.04-06.39.59:691][198]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.40.00:606][293]Cmd: TRANSACTION UNDO
+[2017.04.04-06.40.00:606][293]LogEditorTransaction: Undo Create Actors
+[2017.04.04-06.40.00:620][293]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.04-06.40.01:622][378]LogTemp:Display: Finished compile of shader map 0x00000160142CB200
+[2017.04.04-06.40.01:622][378]LogTemp:Display: Shader map T_Scree002_D_R_Mat complete, GameThreadShaderMap 0x00000160142CB200, marking material T_Scree002_D_R_Mat as finished
+[2017.04.04-06.40.01:622][378]LogTemp:Display: Marking material as finished 0x0000016013785C00
+[2017.04.04-06.40.02:392][467]LogTemp:Display: Finished compile of shader map 0x0000016037F55980
+[2017.04.04-06.40.02:392][467]LogTemp:Display: Shader map T_Scree002_D_R_Mat complete, GameThreadShaderMap 0x0000016037F55980, marking material T_Scree002_D_R_Mat as finished
+[2017.04.04-06.40.02:392][467]LogTemp:Display: Marking material as finished 0x0000016013785C00
+[2017.04.04-06.40.04:442][711]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.04-06.40.04:487][711]LogMaterial: Missing cached shader map for material T_Scree002_D_R_Mat, compiling. 
+[2017.04.04-06.40.04:487][711]LogTemp:Display: Added material ShaderMap 0x0000016037D8B900 with Material 0x0000016037D79300 to ShaderMapsBeingCompiled
+[2017.04.04-06.40.04:495][711]LogTemp:Display: Kicking off shader compilation for T_Scree002_D_R_Mat, GameThreadShaderMap 0x0000016037D8B900
+[2017.04.04-06.40.04:585][711]LogMaterial: Missing cached shader map for material T_Scree002_D_R_Mat, compiling. 
+[2017.04.04-06.40.04:586][711]LogTemp:Display: Added material ShaderMap 0x0000016053F60800 with Material 0x0000016037D79300 to ShaderMapsBeingCompiled
+[2017.04.04-06.40.04:594][711]LogTemp:Display: Kicking off shader compilation for T_Scree002_D_R_Mat, GameThreadShaderMap 0x0000016053F60800
+[2017.04.04-06.40.04:594][711]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.40.04:652][711]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.04-06.40.04:653][711]LogTemp:Display: Added material ShaderMap 0x000001602DDEB580 with Material 0x000001603809FA00 to ShaderMapsBeingCompiled
+[2017.04.04-06.40.04:656][711]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000001602DDEB580
+[2017.04.04-06.40.04:667][711]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.04-06.40.05:390][743]LogTemp:Display: Finished compile of shader map 0x0000016053F60800
+[2017.04.04-06.40.05:390][743]LogTemp:Display: Shader map T_Scree002_D_R_Mat complete, GameThreadShaderMap 0x0000016053F60800, marking material T_Scree002_D_R_Mat as finished
+[2017.04.04-06.40.05:390][743]LogTemp:Display: Marking material as finished 0x0000016037D79300
+[2017.04.04-06.40.05:472][750]LogTemp:Display: Finished compile of shader map 0x000001602DDEB580
+[2017.04.04-06.40.05:472][750]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000001602DDEB580, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.04.04-06.40.05:472][750]LogTemp:Display: Marking material as finished 0x000001603809FA00
+[2017.04.04-06.40.06:145][823]LogMaterial: Missing cached shader map for material T_Scree002_D_R_Mat, compiling. 
+[2017.04.04-06.40.06:146][823]LogTemp:Display: Added material ShaderMap 0x00000160380CAB00 with Material 0x0000016037D79300 to ShaderMapsBeingCompiled
+[2017.04.04-06.40.06:153][823]LogTemp:Display: Kicking off shader compilation for T_Scree002_D_R_Mat, GameThreadShaderMap 0x00000160380CAB00
+[2017.04.04-06.40.06:154][823]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.40.06:188][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.04.04-06.40.06:189][823]LogTemp:Display: Added material ShaderMap 0x0000016080948800 with Material 0x0000016081A18700 to ShaderMapsBeingCompiled
+[2017.04.04-06.40.06:191][823]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x0000016080948800
+[2017.04.04-06.40.06:194][823]LogTemp:Display: Removed shader map 0x0000016080948800 from material 0x0000016081A18700
+[2017.04.04-06.40.06:223][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.04-06.40.06:224][823]LogTemp:Display: Added material ShaderMap 0x0000016080966780 with Material 0x0000016081A18700 to ShaderMapsBeingCompiled
+[2017.04.04-06.40.06:226][823]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x0000016080966780
+[2017.04.04-06.40.06:233][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.04.04-06.40.06:234][823]LogTemp:Display: Added material ShaderMap 0x0000016080964F00 with Material 0x00000160817F7D00 to ShaderMapsBeingCompiled
+[2017.04.04-06.40.06:237][823]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x0000016080964F00
+[2017.04.04-06.40.06:926][866]LogTemp:Display: Finished compile of shader map 0x00000160380CAB00
+[2017.04.04-06.40.06:926][866]LogTemp:Display: Shader map T_Scree002_D_R_Mat complete, GameThreadShaderMap 0x00000160380CAB00, marking material T_Scree002_D_R_Mat as finished
+[2017.04.04-06.40.06:926][866]LogTemp:Display: Marking material as finished 0x0000016037D79300
+[2017.04.04-06.40.07:019][873]LogTemp:Display: Finished compile of shader map 0x0000016080966780
+[2017.04.04-06.40.07:019][873]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x0000016080966780, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.04.04-06.40.07:019][873]LogTemp:Display: Marking material as finished 0x0000016081A18700
+[2017.04.04-06.40.07:090][880]LogTemp:Display: Finished compile of shader map 0x0000016080964F00
+[2017.04.04-06.40.07:090][880]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_1 complete, GameThreadShaderMap 0x0000016080964F00, marking material FMatExpressionPreview MaterialExpressionTextureSample_1 as finished
+[2017.04.04-06.40.07:090][880]LogTemp:Display: Marking material as finished 0x00000160817F7D00
+[2017.04.04-06.40.07:423][916]LogMaterial: Missing cached shader map for material T_Scree002_D_R_Mat, compiling. 
+[2017.04.04-06.40.07:423][916]LogTemp:Display: Added material ShaderMap 0x0000016081B27200 with Material 0x0000016037D79300 to ShaderMapsBeingCompiled
+[2017.04.04-06.40.07:431][916]LogTemp:Display: Kicking off shader compilation for T_Scree002_D_R_Mat, GameThreadShaderMap 0x0000016081B27200
+[2017.04.04-06.40.07:431][916]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.40.07:465][916]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.04.04-06.40.07:466][916]LogTemp:Display: Added material ShaderMap 0x000001608094B200 with Material 0x0000016081BC5F00 to ShaderMapsBeingCompiled
+[2017.04.04-06.40.07:468][916]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x000001608094B200
+[2017.04.04-06.40.08:260][971]LogTemp:Display: Finished compile of shader map 0x0000016081B27200
+[2017.04.04-06.40.08:260][971]LogTemp:Display: Shader map T_Scree002_D_R_Mat complete, GameThreadShaderMap 0x0000016081B27200, marking material T_Scree002_D_R_Mat as finished
+[2017.04.04-06.40.08:260][971]LogTemp:Display: Marking material as finished 0x0000016037D79300
+[2017.04.04-06.40.08:273][972]MaterialEditorStats: Info Base pass shader with static lighting: 113 instructions
+[2017.04.04-06.40.08:273][972]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 87 instructions
+[2017.04.04-06.40.08:273][972]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.04-06.40.08:273][972]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.04.04-06.40.08:317][976]LogTemp:Display: Finished compile of shader map 0x000001608094B200
+[2017.04.04-06.40.08:317][976]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_1 complete, GameThreadShaderMap 0x000001608094B200, marking material FMatExpressionPreview MaterialExpressionTextureSample_1 as finished
+[2017.04.04-06.40.08:317][976]LogTemp:Display: Marking material as finished 0x0000016081BC5F00
+[2017.04.04-06.40.08:801][ 27]LogMaterialEditor: Applying material T_Scree002_D_R_Mat
+[2017.04.04-06.40.09:286][ 27]LogMaterial: Missing cached shader map for material T_Scree002_D_R_Mat, compiling. 
+[2017.04.04-06.40.09:286][ 27]LogTemp:Display: Added material ShaderMap 0x0000016080964800 with Material 0x0000016037D79300 to ShaderMapsBeingCompiled
+[2017.04.04-06.40.09:303][ 27]LogTemp:Display: Kicking off shader compilation for T_Scree002_D_R_Mat, GameThreadShaderMap 0x0000016080964800
+[2017.04.04-06.40.09:304][ 27]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.40.09:327][ 27]LogMaterial: Missing cached shader map for material T_Scree002_D_R_Mat, compiling. 
+[2017.04.04-06.40.09:328][ 27]LogTemp:Display: Added material ShaderMap 0x0000016081B26400 with Material 0x0000016013785480 to ShaderMapsBeingCompiled
+[2017.04.04-06.40.09:355][ 27]LogTemp:Display: Kicking off shader compilation for T_Scree002_D_R_Mat, GameThreadShaderMap 0x0000016081B26400
+[2017.04.04-06.40.09:366][ 27]LogMaterial: Missing cached shader map for material T_Scree002_D_R_Mat, compiling. 
+[2017.04.04-06.40.09:367][ 27]LogTemp:Display: Added material ShaderMap 0x00000160689BA780 with Material 0x0000016013785480 to ShaderMapsBeingCompiled
+[2017.04.04-06.40.09:389][ 27]LogTemp:Display: Kicking off shader compilation for T_Scree002_D_R_Mat, GameThreadShaderMap 0x00000160689BA780
+[2017.04.04-06.40.09:391][ 27]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.40.09:409][ 27]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy T_Scree002_D_R_Mat, compiling. 
+[2017.04.04-06.40.09:410][ 27]LogTemp:Display: Added material ShaderMap 0x0000016086547900 with Material 0x000001608579EE00 to ShaderMapsBeingCompiled
+[2017.04.04-06.40.09:979][ 27]LogTemp:Display: Finished compile of shader map 0x0000016086547900
+[2017.04.04-06.40.09:979][ 27]LogTemp:Display: Shader map FDebugViewModeMaterialProxy T_Scree002_D_R_Mat complete, GameThreadShaderMap 0x0000016086547900, marking material FDebugViewModeMaterialProxy T_Scree002_D_R_Mat as finished
+[2017.04.04-06.40.09:979][ 27]LogTemp:Display: Marking material as finished 0x000001608579EE00
+[2017.04.04-06.40.09:982][ 27]TextureStreamingBuild:Display: Compiling optional shaders took 0.580 seconds.
+[2017.04.04-06.40.10:002][ 27]LogTemp:Display: Finished compile of shader map 0x0000016080964800
+[2017.04.04-06.40.10:002][ 27]LogTemp:Display: Shader map T_Scree002_D_R_Mat complete, GameThreadShaderMap 0x0000016080964800, marking material T_Scree002_D_R_Mat as finished
+[2017.04.04-06.40.10:002][ 27]LogTemp:Display: Marking material as finished 0x0000016037D79300
+[2017.04.04-06.40.11:745][167]LogTemp:Display: Finished compile of shader map 0x00000160689BA780
+[2017.04.04-06.40.11:746][167]LogTemp:Display: Shader map T_Scree002_D_R_Mat complete, GameThreadShaderMap 0x00000160689BA780, marking material T_Scree002_D_R_Mat as finished
+[2017.04.04-06.40.11:746][167]LogTemp:Display: Marking material as finished 0x0000016013785480
+[2017.04.04-06.40.11:756][168]MaterialEditorStats: Info Base pass shader with static lighting: 113 instructions
+[2017.04.04-06.40.11:756][168]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 87 instructions
+[2017.04.04-06.40.11:756][168]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.04-06.40.11:756][168]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.04.04-06.40.28:933][907]LogLinker:Warning: Can't find file '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW'
+[2017.04.04-06.40.28:933][907]LogLinker:Warning: Can't find file for asset '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002_NEW.uasset.
+[2017.04.04-06.40.28:933][907]LoadErrors:Error: Error /Game/Environments/Rocks/Scree002/SM_Scree002_NEW : Can't find file for asset. /Game/Environments/Rocks/Scree002/MI_Scree002_NEW
+[2017.04.04-06.40.28:933][907]LogLinker:Warning: Can't find file '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW'
+[2017.04.04-06.40.28:933][907]LogLinker:Warning: Can't find file for asset '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002_NEW.uasset.
+[2017.04.04-06.40.28:956][907]LogLinker:Warning: Can't find file '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW'
+[2017.04.04-06.40.28:956][907]LoadErrors: Info Failed to load /Game/Environments/Rocks/Scree002/MI_Scree002_NEW.MI_Scree002_NEW Referenced by SM_Scree002_NEW
+[2017.04.04-06.40.28:957][907]LogLinker:Warning: Can't find file for asset '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW' while loading NULL.
+[2017.04.04-06.40.29:047][907]LogActorFactory: Actor Factory created SM_Scree002_NEW
+[2017.04.04-06.40.29:624][970]LogActorFactory: Actor Factory created SM_Scree002_NEW
+[2017.04.04-06.40.36:547][782]Cmd: DELETE
+[2017.04.04-06.40.36:547][782]Cmd: ACTOR DELETE
+[2017.04.04-06.40.36:547][782]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.04-06.40.36:547][782]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.04-06.40.36:555][782]LogEditorActor: Deleted 2 Actors (0.008 secs)
+[2017.04.04-06.40.39:729][159]LogActorFactory: Actor Factory created SM_Scree002b
+[2017.04.04-06.40.39:993][190]LogActorFactory: Actor Factory created SM_Scree002b
+[2017.04.04-06.40.44:589][728]LogActorFactory: Actor Factory created SM_Scree002_NEW
+[2017.04.04-06.40.44:984][774]LogActorFactory: Actor Factory created SM_Scree002_NEW
+[2017.04.04-06.40.47:355][ 50]Cmd: DELETE
+[2017.04.04-06.40.47:356][ 50]Cmd: ACTOR DELETE
+[2017.04.04-06.40.47:356][ 50]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.04-06.40.47:365][ 50]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.04.04-06.40.47:679][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Scree002b)
+[2017.04.04-06.40.47:782][ 95]Cmd: DELETE
+[2017.04.04-06.40.47:782][ 95]Cmd: ACTOR DELETE
+[2017.04.04-06.40.47:783][ 95]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.04-06.40.47:790][ 95]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.04.04-06.40.50:191][259]LogSlate: Took 0.000598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.04-06.40.54:387][259]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:15729).
+[2017.04.04-06.41.02:258][154]LogSavePackage: Save=10.93ms
+[2017.04.04-06.41.02:258][154]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/SM_Scree002bB4B9829E4F7EFF66E6C687BD96CD7D11.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002b.uasset'
+[2017.04.04-06.41.02:261][154]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002b.uasset
+[2017.04.04-06.41.08:102][762]LogSavePackage: Save=25.64ms
+[2017.04.04-06.41.08:102][762]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/SM_Scree002_NEWA8EC6573477D5DE0470C6493F76FBED7.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002_NEW.uasset'
+[2017.04.04-06.41.08:105][762]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002_NEW.uasset
+[2017.04.04-06.41.10:855][ 71]LogLinker:Warning: Can't find file '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW'
+[2017.04.04-06.41.10:856][ 71]LogLinker:Warning: Can't find file for asset '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002a.uasset.
+[2017.04.04-06.41.10:856][ 71]LoadErrors:Error: Error /Game/Environments/Rocks/Scree002/SM_Scree002a : Can't find file for asset. /Game/Environments/Rocks/Scree002/MI_Scree002_NEW
+[2017.04.04-06.41.10:856][ 71]LogLinker:Warning: Can't find file '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW'
+[2017.04.04-06.41.10:856][ 71]LogLinker:Warning: Can't find file for asset '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002a.uasset.
+[2017.04.04-06.41.10:874][ 71]LogLinker:Warning: Can't find file '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW'
+[2017.04.04-06.41.10:875][ 71]LoadErrors: Info Failed to load /Game/Environments/Rocks/Scree002/MI_Scree002_NEW.MI_Scree002_NEW Referenced by SM_Scree002a
+[2017.04.04-06.41.10:875][ 71]LogLinker:Warning: Can't find file for asset '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW' while loading NULL.
+[2017.04.04-06.41.14:164][381]LogSavePackage: Save=12.63ms
+[2017.04.04-06.41.14:164][381]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/SM_Scree002aF3364ABB4C27B462E594D68EBE00C135.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002a.uasset'
+[2017.04.04-06.41.14:167][381]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002a.uasset
+[2017.04.04-06.41.16:480][644]LogLinker:Warning: Can't find file '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW'
+[2017.04.04-06.41.16:480][644]LogLinker:Warning: Can't find file for asset '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002_Bend.uasset.
+[2017.04.04-06.41.16:480][644]LoadErrors:Error: Error /Game/Environments/Rocks/Scree002/SM_Scree002_Bend : Can't find file for asset. /Game/Environments/Rocks/Scree002/MI_Scree002_NEW
+[2017.04.04-06.41.16:480][644]LogLinker:Warning: Can't find file '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW'
+[2017.04.04-06.41.16:480][644]LogLinker:Warning: Can't find file for asset '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW' while loading ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002_Bend.uasset.
+[2017.04.04-06.41.16:492][644]LogLinker:Warning: Can't find file '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW'
+[2017.04.04-06.41.16:492][644]LoadErrors: Info Failed to load /Game/Environments/Rocks/Scree002/MI_Scree002_NEW.MI_Scree002_NEW Referenced by SM_Scree002_Bend
+[2017.04.04-06.41.16:492][644]LogLinker:Warning: Can't find file for asset '/Game/Environments/Rocks/Scree002/MI_Scree002_NEW' while loading NULL.
+[2017.04.04-06.41.19:225][893]LogSavePackage: Save=12.94ms
+[2017.04.04-06.41.19:226][893]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Saved/SM_Scree002_Bend5DFCDA544993FFD6D7E3E496B14E5373.tmp' to '../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002_Bend.uasset'
+[2017.04.04-06.41.19:228][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Taylor/Desktop/MALUM/MALUM_SVN/MALUM/Content/Environments/Rocks/Scree002/SM_Scree002_Bend.uasset
+[2017.04.04-06.41.31:925][361]LogActorFactory: Actor Factory created Scree_001_B
+[2017.04.04-06.41.32:278][403]LogActorFactory: Actor Factory created Scree_001_B
+[2017.04.04-06.41.34:497][652]LogLinker:Warning: Can't find file '/Game/Environments/Rocks/EVAL_ASSETS/Scree001/Scree_001'
+[2017.04.04-06.41.34:498][652]LogLinker:Warning: Can't find file '/Game/Environments/Rocks/EVAL_ASSETS/Scree001/Scree_001'
+[2017.04.04-06.41.34:499][652]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Environments/Rocks/EVAL_ASSETS/Scree001/Scree_001.Scree_001'
+[2017.04.04-06.41.40:710][380]LogMaterial: Missing cached shader map for material T_Scree_001_D_CC_Mat, compiling. 
+[2017.04.04-06.41.40:710][380]LogTemp:Display: Added material ShaderMap 0x0000016035951D00 with Material 0x0000016013777400 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.40:719][380]LogTemp:Display: Kicking off shader compilation for T_Scree_001_D_CC_Mat, GameThreadShaderMap 0x0000016035951D00
+[2017.04.04-06.41.42:049][521]LogMaterial: Missing cached shader map for material T_Scree_001_D_CC_Mat, compiling. 
+[2017.04.04-06.41.42:050][521]LogTemp:Display: Added material ShaderMap 0x0000016018AFD600 with Material 0x000001601EBC8E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.42:058][521]LogTemp:Display: Kicking off shader compilation for T_Scree_001_D_CC_Mat, GameThreadShaderMap 0x0000016018AFD600
+[2017.04.04-06.41.42:160][521]LogMaterial: Missing cached shader map for material T_Scree_001_D_CC_Mat, compiling. 
+[2017.04.04-06.41.42:160][521]LogTemp:Display: Added material ShaderMap 0x000001603787EB00 with Material 0x000001601EBC8E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.42:170][521]LogTemp:Display: Kicking off shader compilation for T_Scree_001_D_CC_Mat, GameThreadShaderMap 0x000001603787EB00
+[2017.04.04-06.41.42:171][521]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.41.42:206][521]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.04-06.41.42:207][521]LogTemp:Display: Added material ShaderMap 0x000001601F124100 with Material 0x0000016021EDE200 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.42:209][521]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000001601F124100
+[2017.04.04-06.41.42:337][522]LogTemp:Display: Finished compile of shader map 0x0000016035951D00
+[2017.04.04-06.41.42:337][522]LogTemp:Display: Shader map T_Scree_001_D_CC_Mat complete, GameThreadShaderMap 0x0000016035951D00, marking material T_Scree_001_D_CC_Mat as finished
+[2017.04.04-06.41.42:337][522]LogTemp:Display: Marking material as finished 0x0000016013777400
+[2017.04.04-06.41.42:431][526]LogTemp:Display: Finished compile of shader map 0x0000016018AFD600
+[2017.04.04-06.41.42:431][526]LogTemp:Display: Shader map T_Scree_001_D_CC_Mat complete, GameThreadShaderMap 0x0000016018AFD600, marking material T_Scree_001_D_CC_Mat as finished
+[2017.04.04-06.41.42:431][526]LogTemp:Display: Marking material as finished 0x000001601EBC8E00
+[2017.04.04-06.41.43:021][566]LogTemp:Display: Finished compile of shader map 0x000001603787EB00
+[2017.04.04-06.41.43:021][566]LogTemp:Display: Shader map T_Scree_001_D_CC_Mat complete, GameThreadShaderMap 0x000001603787EB00, marking material T_Scree_001_D_CC_Mat as finished
+[2017.04.04-06.41.43:021][566]LogTemp:Display: Marking material as finished 0x000001601EBC8E00
+[2017.04.04-06.41.43:034][567]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.04.04-06.41.43:034][567]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.04-06.41.43:034][567]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.04.04-06.41.43:057][569]LogTemp:Display: Finished compile of shader map 0x000001601F124100
+[2017.04.04-06.41.43:057][569]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000001601F124100, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.04.04-06.41.43:057][569]LogTemp:Display: Marking material as finished 0x0000016021EDE200
+[2017.04.04-06.41.44:508][708]LogMaterial: Missing cached shader map for material T_Scree_001_D_CC_Mat, compiling. 
+[2017.04.04-06.41.44:509][708]LogTemp:Display: Added material ShaderMap 0x000001601BC35D00 with Material 0x000001601EBC8E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.44:515][708]LogTemp:Display: Kicking off shader compilation for T_Scree_001_D_CC_Mat, GameThreadShaderMap 0x000001601BC35D00
+[2017.04.04-06.41.44:515][708]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.41.44:516][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.04.04-06.41.44:517][708]LogTemp:Display: Added material ShaderMap 0x0000016083184100 with Material 0x000001607C7D0A00 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.44:519][708]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x0000016083184100
+[2017.04.04-06.41.44:522][708]LogTemp:Display: Removed shader map 0x0000016083184100 from material 0x000001607C7D0A00
+[2017.04.04-06.41.44:555][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.04-06.41.44:556][708]LogTemp:Display: Added material ShaderMap 0x00000160D4606B00 with Material 0x0000016084876B00 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.44:559][708]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x00000160D4606B00
+[2017.04.04-06.41.44:563][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.04.04-06.41.44:564][708]LogTemp:Display: Added material ShaderMap 0x00000160D4605280 with Material 0x0000016084876800 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.44:566][708]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x00000160D4605280
+[2017.04.04-06.41.45:207][747]LogTemp:Display: Finished compile of shader map 0x000001601BC35D00
+[2017.04.04-06.41.45:207][747]LogTemp:Display: Shader map T_Scree_001_D_CC_Mat complete, GameThreadShaderMap 0x000001601BC35D00, marking material T_Scree_001_D_CC_Mat as finished
+[2017.04.04-06.41.45:207][747]LogTemp:Display: Marking material as finished 0x000001601EBC8E00
+[2017.04.04-06.41.45:248][750]LogTemp:Display: Finished compile of shader map 0x00000160D4606B00
+[2017.04.04-06.41.45:248][750]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x00000160D4606B00, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.04.04-06.41.45:248][750]LogTemp:Display: Marking material as finished 0x0000016084876B00
+[2017.04.04-06.41.45:331][757]LogTemp:Display: Finished compile of shader map 0x00000160D4605280
+[2017.04.04-06.41.45:331][757]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x00000160D4605280, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.04.04-06.41.45:331][757]LogTemp:Display: Marking material as finished 0x0000016084876800
+[2017.04.04-06.41.45:738][801]LogMaterial: Missing cached shader map for material T_Scree_001_D_CC_Mat, compiling. 
+[2017.04.04-06.41.45:739][801]LogTemp:Display: Added material ShaderMap 0x0000016083186780 with Material 0x000001601EBC8E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.45:745][801]LogTemp:Display: Kicking off shader compilation for T_Scree_001_D_CC_Mat, GameThreadShaderMap 0x0000016083186780
+[2017.04.04-06.41.45:745][801]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.41.45:771][801]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.04.04-06.41.45:771][801]LogTemp:Display: Added material ShaderMap 0x0000016037D7EB00 with Material 0x000001608177AE00 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.45:773][801]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x0000016037D7EB00
+[2017.04.04-06.41.46:423][846]LogTemp:Display: Finished compile of shader map 0x0000016083186780
+[2017.04.04-06.41.46:423][846]LogTemp:Display: Shader map T_Scree_001_D_CC_Mat complete, GameThreadShaderMap 0x0000016083186780, marking material T_Scree_001_D_CC_Mat as finished
+[2017.04.04-06.41.46:423][846]LogTemp:Display: Marking material as finished 0x000001601EBC8E00
+[2017.04.04-06.41.46:438][847]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2017.04.04-06.41.46:438][847]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.04-06.41.46:438][847]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.04-06.41.46:471][850]LogTemp:Display: Finished compile of shader map 0x0000016037D7EB00
+[2017.04.04-06.41.46:471][850]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x0000016037D7EB00, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.04.04-06.41.46:471][850]LogTemp:Display: Marking material as finished 0x000001608177AE00
+[2017.04.04-06.41.46:981][904]LogMaterialEditor: Applying material T_Scree_001_D_CC_Mat
+[2017.04.04-06.41.47:489][904]LogMaterial: Missing cached shader map for material T_Scree_001_D_CC_Mat, compiling. 
+[2017.04.04-06.41.47:490][904]LogTemp:Display: Added material ShaderMap 0x00000160D4604F00 with Material 0x000001601EBC8E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.47:504][904]LogTemp:Display: Kicking off shader compilation for T_Scree_001_D_CC_Mat, GameThreadShaderMap 0x00000160D4604F00
+[2017.04.04-06.41.47:504][904]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.41.47:522][904]LogMaterial: Missing cached shader map for material T_Scree_001_D_CC_Mat, compiling. 
+[2017.04.04-06.41.47:523][904]LogTemp:Display: Added material ShaderMap 0x000001604D97C480 with Material 0x0000016013774880 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.47:542][904]LogTemp:Display: Kicking off shader compilation for T_Scree_001_D_CC_Mat, GameThreadShaderMap 0x000001604D97C480
+[2017.04.04-06.41.47:553][904]LogMaterial: Missing cached shader map for material T_Scree_001_D_CC_Mat, compiling. 
+[2017.04.04-06.41.47:554][904]LogTemp:Display: Added material ShaderMap 0x00000160BBF45D00 with Material 0x0000016013774880 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.47:566][904]LogTemp:Display: Kicking off shader compilation for T_Scree_001_D_CC_Mat, GameThreadShaderMap 0x00000160BBF45D00
+[2017.04.04-06.41.47:567][904]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.41.47:609][904]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy T_Scree_001_D_CC_Mat, compiling. 
+[2017.04.04-06.41.47:609][904]LogTemp:Display: Added material ShaderMap 0x0000016083644F00 with Material 0x000001602338A200 to ShaderMapsBeingCompiled
+[2017.04.04-06.41.48:097][904]LogTemp:Display: Finished compile of shader map 0x0000016083644F00
+[2017.04.04-06.41.48:097][904]LogTemp:Display: Shader map FDebugViewModeMaterialProxy T_Scree_001_D_CC_Mat complete, GameThreadShaderMap 0x0000016083644F00, marking material FDebugViewModeMaterialProxy T_Scree_001_D_CC_Mat as finished
+[2017.04.04-06.41.48:097][904]LogTemp:Display: Marking material as finished 0x000001602338A200
+[2017.04.04-06.41.48:100][904]TextureStreamingBuild:Display: Compiling optional shaders took 0.519 seconds.
+[2017.04.04-06.41.48:119][904]LogTemp:Display: Finished compile of shader map 0x00000160D4604F00
+[2017.04.04-06.41.48:119][904]LogTemp:Display: Shader map T_Scree_001_D_CC_Mat complete, GameThreadShaderMap 0x00000160D4604F00, marking material T_Scree_001_D_CC_Mat as finished
+[2017.04.04-06.41.48:119][904]LogTemp:Display: Marking material as finished 0x000001601EBC8E00
+[2017.04.04-06.41.49:369][ 18]LogTemp:Display: Finished compile of shader map 0x00000160BBF45D00
+[2017.04.04-06.41.49:369][ 18]LogTemp:Display: Shader map T_Scree_001_D_CC_Mat complete, GameThreadShaderMap 0x00000160BBF45D00, marking material T_Scree_001_D_CC_Mat as finished
+[2017.04.04-06.41.49:369][ 18]LogTemp:Display: Marking material as finished 0x0000016013774880
+[2017.04.04-06.42.14:830][757]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2017.04.04-06.42.14:831][757]LogTemp:Display: Added material ShaderMap 0x00000160B9EB5280 with Material 0x00000160B8DE0E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.14:838][757]LogTemp:Display: Kicking off shader compilation for WorldGridMaterial, GameThreadShaderMap 0x00000160B9EB5280
+[2017.04.04-06.42.14:961][757]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.04.04-06.42.14:961][757]LogTemp:Display: Added material ShaderMap 0x00000160E48DEB00 with Material 0x00000160B8DE0E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.15:007][757]LogTemp:Display: Kicking off shader compilation for WorldGridMaterial, GameThreadShaderMap 0x00000160E48DEB00
+[2017.04.04-06.42.15:007][757]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.42.15:053][757]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2017.04.04-06.42.15:054][757]LogTemp:Display: Added material ShaderMap 0x00000160C064E080 with Material 0x00000160E44A0700 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.15:057][757]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_26, GameThreadShaderMap 0x00000160C064E080
+[2017.04.04-06.42.15:068][757]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2017.04.04-06.42.15:069][757]LogTemp:Display: Added material ShaderMap 0x00000160C064C800 with Material 0x00000160849A2200 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.15:071][757]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_27, GameThreadShaderMap 0x00000160C064C800
+[2017.04.04-06.42.15:100][757]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2017.04.04-06.42.15:100][757]LogTemp:Display: Added material ShaderMap 0x00000160B8FD2B00 with Material 0x00000160849A1600 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.15:102][757]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_28, GameThreadShaderMap 0x00000160B8FD2B00
+[2017.04.04-06.42.15:115][757]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2017.04.04-06.42.15:116][757]LogTemp:Display: Added material ShaderMap 0x00000160B8FD1280 with Material 0x00000160849A1900 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.15:117][757]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_6, GameThreadShaderMap 0x00000160B8FD1280
+[2017.04.04-06.42.15:118][757]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2017.04.04-06.42.15:119][757]LogTemp:Display: Added material ShaderMap 0x00000160C05C3900 with Material 0x00000160C05CFA00 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.15:121][757]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_29, GameThreadShaderMap 0x00000160C05C3900
+[2017.04.04-06.42.17:817][894]LogTemp:Display: Finished compile of shader map 0x00000160E48DEB00
+[2017.04.04-06.42.17:817][894]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x00000160E48DEB00, marking material WorldGridMaterial as finished
+[2017.04.04-06.42.17:817][894]LogTemp:Display: Marking material as finished 0x00000160B8DE0E00
+[2017.04.04-06.42.17:839][895]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 114 instructions
+[2017.04.04-06.42.17:839][895]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.04-06.42.17:839][895]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.04.04-06.42.17:879][897]LogTemp:Display: Finished compile of shader map 0x00000160C064E080
+[2017.04.04-06.42.17:879][897]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_26 complete, GameThreadShaderMap 0x00000160C064E080, marking material FMatExpressionPreview MaterialExpressionTextureSample_26 as finished
+[2017.04.04-06.42.17:879][897]LogTemp:Display: Marking material as finished 0x00000160E44A0700
+[2017.04.04-06.42.17:954][901]LogTemp:Display: Finished compile of shader map 0x00000160C064C800
+[2017.04.04-06.42.17:954][901]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_27 complete, GameThreadShaderMap 0x00000160C064C800, marking material FMatExpressionPreview MaterialExpressionTextureSample_27 as finished
+[2017.04.04-06.42.17:954][901]LogTemp:Display: Marking material as finished 0x00000160849A2200
+[2017.04.04-06.42.18:056][906]LogTemp:Display: Finished compile of shader map 0x00000160B8FD2B00
+[2017.04.04-06.42.18:056][906]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_28 complete, GameThreadShaderMap 0x00000160B8FD2B00, marking material FMatExpressionPreview MaterialExpressionTextureSample_28 as finished
+[2017.04.04-06.42.18:056][906]LogTemp:Display: Marking material as finished 0x00000160849A1600
+[2017.04.04-06.42.18:108][909]LogTemp:Display: Finished compile of shader map 0x00000160B8FD1280
+[2017.04.04-06.42.18:108][909]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_6 complete, GameThreadShaderMap 0x00000160B8FD1280, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_6 as finished
+[2017.04.04-06.42.18:108][909]LogTemp:Display: Marking material as finished 0x00000160849A1900
+[2017.04.04-06.42.18:214][916]LogTemp:Display: Finished compile of shader map 0x00000160C05C3900
+[2017.04.04-06.42.18:214][916]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_29 complete, GameThreadShaderMap 0x00000160C05C3900, marking material FMatExpressionPreview MaterialExpressionTextureSample_29 as finished
+[2017.04.04-06.42.18:214][916]LogTemp:Display: Marking material as finished 0x00000160C05CFA00
+[2017.04.04-06.42.23:726][407]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.04.04-06.42.23:727][407]LogTemp:Display: Added material ShaderMap 0x00000160B8F26400 with Material 0x00000160B8DE0E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.23:755][407]LogTemp:Display: Kicking off shader compilation for WorldGridMaterial, GameThreadShaderMap 0x00000160B8F26400
+[2017.04.04-06.42.23:755][407]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (1 / 1)
+[2017.04.04-06.42.23:755][407]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.42.24:580][459]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.04.04-06.42.24:580][459]LogTemp:Display: Added material ShaderMap 0x00000160B8FD2400 with Material 0x00000160B8DE0E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.24:619][459]LogTemp:Display: Kicking off shader compilation for WorldGridMaterial, GameThreadShaderMap 0x00000160B8FD2400
+[2017.04.04-06.42.24:620][459]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.42.24:622][459]LogTemp:Display: Finished compile of shader map 0x00000160B8F26400
+[2017.04.04-06.42.24:622][459]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x00000160B8F26400, marking material WorldGridMaterial as finished
+[2017.04.04-06.42.24:622][459]LogTemp:Display: Marking material as finished 0x00000160B8DE0E00
+[2017.04.04-06.42.27:013][620]LogTemp:Display: Finished compile of shader map 0x00000160B8FD2400
+[2017.04.04-06.42.27:013][620]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x00000160B8FD2400, marking material WorldGridMaterial as finished
+[2017.04.04-06.42.27:013][620]LogTemp:Display: Marking material as finished 0x00000160B8DE0E00
+[2017.04.04-06.42.27:552][670]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.04.04-06.42.27:553][670]LogTemp:Display: Added material ShaderMap 0x00000160E54D5980 with Material 0x00000160B8DE0E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.27:581][670]LogTemp:Display: Kicking off shader compilation for WorldGridMaterial, GameThreadShaderMap 0x00000160E54D5980
+[2017.04.04-06.42.27:581][670]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.42.27:597][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.04.04-06.42.27:598][670]LogTemp:Display: Added material ShaderMap 0x0000016021E76B00 with Material 0x00000160E4EFA200 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.27:600][670]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x0000016021E76B00
+[2017.04.04-06.42.27:604][670]LogTemp:Display: Removed shader map 0x0000016021E76B00 from material 0x00000160E4EFA200
+[2017.04.04-06.42.27:627][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.04.04-06.42.27:628][670]LogTemp:Display: Added material ShaderMap 0x00000160D458EE80 with Material 0x00000160E4EFA200 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.27:631][670]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x00000160D458EE80
+[2017.04.04-06.42.28:776][749]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.04.04-06.42.28:777][749]LogTemp:Display: Added material ShaderMap 0x00000160E6299980 with Material 0x00000160B8DE0E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.28:822][749]LogTemp:Display: Kicking off shader compilation for WorldGridMaterial, GameThreadShaderMap 0x00000160E6299980
+[2017.04.04-06.42.28:822][749]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.42.28:825][749]LogTemp:Display: Removed shader map 0x00000160D458EE80 from material 0x00000160E4EFA200
+[2017.04.04-06.42.28:871][749]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.04.04-06.42.28:872][749]LogTemp:Display: Added material ShaderMap 0x00000160E7A10B80 with Material 0x00000160E7A2C400 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.28:874][749]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x00000160E7A10B80
+[2017.04.04-06.42.28:917][751]LogTemp:Display: Finished compile of shader map 0x00000160E54D5980
+[2017.04.04-06.42.28:917][751]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x00000160E54D5980, marking material WorldGridMaterial as finished
+[2017.04.04-06.42.28:917][751]LogTemp:Display: Marking material as finished 0x00000160B8DE0E00
+[2017.04.04-06.42.30:391][845]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.04.04-06.42.30:391][845]LogTemp:Display: Added material ShaderMap 0x00000160E468DD00 with Material 0x00000160B8DE0E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.30:433][845]LogTemp:Display: Kicking off shader compilation for WorldGridMaterial, GameThreadShaderMap 0x00000160E468DD00
+[2017.04.04-06.42.30:433][845]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.42.30:447][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.04.04-06.42.30:448][845]LogTemp:Display: Added material ShaderMap 0x00000160E8689280 with Material 0x00000160E48CC700 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.30:451][845]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x00000160E8689280
+[2017.04.04-06.42.30:455][845]LogTemp:Display: Removed shader map 0x00000160E7A10B80 from material 0x00000160E7A2C400
+[2017.04.04-06.42.30:455][845]LogTemp:Display: Removed shader map 0x00000160E8689280 from material 0x00000160E48CC700
+[2017.04.04-06.42.30:477][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.04.04-06.42.30:478][845]LogTemp:Display: Added material ShaderMap 0x00000160E8623580 with Material 0x00000160E48CC700 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.30:480][845]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x00000160E8623580
+[2017.04.04-06.42.30:487][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.04.04-06.42.30:488][845]LogTemp:Display: Added material ShaderMap 0x00000160E8621D00 with Material 0x00000160E48CC100 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.30:490][845]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x00000160E8621D00
+[2017.04.04-06.42.30:495][845]LogTemp:Display: Finished compile of shader map 0x00000160E6299980
+[2017.04.04-06.42.30:495][845]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x00000160E6299980, marking material WorldGridMaterial as finished
+[2017.04.04-06.42.30:495][845]LogTemp:Display: Marking material as finished 0x00000160B8DE0E00
+[2017.04.04-06.42.30:589][848]LogTemp:Display: Finished compile of shader map 0x00000160E7A10B80
+[2017.04.04-06.42.31:485][912]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.04.04-06.42.31:486][912]LogTemp:Display: Added material ShaderMap 0x00000160E55EF900 with Material 0x00000160B8DE0E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.31:528][912]LogTemp:Display: Kicking off shader compilation for WorldGridMaterial, GameThreadShaderMap 0x00000160E55EF900
+[2017.04.04-06.42.31:528][912]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.42.31:535][912]LogTemp:Display: Removed shader map 0x00000160E8621D00 from material 0x00000160E48CC100
+[2017.04.04-06.42.31:572][912]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.04.04-06.42.31:572][912]LogTemp:Display: Added material ShaderMap 0x00000160E8140B80 with Material 0x00000160E813D600 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.31:575][912]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x00000160E8140B80
+[2017.04.04-06.42.31:608][914]LogTemp:Display: Finished compile of shader map 0x00000160E468DD00
+[2017.04.04-06.42.31:608][914]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x00000160E468DD00, marking material WorldGridMaterial as finished
+[2017.04.04-06.42.31:608][914]LogTemp:Display: Marking material as finished 0x00000160B8DE0E00
+[2017.04.04-06.42.31:706][920]LogTemp:Display: Finished compile of shader map 0x00000160E8623580
+[2017.04.04-06.42.31:706][920]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_3 complete, GameThreadShaderMap 0x00000160E8623580, marking material FMatExpressionPreview MaterialExpressionTextureSample_3 as finished
+[2017.04.04-06.42.31:706][920]LogTemp:Display: Marking material as finished 0x00000160E48CC700
+[2017.04.04-06.42.32:512][975]LogMaterialEditor: Applying material WorldGridMaterial
+[2017.04.04-06.42.33:271][975]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.04.04-06.42.33:272][975]LogTemp:Display: Added material ShaderMap 0x00000160B9B68480 with Material 0x00000160B8DE0E00 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.33:344][975]LogTemp:Display: Kicking off shader compilation for WorldGridMaterial, GameThreadShaderMap 0x00000160B9B68480
+[2017.04.04-06.42.33:345][975]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.42.33:377][975]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2017.04.04-06.42.33:378][975]LogTemp:Display: Added material ShaderMap 0x00000160E8AB7C80 with Material 0x000001607D539D80 to ShaderMapsBeingCompiled
+[2017.04.04-06.42.36:103][975]LogTemp:Display: Finished compile of shader map 0x00000160E8AB7C80
+[2017.04.04-06.42.36:103][975]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x00000160E8AB7C80, marking material WorldGridMaterial as finished
+[2017.04.04-06.42.36:103][975]LogTemp:Display: Marking material as finished 0x000001607D539D80
+[2017.04.04-06.42.36:121][975]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.04.04-06.42.36:121][975]LogTemp:Display: Added material ShaderMap 0x00000160E8956400 with Material 0x000001607D539D80 to ShaderMapsBeingCompiled
+[2017.04.04-06.43.03:616][975]LogTemp:Display: Finished compile of shader map 0x00000160E8956400
+[2017.04.04-06.43.03:616][975]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x00000160E8956400, marking material WorldGridMaterial as finished
+[2017.04.04-06.43.03:616][975]LogTemp:Display: Marking material as finished 0x000001607D539D80
+[2017.04.04-06.43.03:634][975]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.04-06.43.03:648][975]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.04.04-06.43.03:648][975]LogTemp:Display: Added material ShaderMap 0x00000160EF524480 with Material 0x00000160EF51E200 to ShaderMapsBeingCompiled
+[2017.04.04-06.43.03:766][975]LogTemp:Display: Finished compile of shader map 0x00000160EF524480
+[2017.04.04-06.43.03:766][975]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x00000160EF524480, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.04.04-06.43.03:766][975]LogTemp:Display: Marking material as finished 0x00000160EF51E200
+[2017.04.04-06.43.03:768][975]TextureStreamingBuild:Display: Compiling optional shaders took 0.125 seconds.
+[2017.04.04-06.43.03:798][975]LogTemp:Display: Finished compile of shader map 0x00000160E8140B80
+[2017.04.04-06.43.03:798][975]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_4 complete, GameThreadShaderMap 0x00000160E8140B80, marking material FMatExpressionPreview MaterialExpressionTextureSample_4 as finished
+[2017.04.04-06.43.03:798][975]LogTemp:Display: Marking material as finished 0x00000160E813D600
+[2017.04.04-06.43.03:800][975]LogTemp:Display: Finished compile of shader map 0x00000160B9B68480
+[2017.04.04-06.43.03:801][975]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x00000160B9B68480, marking material WorldGridMaterial as finished
+[2017.04.04-06.43.03:801][975]LogTemp:Display: Marking material as finished 0x00000160B8DE0E00
+[2017.04.04-06.43.03:805][975]LogTemp:Display: Finished compile of shader map 0x00000160E55EF900
+[2017.04.04-06.43.03:806][975]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x00000160E55EF900, marking material WorldGridMaterial as finished
+[2017.04.04-06.43.03:806][975]LogTemp:Display: Marking material as finished 0x00000160B8DE0E00
+[2017.04.04-06.43.03:807][975]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2017.04.04-06.43.03:807][975]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.04-06.43.03:807][975]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.04.04-06.43.19:485][568]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.04.04-06.43.19:792][568]LogCrashTracker: 
+
+
+[2017.04.04-06.43.19:799][568]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.04.04-06.43.19:806][568]LogCrashTracker: 
+
+
+[2017.04.04-06.43.19:806][568]LogWindows:Error: === Critical error: ===
+[2017.04.04-06.43.19:806][568]LogWindows:Error: 
+[2017.04.04-06.43.19:806][568]LogWindows:Error: Fatal error: [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 796] 
+[2017.04.04-06.43.19:806][568]LogWindows:Error: Rendering thread exception:
+[2017.04.04-06.43.19:806][568]LogWindows:Error: Fatal error: [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Renderer\Private\ShaderBaseClasses.cpp] [Line: 175] 
+[2017.04.04-06.43.19:806][568]LogWindows:Error: TBasePassVSFNoLightMapPolicy shader uniform expression set mismatch for material MI_Scree_001_CC/WorldGridMaterial.
+[2017.04.04-06.43.19:806][568]LogWindows:Error: Shader compilation info:                WorldGridMaterial
+[2017.04.04-06.43.19:806][568]LogWindows:Error: Material render proxy compilation info: Compiling WorldGridMaterial: Platform=PCD3D_SM5, Usage=LightingModel=MSM_DefaultLit, BlendMode=BLEND_Opaque, SpecialEngine=1, TwoSided=0, TSNormal=1, Masked=0, Distorted=0, WritesEveryPixel=1, ModifiesMeshPosition=0, Usage={}
+[2017.04.04-06.43.19:806][568]LogWindows:Error: Shader uniform expression set:   5 vectors, 0 scalars, 2 2D textures, 0 cube textures, 0 scalars/frame, 0 vectors/frame, shader map 000001607D540480
+[2017.04.04-06.43.19:806][568]LogWindows:Error: Material uniform expression set: 5 vectors, 0 scalars, 2 2D textures, 0 cube textures, 0 scalars/frame, 0 vectors/frame, shader map 00000160E8956400
+[2017.04.04-06.43.19:806][568]LogWindows:Error: 
+[2017.04.04-06.43.19:806][568]LogWindows:Error: 
+[2017.04.04-06.43.19:806][568]LogWindows:Error: 
+[2017.04.04-06.43.19:806][568]LogWindows:Error: KERNELBASE.dll!0x0000000036387788
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Core.dll!0x00000000F96964EE
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Core.dll!0x00000000F94BCEEE
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Core.dll!0x00000000F9442729
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Renderer.dll!0x00000000EF9C17A3
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Renderer.dll!0x00000000EF9530F7
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Renderer.dll!0x00000000EF4EE123
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Renderer.dll!0x00000000EF4F89CB
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Renderer.dll!0x00000000EF459DF1
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Renderer.dll!0x00000000EF45A7D3
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Renderer.dll!0x00000000EF4AB18D
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Renderer.dll!0x00000000EF4DD474
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Renderer.dll!0x00000000EF4DE7BB
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Renderer.dll!0x00000000EF4DCFCA
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Renderer.dll!0x00000000EF54F62B
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Renderer.dll!0x00000000EF9167A2
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Renderer.dll!0x00000000EF8E094E
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Core.dll!0x00000000F931D84D
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Core.dll!0x00000000F931DC6D
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-RenderCore.dll!0x000000001F950397
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-RenderCore.dll!0x000000001F951486
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Core.dll!0x00000000F96AA3D8
+[2017.04.04-06.43.19:806][568]LogWindows:Error: UE4Editor-Core.dll!0x00000000F96A4C79
+[2017.04.04-06.43.19:806][568]LogWindows:Error: KERNEL32.DLL!0x0000000037918364
+[2017.04.04-06.43.19:806][568]LogWindows:Error: ntdll.dll!0x00000000399B70D1
+[2017.04.04-06.43.19:806][568]LogWindows:Error: ntdll.dll!0x00000000399B70D1
+[2017.04.04-06.43.19:806][568]LogWindows:Error: 
+[2017.04.04-06.43.19:806][568]LogWindows:Error: 
+[2017.04.04-06.43.19:806][568]LogWindows:Error: 
+[2017.04.04-06.43.19:806][568]LogWindows:Error: 
+[2017.04.04-06.43.19:832][568]LogExit: Executing StaticShutdownAfterError
+[2017.04.04-06.43.19:835][568]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.04.04-06.43.19:835][568]Log file closed, 04/04/17 01:43:19
