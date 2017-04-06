@@ -1,0 +1,1212 @@
+﻿Log file open, 04/05/17 23:59:12
+LogInit:Display: Running engine for game: MALUM
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(278921532) SRandInit(278921532).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.072744
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files (x86)/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.05-21.59.13:429][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.05-21.59.13:429][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.05-21.59.13:506][  0]LogInit: Computer: PC1
+[2017.04.05-21.59.13:506][  0]LogInit: User: Jorn
+[2017.04.05-21.59.13:506][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.05-21.59.13:506][  0]LogInit: High frequency timer resolution =3.117796 MHz
+[2017.04.05-21.59.13:506][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.04.05-21.59.13:506][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.05-21.59.13:506][  0]LogMemory: Process Physical Memory: 263.22 MB used, 263.22 MB peak
+[2017.04.05-21.59.13:506][  0]LogMemory: Process Virtual Memory: 262.67 MB used, 262.67 MB peak
+[2017.04.05-21.59.13:506][  0]LogMemory: Physical Memory: 7286.10 MB used,  858.34 MB free, 8144.44 MB total
+[2017.04.05-21.59.13:506][  0]LogMemory: Virtual Memory: 630.32 MB used,  858.34 MB free, 134217728.00 MB total
+[2017.04.05-21.59.13:568][  0]LogTextLocalizationManager: No translations for ('nl-BE') exist, falling back to 'en' for localization and internationalization data.
+[2017.04.05-21.59.14:233][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.05-21.59.14:264][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2017.04.05-21.59.14:264][  0]LogD3D11RHI:       4059/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.04.05-21.59.14:268][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.05-21.59.14:268][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.05-21.59.14:268][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.05-21.59.14:274][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.05-21.59.14:274][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.05-21.59.14:274][  0]LogWindows: EnumDisplayDevices:
+[2017.04.05-21.59.14:274][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2017.04.05-21.59.14:274][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2017.04.05-21.59.14:275][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.04.05-21.59.14:275][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.04.05-21.59.14:275][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.05-21.59.14:275][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2017.04.05-21.59.14:275][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.04.05-21.59.14:275][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.04.05-21.59.14:275][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.05-21.59.14:296][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.05-21.59.14:308][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.05-21.59.14:404][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Intermediate/Shaders/WorkingDirectory/6192/).
+[2017.04.05-21.59.14:405][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jorn/AppData/Local/Temp/UnrealShaderWorkingDir/E3CE7DC8486DE8C989F692BA05F60CD2/'.
+[2017.04.05-21.59.14:405][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.05-21.59.15:744][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.05-21.59.15:796][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.05-21.59.15:850][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.05-21.59.15:903][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.05-21.59.15:957][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.05-21.59.16:010][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.05-21.59.16:068][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.05-21.59.16:156][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.05-21.59.16:196][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.05-21.59.16:274][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.05-21.59.16:316][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.05-21.59.16:363][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.05-21.59.16:411][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.05-21.59.16:454][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.05-21.59.16:498][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.05-21.59.16:641][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.05-21.59.16:641][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.05-21.59.16:668][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.05-21.59.16:778][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.05-21.59.16:807][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.05-21.59.16:853][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.05-21.59.16:901][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.05-21.59.16:947][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.05-21.59.16:992][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.05-21.59.16:992][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.05-21.59.17:408][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.05-21.59.17:485][  0]LogDerivedDataCache: Loaded boot cache 0.08s 50MB C:/Users/Jorn/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.05-21.59.17:485][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jorn/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.05-21.59.17:486][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.05-21.59.17:486][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.05-21.59.17:486][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.05-21.59.17:486][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.05-21.59.17:552][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.05-21.59.17:571][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jorn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.05-21.59.17:582][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.05-21.59.17:664][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.05-21.59.17:664][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.05-21.59.27:894][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.05-21.59.27:897][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.05-21.59.28:232][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.05-21.59.28:564][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.05-21.59.28:647][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.05-21.59.28:647][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.05-21.59.28:647][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.05-21.59.29:533][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: malum, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2995604447
+[2017.04.05-21.59.29:600][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2017.04.05-21.59.29:705][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.087676 seconds
+[2017.04.05-21.59.29:711][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.05-21.59.29:711][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.05-21.59.29:711][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.05-21.59.29:778][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.05-22.00.00:917][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.05-22.00.01:137][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.05-22.00.03:701][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.05-22.00.05:181][  0]SourceControl: Info Source control is disabled
+[2017.04.05-22.00.05:182][  0]SourceControl: Info Source control is disabled
+[2017.04.05-22.00.05:270][  0]SourceControl: Info Source control is disabled
+[2017.04.05-22.00.05:330][  0]SourceControl: Info Source control is disabled
+[2017.04.05-22.00.06:957][  0]LogEngine: Initializing Engine...
+[2017.04.05-22.00.06:958][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.05-22.00.07:448][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.05-22.00.07:502][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.05-22.00.07:550][  0]LogInit: FAudioDevice initialized.
+[2017.04.05-22.00.07:580][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Jorn/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.05-22.00.07:587][  0]LogInit: Texture streaming: Enabled
+[2017.04.05-22.00.07:699][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.05-22.00.07:823][  0]LogInit: Transaction tracking system initialized
+[2017.04.05-22.00.08:169][  0]BlueprintLog: New page: Editor Load
+[2017.04.05-22.00.09:198][  0]LocalizationService: Info Localization service is disabled
+[2017.04.05-22.00.10:312][  0]LogConsoleResponse:Display: 
+[2017.04.05-22.00.12:450][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.05-22.00.12:450][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.05-22.00.13:689][  0]LogFileCache: Scanning file cache for directory 'D:/D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/' took 0.08s
+[2017.04.05-22.00.15:144][  0]SourceControl: Info Source control is disabled
+[2017.04.05-22.00.15:144][  0]Cmd: MAP LOAD FILE="../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.05-22.00.15:144][  0]LogEditorServer:Warning: Can't find file '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.04.05-22.00.15:157][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.05-22.00.15:203][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.411ms to complete.
+[2017.04.05-22.00.15:203][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.059
+[2017.04.05-22.00.17:241][  0]LogCollectionManager: Loaded 0 collections in 0.000903 seconds
+[2017.04.05-22.00.17:398][  0]LogFileCache: Scanning file cache for directory 'D:/D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/Collections/' took 0.01s
+[2017.04.05-22.00.17:398][  0]LogFileCache: Scanning file cache for directory 'D:/D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/Developers/Jorn/Collections/' took 0.01s
+[2017.04.05-22.00.17:398][  0]LogFileCache: Scanning file cache for directory 'D:/D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/Collections/' took 0.01s
+[2017.04.05-22.00.17:398][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.04.05-22.00.17:426][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2245 classes and 453 folders.
+[2017.04.05-22.00.17:515][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.05-22.00.17:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.05-22.00.17:636][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.05-22.00.19:531][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.04.05-22.00.19:693][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.05-22.00.20:186][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.05-22.00.20:410][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.05-22.00.20:529][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.05-22.00.20:529][  0]LogLoad: (Engine Initialization) Total time: 70.83 seconds
+[2017.04.05-22.00.20:529][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.23 seconds
+[2017.04.05-22.00.20:529][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.05-22.00.20:529][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.05-22.00.20:872][  0]LogOcInput: OculusInput pre-init called
+[2017.04.05-22.00.21:052][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.05-22.00.21:077][  0]LogSlate: Took 0.023865 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.05-22.00.21:086][  0]LogSlate: Took 0.003712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.05-22.00.21:168][  0]LogSlate: Took 0.015206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.05-22.00.22:332][  0]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:2).
+[2017.04.05-22.00.22:780][  1]LogSlate: Took 0.011788 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.05-22.00.22:914][  2]LogAssetRegistry: Asset discovery search completed in 53.3348 seconds
+[2017.04.05-22.00.22:914][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.04.05-22.00.22:914][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.04.05-22.03.15:191][234]LogSlate: Took 0.000440 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.05-22.03.15:871][234]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.05-22.03.16:277][234]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.04.05-22.03.18:654][234]LogSlate: Took 0.017619 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.05-22.03.19:410][235]LogSlate: Took 0.013318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.05-22.04.01:114][  0]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.05-22.04.01:626][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.05-22.04.02:048][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.04.05-22.04.10:811][711]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.05-22.04.36:041][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationTests/AnimationBP_Male2" FILE="../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset" SILENT=true
+[2017.04.05-22.04.36:284][941]LogSavePackage: Save=209.08ms
+[2017.04.05-22.04.36:284][941]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/AnimationBP_Male2E080DCF34D7FEE2430BCED8DD968A560.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset'
+[2017.04.05-22.04.36:305][941]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset
+[2017.04.05-22.04.38:997][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationTests/AnimationBP_Male2" FILE="../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset" SILENT=true
+[2017.04.05-22.04.39:024][180]LogSavePackage: Save=24.83ms
+[2017.04.05-22.04.39:024][180]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/AnimationBP_Male23E1A01B643453B90C63084A1E63B762A.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset'
+[2017.04.05-22.04.39:029][180]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset
+[2017.04.05-22.04.40:169][284]BlueprintLog: New page: Compile AnimationBP_Male2
+[2017.04.05-22.04.40:995][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationTests/AnimationBP_Male2" FILE="../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset" SILENT=true
+[2017.04.05-22.04.41:059][315]LogSavePackage: Save=61.74ms
+[2017.04.05-22.04.41:059][315]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/AnimationBP_Male298498A2A424CEB8B31943A9DCC812BE9.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset'
+[2017.04.05-22.04.41:061][315]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset
+[2017.04.05-22.05.53:538][474]LogRenderer: Reallocating scene render targets to support 1208x584 NumSamples 1 (Frame:12616).
+[2017.04.05-22.06.05:362][632]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jorn\Downloads\JumpinPlace_Landing_14-22.fbx)
+[2017.04.05-22.06.05:525][632]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.05-22.06.05:525][632]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2017.04.05-22.06.05:525][632]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.04.05-22.06.05:525][632]LogFbx: ItemName: Model, ItemCount : 67
+[2017.04.05-22.06.05:525][632]LogFbx: ItemName: Material, ItemCount : 1
+[2017.04.05-22.06.05:525][632]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2017.04.05-22.06.05:525][632]LogFbx: ItemName: AnimationCurveNode, ItemCount : 546
+[2017.04.05-22.06.05:525][632]LogFbx: ItemName: AnimationCurve, ItemCount : 318
+[2017.04.05-22.06.05:525][632]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.04.05-22.06.05:525][632]LogFbx: ItemName: Deformer, ItemCount : 53
+[2017.04.05-22.06.05:525][632]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.04.05-22.06.05:537][632]LogFbx: Loading FBX Scene from C:\Users\Jorn\Downloads\JumpinPlace_Landing_14-22.fbx
+[2017.04.05-22.06.05:595][632]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.05-22.06.13:557][632]LogFbx: Loading FBX Scene from C:\Users\Jorn\Downloads\JumpinPlace_Landing_14-22.fbx
+[2017.04.05-22.06.13:606][632]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.05-22.06.13:612][632]LogFbx: =================================================
+[2017.04.05-22.06.13:612][632]LogFbx: Dumping Node START [default1] 
+[2017.04.05-22.06.13:612][632]LogFbx: 	Total Deformer Count 1136533464.
+[2017.04.05-22.06.13:612][632]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.13:612][632]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
+[2017.04.05-22.06.13:612][632]LogFbx: Dumping Node END [default1]
+[2017.04.05-22.06.13:612][632]LogFbx: =================================================
+[2017.04.05-22.06.13:612][632]LogFbx: Dumping Node START [M_standard_02] 
+[2017.04.05-22.06.13:612][632]LogFbx: 	Total Deformer Count 568109280.
+[2017.04.05-22.06.13:612][632]LogFbx: 		[Node 1]  (Type Skin).
+[2017.04.05-22.06.13:612][632]LogFbx: =================================================
+[2017.04.05-22.06.13:612][632]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.13:612][632]LogFbx: 		[Node Attribute Child 1] M_standard_02 (Type Mesh).
+[2017.04.05-22.06.13:612][632]LogFbx: Dumping Node END [M_standard_02]
+[2017.04.05-22.06.13:612][632]LogFbx: =================================================
+[2017.04.05-22.06.13:612][632]LogFbx: Dumping Node START [default1] 
+[2017.04.05-22.06.13:612][632]LogFbx: 	Total Deformer Count 1136529880.
+[2017.04.05-22.06.13:612][632]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.13:612][632]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
+[2017.04.05-22.06.13:612][632]LogFbx: Dumping Node END [default1]
+[2017.04.05-22.06.13:612][632]LogFbx: =================================================
+[2017.04.05-22.06.13:612][632]LogFbx: Dumping Node START [M_standard_02] 
+[2017.04.05-22.06.13:612][632]LogFbx: 	Total Deformer Count 568108880.
+[2017.04.05-22.06.13:612][632]LogFbx: 		[Node 1]  (Type Skin).
+[2017.04.05-22.06.13:612][632]LogFbx: =================================================
+[2017.04.05-22.06.13:612][632]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.13:612][632]LogFbx: 		[Node Attribute Child 1] M_standard_02 (Type Mesh).
+[2017.04.05-22.06.13:612][632]LogFbx: Dumping Node END [M_standard_02]
+[2017.04.05-22.06.13:616][632]LogFbx: Valid bind pose for Pose (skinCluster1) - M_standard_02
+[2017.04.05-22.06.13:618][632]LogLinker: Can't find file '/Game/AnimationTests/Jumping/lambert1'
+[2017.04.05-22.06.13:619][632]LogLinker: Can't find file '/Game/AnimationTests/Jumping/lambert1'
+[2017.04.05-22.06.13:660][632]LogMaterial:Warning: Material /Game/AnimationTests/Jumping/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.05-22.06.13:670][632]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.04.05-22.06.13:673][632]LogTemp:Display: Added material ShaderMap 0x000001E522EB6B00 with Material 0x000001E5195D4100 to ShaderMapsBeingCompiled
+[2017.04.05-22.06.13:782][632]LogTemp:Display: Kicking off shader compilation for lambert1, GameThreadShaderMap 0x000001E522EB6B00
+[2017.04.05-22.06.13:784][632]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.05-22.06.13:786][632]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.04.05-22.06.13:788][632]LogTemp:Display: Added material ShaderMap 0x000001E535886E80 with Material 0x000001E5195D4100 to ShaderMapsBeingCompiled
+[2017.04.05-22.06.13:817][632]LogTemp:Display: Kicking off shader compilation for lambert1, GameThreadShaderMap 0x000001E535886E80
+[2017.04.05-22.06.13:845][632]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.04.05-22.06.13:969][632]LogSkeletalMesh: Section 0: 2307 vertices, 52 active bones
+[2017.04.05-22.06.13:981][632]LogSkeletalMesh: Section 0: Material=0, 3858 triangles
+[2017.04.05-22.06.14:030][632]LogLinker: Can't find file '/Game/AnimationTests/Jumping/JumpinPlace_Landing_14-22_PhysicsAsset'
+[2017.04.05-22.06.14:030][632]LogLinker: Can't find file '/Game/AnimationTests/Jumping/JumpinPlace_Landing_14-22_PhysicsAsset'
+[2017.04.05-22.06.14:046][632]LogFbx: =================================================
+[2017.04.05-22.06.14:046][632]LogFbx: Dumping Node START [default1] 
+[2017.04.05-22.06.14:046][632]LogFbx: 	Total Deformer Count 579485584.
+[2017.04.05-22.06.14:046][632]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.14:046][632]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
+[2017.04.05-22.06.14:046][632]LogFbx: Dumping Node END [default1]
+[2017.04.05-22.06.14:046][632]LogFbx: =================================================
+[2017.04.05-22.06.14:046][632]LogFbx: Dumping Node START [M_standard_02] 
+[2017.04.05-22.06.14:046][632]LogFbx: 	Total Deformer Count 557877824.
+[2017.04.05-22.06.14:046][632]LogFbx: 		[Node 1]  (Type Skin).
+[2017.04.05-22.06.14:046][632]LogFbx: =================================================
+[2017.04.05-22.06.14:046][632]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.14:046][632]LogFbx: 		[Node Attribute Child 1] M_standard_02 (Type Mesh).
+[2017.04.05-22.06.14:046][632]LogFbx: Dumping Node END [M_standard_02]
+[2017.04.05-22.06.14:046][632]LogFbx: =================================================
+[2017.04.05-22.06.14:046][632]LogFbx: Dumping Node START [default1] 
+[2017.04.05-22.06.14:046][632]LogFbx: 	Total Deformer Count 579485248.
+[2017.04.05-22.06.14:046][632]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.14:046][632]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
+[2017.04.05-22.06.14:046][632]LogFbx: Dumping Node END [default1]
+[2017.04.05-22.06.14:046][632]LogFbx: =================================================
+[2017.04.05-22.06.14:046][632]LogFbx: Dumping Node START [M_standard_02] 
+[2017.04.05-22.06.14:046][632]LogFbx: 	Total Deformer Count 557877904.
+[2017.04.05-22.06.14:046][632]LogFbx: 		[Node 1]  (Type Skin).
+[2017.04.05-22.06.14:047][632]LogFbx: =================================================
+[2017.04.05-22.06.14:047][632]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.14:047][632]LogFbx: 		[Node Attribute Child 1] M_standard_02 (Type Mesh).
+[2017.04.05-22.06.14:047][632]LogFbx: Dumping Node END [M_standard_02]
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(0) Hips
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(1) Spine
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(2) Spine1
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(3) Spine2
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(4) Neck
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(5) Head
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(8) LeftArm
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(10) LeftHand
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(23) LeftHandRing1
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(24) LeftHandRing2
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(25) LeftHandRing3
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(26) LeftHandRing4
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(31) RightShoulder
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(32) RightArm
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(33) RightForeArm
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(34) RightHand
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(35) RightHandThumb1
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(36) RightHandThumb2
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(37) RightHandThumb3
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(38) RightHandThumb4
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(39) RightHandIndex1
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(40) RightHandIndex2
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(41) RightHandIndex3
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(42) RightHandIndex4
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(47) RightHandRing1
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(48) RightHandRing2
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(49) RightHandRing3
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(50) RightHandRing4
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(51) RightHandPinky1
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(52) RightHandPinky2
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(53) RightHandPinky3
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(54) RightHandPinky4
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(55) LeftUpLeg
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(56) LeftLeg
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(57) LeftFoot
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(58) LeftToeBase
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(59) LeftToe_End
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(60) RightUpLeg
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(61) RightLeg
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(62) RightFoot
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(63) RightToeBase
+[2017.04.05-22.06.14:048][632]LogFbx: SortedLinks :(64) RightToe_End
+[2017.04.05-22.06.14:049][632]LogFbx: Parsing AnimStack JumpinPlace_Landing 14-22
+[2017.04.05-22.06.14:082][632]LogLinker: Can't find file '/Game/AnimationTests/Jumping/JumpinPlace_Landing_14-22_Anim'
+[2017.04.05-22.06.14:082][632]LogLinker: Can't find file '/Game/AnimationTests/Jumping/JumpinPlace_Landing_14-22_Anim'
+[2017.04.05-22.06.14:189][632]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationTests/Jumping/JumpinPlace_Landing_14-22_Anim.JumpinPlace_Landing_14-22_Anim
+[2017.04.05-22.06.14:316][632]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+mixamorig:LeftToe_End  
+mixamorig:RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.04.05-22.06.20:040][685]LogTemp:Display: Finished compile of shader map 0x000001E535886E80
+[2017.04.05-22.06.20:040][685]LogTemp:Display: Shader map lambert1 complete, GameThreadShaderMap 0x000001E535886E80, marking material lambert1 as finished
+[2017.04.05-22.06.20:040][685]LogTemp:Display: Marking material as finished 0x000001E5195D4100
+[2017.04.05-22.06.21:053][688]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jorn\Downloads\JumpinPlace_TakeOff_1-8.fbx)
+[2017.04.05-22.06.21:062][688]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.05-22.06.21:062][688]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2017.04.05-22.06.21:062][688]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.04.05-22.06.21:062][688]LogFbx: ItemName: Model, ItemCount : 67
+[2017.04.05-22.06.21:062][688]LogFbx: ItemName: Material, ItemCount : 1
+[2017.04.05-22.06.21:062][688]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2017.04.05-22.06.21:062][688]LogFbx: ItemName: AnimationCurveNode, ItemCount : 546
+[2017.04.05-22.06.21:062][688]LogFbx: ItemName: AnimationCurve, ItemCount : 318
+[2017.04.05-22.06.21:062][688]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.04.05-22.06.21:062][688]LogFbx: ItemName: Deformer, ItemCount : 53
+[2017.04.05-22.06.21:062][688]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.04.05-22.06.21:067][688]LogFbx: Loading FBX Scene from C:\Users\Jorn\Downloads\JumpinPlace_TakeOff_1-8.fbx
+[2017.04.05-22.06.21:111][688]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.05-22.06.38:822][688]LogFbx: Loading FBX Scene from C:\Users\Jorn\Downloads\JumpinPlace_TakeOff_1-8.fbx
+[2017.04.05-22.06.38:868][688]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.05-22.06.38:874][688]LogFbx: =================================================
+[2017.04.05-22.06.38:874][688]LogFbx: Dumping Node START [default1] 
+[2017.04.05-22.06.38:874][688]LogFbx: 	Total Deformer Count 579469792.
+[2017.04.05-22.06.38:874][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.38:874][688]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
+[2017.04.05-22.06.38:874][688]LogFbx: Dumping Node END [default1]
+[2017.04.05-22.06.38:874][688]LogFbx: =================================================
+[2017.04.05-22.06.38:874][688]LogFbx: Dumping Node START [M_standard_02] 
+[2017.04.05-22.06.38:874][688]LogFbx: 	Total Deformer Count 569160736.
+[2017.04.05-22.06.38:874][688]LogFbx: 		[Node 1]  (Type Skin).
+[2017.04.05-22.06.38:874][688]LogFbx: =================================================
+[2017.04.05-22.06.38:874][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.38:874][688]LogFbx: 		[Node Attribute Child 1] M_standard_02 (Type Mesh).
+[2017.04.05-22.06.38:874][688]LogFbx: Dumping Node END [M_standard_02]
+[2017.04.05-22.06.38:874][688]LogFbx: =================================================
+[2017.04.05-22.06.38:874][688]LogFbx: Dumping Node START [default1] 
+[2017.04.05-22.06.38:874][688]LogFbx: 	Total Deformer Count 579470072.
+[2017.04.05-22.06.38:874][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.38:874][688]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
+[2017.04.05-22.06.38:874][688]LogFbx: Dumping Node END [default1]
+[2017.04.05-22.06.38:874][688]LogFbx: =================================================
+[2017.04.05-22.06.38:874][688]LogFbx: Dumping Node START [M_standard_02] 
+[2017.04.05-22.06.38:874][688]LogFbx: 	Total Deformer Count 569160016.
+[2017.04.05-22.06.38:874][688]LogFbx: 		[Node 1]  (Type Skin).
+[2017.04.05-22.06.38:874][688]LogFbx: =================================================
+[2017.04.05-22.06.38:874][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.38:874][688]LogFbx: 		[Node Attribute Child 1] M_standard_02 (Type Mesh).
+[2017.04.05-22.06.38:874][688]LogFbx: Dumping Node END [M_standard_02]
+[2017.04.05-22.06.38:876][688]LogFbx: Valid bind pose for Pose (skinCluster1) - M_standard_02
+[2017.04.05-22.06.38:885][688]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.04.05-22.06.38:966][688]LogSkeletalMesh: Section 0: 2307 vertices, 52 active bones
+[2017.04.05-22.06.38:978][688]LogSkeletalMesh: Section 0: Material=0, 3858 triangles
+[2017.04.05-22.06.38:980][688]LogLinker: Can't find file '/Game/AnimationTests/Jumping/JumpinPlace_TakeOff_1-8_PhysicsAsset'
+[2017.04.05-22.06.38:980][688]LogLinker: Can't find file '/Game/AnimationTests/Jumping/JumpinPlace_TakeOff_1-8_PhysicsAsset'
+[2017.04.05-22.06.38:983][688]LogFbx: =================================================
+[2017.04.05-22.06.38:983][688]LogFbx: Dumping Node START [default1] 
+[2017.04.05-22.06.38:983][688]LogFbx: 	Total Deformer Count 579479816.
+[2017.04.05-22.06.38:983][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.38:983][688]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
+[2017.04.05-22.06.38:983][688]LogFbx: Dumping Node END [default1]
+[2017.04.05-22.06.38:983][688]LogFbx: =================================================
+[2017.04.05-22.06.38:983][688]LogFbx: Dumping Node START [M_standard_02] 
+[2017.04.05-22.06.38:983][688]LogFbx: 	Total Deformer Count 554963632.
+[2017.04.05-22.06.38:983][688]LogFbx: 		[Node 1]  (Type Skin).
+[2017.04.05-22.06.38:983][688]LogFbx: =================================================
+[2017.04.05-22.06.38:983][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.38:983][688]LogFbx: 		[Node Attribute Child 1] M_standard_02 (Type Mesh).
+[2017.04.05-22.06.38:983][688]LogFbx: Dumping Node END [M_standard_02]
+[2017.04.05-22.06.38:983][688]LogFbx: =================================================
+[2017.04.05-22.06.38:983][688]LogFbx: Dumping Node START [default1] 
+[2017.04.05-22.06.38:983][688]LogFbx: 	Total Deformer Count 579481216.
+[2017.04.05-22.06.38:983][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.38:983][688]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
+[2017.04.05-22.06.38:983][688]LogFbx: Dumping Node END [default1]
+[2017.04.05-22.06.38:983][688]LogFbx: =================================================
+[2017.04.05-22.06.38:983][688]LogFbx: Dumping Node START [M_standard_02] 
+[2017.04.05-22.06.38:983][688]LogFbx: 	Total Deformer Count 554974032.
+[2017.04.05-22.06.38:983][688]LogFbx: 		[Node 1]  (Type Skin).
+[2017.04.05-22.06.38:983][688]LogFbx: =================================================
+[2017.04.05-22.06.38:983][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.38:983][688]LogFbx: 		[Node Attribute Child 1] M_standard_02 (Type Mesh).
+[2017.04.05-22.06.38:983][688]LogFbx: Dumping Node END [M_standard_02]
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(0) Hips
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(1) Spine
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(2) Spine1
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(3) Spine2
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(4) Neck
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(5) Head
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(8) LeftArm
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(10) LeftHand
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(23) LeftHandRing1
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(24) LeftHandRing2
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(25) LeftHandRing3
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(26) LeftHandRing4
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(31) RightShoulder
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(32) RightArm
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(33) RightForeArm
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(34) RightHand
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(35) RightHandThumb1
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(36) RightHandThumb2
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(37) RightHandThumb3
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(38) RightHandThumb4
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(39) RightHandIndex1
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(40) RightHandIndex2
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(41) RightHandIndex3
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(42) RightHandIndex4
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(47) RightHandRing1
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(48) RightHandRing2
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(49) RightHandRing3
+[2017.04.05-22.06.38:984][688]LogFbx: SortedLinks :(50) RightHandRing4
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(51) RightHandPinky1
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(52) RightHandPinky2
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(53) RightHandPinky3
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(54) RightHandPinky4
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(55) LeftUpLeg
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(56) LeftLeg
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(57) LeftFoot
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(58) LeftToeBase
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(59) LeftToe_End
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(60) RightUpLeg
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(61) RightLeg
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(62) RightFoot
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(63) RightToeBase
+[2017.04.05-22.06.38:985][688]LogFbx: SortedLinks :(64) RightToe_End
+[2017.04.05-22.06.38:986][688]LogFbx: Parsing AnimStack JumpinPlace_TakeOff 1-8
+[2017.04.05-22.06.38:988][688]LogLinker: Can't find file '/Game/AnimationTests/Jumping/JumpinPlace_TakeOff_1-8_Anim'
+[2017.04.05-22.06.38:988][688]LogLinker: Can't find file '/Game/AnimationTests/Jumping/JumpinPlace_TakeOff_1-8_Anim'
+[2017.04.05-22.06.39:089][688]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationTests/Jumping/JumpinPlace_TakeOff_1-8_Anim.JumpinPlace_TakeOff_1-8_Anim
+[2017.04.05-22.06.39:101][688]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+mixamorig:LeftToe_End  
+mixamorig:RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.04.05-22.06.39:109][688]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\Jorn\Downloads\JumpinPlace_MidAir_9-13.fbx)
+[2017.04.05-22.06.39:124][688]LogFbx: Loading FBX Scene from C:\Users\Jorn\Downloads\JumpinPlace_MidAir_9-13.fbx
+[2017.04.05-22.06.39:170][688]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.05-22.06.39:175][688]LogFbx: =================================================
+[2017.04.05-22.06.39:175][688]LogFbx: Dumping Node START [default1] 
+[2017.04.05-22.06.39:175][688]LogFbx: 	Total Deformer Count 579474944.
+[2017.04.05-22.06.39:175][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.39:175][688]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
+[2017.04.05-22.06.39:175][688]LogFbx: Dumping Node END [default1]
+[2017.04.05-22.06.39:175][688]LogFbx: =================================================
+[2017.04.05-22.06.39:175][688]LogFbx: Dumping Node START [M_standard_02] 
+[2017.04.05-22.06.39:175][688]LogFbx: 	Total Deformer Count 554967392.
+[2017.04.05-22.06.39:175][688]LogFbx: 		[Node 1]  (Type Skin).
+[2017.04.05-22.06.39:175][688]LogFbx: =================================================
+[2017.04.05-22.06.39:175][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.39:175][688]LogFbx: 		[Node Attribute Child 1] M_standard_02 (Type Mesh).
+[2017.04.05-22.06.39:175][688]LogFbx: Dumping Node END [M_standard_02]
+[2017.04.05-22.06.39:175][688]LogFbx: =================================================
+[2017.04.05-22.06.39:175][688]LogFbx: Dumping Node START [default1] 
+[2017.04.05-22.06.39:175][688]LogFbx: 	Total Deformer Count 579480544.
+[2017.04.05-22.06.39:175][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.39:175][688]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
+[2017.04.05-22.06.39:175][688]LogFbx: Dumping Node END [default1]
+[2017.04.05-22.06.39:175][688]LogFbx: =================================================
+[2017.04.05-22.06.39:175][688]LogFbx: Dumping Node START [M_standard_02] 
+[2017.04.05-22.06.39:175][688]LogFbx: 	Total Deformer Count 554969072.
+[2017.04.05-22.06.39:175][688]LogFbx: 		[Node 1]  (Type Skin).
+[2017.04.05-22.06.39:175][688]LogFbx: =================================================
+[2017.04.05-22.06.39:175][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.39:175][688]LogFbx: 		[Node Attribute Child 1] M_standard_02 (Type Mesh).
+[2017.04.05-22.06.39:175][688]LogFbx: Dumping Node END [M_standard_02]
+[2017.04.05-22.06.39:177][688]LogFbx: Valid bind pose for Pose (skinCluster1) - M_standard_02
+[2017.04.05-22.06.39:184][688]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.04.05-22.06.39:261][688]LogSkeletalMesh: Section 0: 2307 vertices, 52 active bones
+[2017.04.05-22.06.39:273][688]LogSkeletalMesh: Section 0: Material=0, 3858 triangles
+[2017.04.05-22.06.39:275][688]LogLinker: Can't find file '/Game/AnimationTests/Jumping/JumpinPlace_MidAir_9-13_PhysicsAsset'
+[2017.04.05-22.06.39:275][688]LogLinker: Can't find file '/Game/AnimationTests/Jumping/JumpinPlace_MidAir_9-13_PhysicsAsset'
+[2017.04.05-22.06.39:277][688]LogFbx: =================================================
+[2017.04.05-22.06.39:277][688]LogFbx: Dumping Node START [default1] 
+[2017.04.05-22.06.39:277][688]LogFbx: 	Total Deformer Count 579479984.
+[2017.04.05-22.06.39:277][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.39:277][688]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
+[2017.04.05-22.06.39:277][688]LogFbx: Dumping Node END [default1]
+[2017.04.05-22.06.39:277][688]LogFbx: =================================================
+[2017.04.05-22.06.39:277][688]LogFbx: Dumping Node START [M_standard_02] 
+[2017.04.05-22.06.39:277][688]LogFbx: 	Total Deformer Count 553105136.
+[2017.04.05-22.06.39:277][688]LogFbx: 		[Node 1]  (Type Skin).
+[2017.04.05-22.06.39:277][688]LogFbx: =================================================
+[2017.04.05-22.06.39:278][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.39:278][688]LogFbx: 		[Node Attribute Child 1] M_standard_02 (Type Mesh).
+[2017.04.05-22.06.39:278][688]LogFbx: Dumping Node END [M_standard_02]
+[2017.04.05-22.06.39:278][688]LogFbx: =================================================
+[2017.04.05-22.06.39:278][688]LogFbx: Dumping Node START [default1] 
+[2017.04.05-22.06.39:278][688]LogFbx: 	Total Deformer Count 579471472.
+[2017.04.05-22.06.39:278][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.39:278][688]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
+[2017.04.05-22.06.39:278][688]LogFbx: Dumping Node END [default1]
+[2017.04.05-22.06.39:278][688]LogFbx: =================================================
+[2017.04.05-22.06.39:278][688]LogFbx: Dumping Node START [M_standard_02] 
+[2017.04.05-22.06.39:278][688]LogFbx: 	Total Deformer Count 553105456.
+[2017.04.05-22.06.39:278][688]LogFbx: 		[Node 1]  (Type Skin).
+[2017.04.05-22.06.39:278][688]LogFbx: =================================================
+[2017.04.05-22.06.39:278][688]LogFbx: 	Attribute () Type (4).
+[2017.04.05-22.06.39:278][688]LogFbx: 		[Node Attribute Child 1] M_standard_02 (Type Mesh).
+[2017.04.05-22.06.39:278][688]LogFbx: Dumping Node END [M_standard_02]
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(0) Hips
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(1) Spine
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(2) Spine1
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(3) Spine2
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(4) Neck
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(5) Head
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(8) LeftArm
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(10) LeftHand
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(23) LeftHandRing1
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(24) LeftHandRing2
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(25) LeftHandRing3
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(26) LeftHandRing4
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(31) RightShoulder
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(32) RightArm
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(33) RightForeArm
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(34) RightHand
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(35) RightHandThumb1
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(36) RightHandThumb2
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(37) RightHandThumb3
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(38) RightHandThumb4
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(39) RightHandIndex1
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(40) RightHandIndex2
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(41) RightHandIndex3
+[2017.04.05-22.06.39:279][688]LogFbx: SortedLinks :(42) RightHandIndex4
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(47) RightHandRing1
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(48) RightHandRing2
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(49) RightHandRing3
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(50) RightHandRing4
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(51) RightHandPinky1
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(52) RightHandPinky2
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(53) RightHandPinky3
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(54) RightHandPinky4
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(55) LeftUpLeg
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(56) LeftLeg
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(57) LeftFoot
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(58) LeftToeBase
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(59) LeftToe_End
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(60) RightUpLeg
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(61) RightLeg
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(62) RightFoot
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(63) RightToeBase
+[2017.04.05-22.06.39:280][688]LogFbx: SortedLinks :(64) RightToe_End
+[2017.04.05-22.06.39:281][688]LogFbx: Parsing AnimStack JumpinPlace_MidAir 9-13
+[2017.04.05-22.06.39:283][688]LogLinker: Can't find file '/Game/AnimationTests/Jumping/JumpinPlace_MidAir_9-13_Anim'
+[2017.04.05-22.06.39:283][688]LogLinker: Can't find file '/Game/AnimationTests/Jumping/JumpinPlace_MidAir_9-13_Anim'
+[2017.04.05-22.06.39:378][688]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationTests/Jumping/JumpinPlace_MidAir_9-13_Anim.JumpinPlace_MidAir_9-13_Anim
+[2017.04.05-22.06.39:388][688]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+mixamorig:LeftToe_End  
+mixamorig:RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.04.05-22.07.41:807][897]LogLinker:Warning: Can't find file '/Game/AnimationTests/jump_Anim'
+[2017.04.05-22.07.41:830][897]LogLinker:Warning: Can't find file for asset '/Game/AnimationTests/jump_Anim' while loading ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2017.04.05-22.07.41:830][897]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/AnimationTests/jump_Anim
+[2017.04.05-22.07.42:094][897]LogLinker:Warning: Can't find file '/Game/AnimationTests/jump_Anim'
+[2017.04.05-22.07.42:094][897]LogLinker:Warning: Can't find file for asset '/Game/AnimationTests/jump_Anim' while loading ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2017.04.05-22.07.42:172][897]LogLinker:Warning: Can't find file '/Game/AnimationTests/jump_Anim'
+[2017.04.05-22.07.42:172][897]LogLinker:Warning: Can't find file for asset '/Game/AnimationTests/jump_Anim' while loading NULL.
+[2017.04.05-22.07.42:173][897]LogLinker:Warning: Can't find file '/Game/AnimationTests/jump_Anim'
+[2017.04.05-22.07.42:173][897]LogLinker:Warning: Can't find file for asset '/Game/AnimationTests/jump_Anim' while loading NULL.
+[2017.04.05-22.07.42:182][897]LogLinker:Warning: Can't find file '/Game/AnimationTests/jump_Anim'
+[2017.04.05-22.07.42:183][897]LoadErrors: Info Failed to load /Game/AnimationTests/jump_Anim.jump_Anim Referenced by male_test_2__3__15
+[2017.04.05-22.07.42:183][897]LogLinker:Warning: Can't find file for asset '/Game/AnimationTests/jump_Anim' while loading NULL.
+[2017.04.05-22.07.42:644][897]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.05-22.07.45:002][897]LogSavePackage: Save=39.86ms
+[2017.04.05-22.07.45:002][897]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/JumpinPlace_Landing_14-22E3389A164CAB1D6881FC28B663DB8691.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_Landing_14-22.uasset'
+[2017.04.05-22.07.45:009][897]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_Landing_14-22.uasset
+[2017.04.05-22.07.45:033][897]LogSavePackage: Save=10.09ms
+[2017.04.05-22.07.45:033][897]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/JumpinPlace_Landing_14-22_Anim1414377043539C97854EEFA5FEA17859.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_Landing_14-22_Anim.uasset'
+[2017.04.05-22.07.45:035][897]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_Landing_14-22_Anim.uasset
+[2017.04.05-22.07.45:043][897]LogSavePackage: Save=7.09ms
+[2017.04.05-22.07.45:043][897]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/JumpinPlace_Landing_14-22_PhysicsAssetB27B8D994445DE92223AA5A665A1B0AF.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_Landing_14-22_PhysicsAsset.uasset'
+[2017.04.05-22.07.45:065][897]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_Landing_14-22_PhysicsAsset.uasset
+[2017.04.05-22.07.45:107][897]LogSavePackage: Save=16.28ms
+[2017.04.05-22.07.45:107][897]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/JumpinPlace_MidAir_9-134F05E23D41FACCBC1867ECBADDBEFF1B.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_MidAir_9-13.uasset'
+[2017.04.05-22.07.45:110][897]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_MidAir_9-13.uasset
+[2017.04.05-22.07.45:135][897]LogSavePackage: Save=9.70ms
+[2017.04.05-22.07.45:135][897]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/JumpinPlace_MidAir_9-13_AnimF45E5FA14075EAD7F1B2A1A8E7036525.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_MidAir_9-13_Anim.uasset'
+[2017.04.05-22.07.45:138][897]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_MidAir_9-13_Anim.uasset
+[2017.04.05-22.07.45:147][897]LogSavePackage: Save=7.97ms
+[2017.04.05-22.07.45:147][897]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/JumpinPlace_MidAir_9-13_PhysicsAsset131A061242E3FE27E5774D8DC87DE037.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_MidAir_9-13_PhysicsAsset.uasset'
+[2017.04.05-22.07.45:150][897]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_MidAir_9-13_PhysicsAsset.uasset
+[2017.04.05-22.07.45:180][897]LogSavePackage: Save=15.89ms
+[2017.04.05-22.07.45:180][897]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/JumpinPlace_TakeOff_1-85953B22A44BD33D40AC53CB1FAAA17D9.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_TakeOff_1-8.uasset'
+[2017.04.05-22.07.45:183][897]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_TakeOff_1-8.uasset
+[2017.04.05-22.07.45:207][897]LogSavePackage: Save=9.87ms
+[2017.04.05-22.07.45:207][897]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/JumpinPlace_TakeOff_1-8_Anim9807237643CBE1B39A629892E9904301.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_TakeOff_1-8_Anim.uasset'
+[2017.04.05-22.07.45:209][897]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_TakeOff_1-8_Anim.uasset
+[2017.04.05-22.07.45:218][897]LogSavePackage: Save=7.56ms
+[2017.04.05-22.07.45:218][897]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/JumpinPlace_TakeOff_1-8_PhysicsAsset9A20E2944B6E36EA631411A1CCE4AADA.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_TakeOff_1-8_PhysicsAsset.uasset'
+[2017.04.05-22.07.45:220][897]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/JumpinPlace_TakeOff_1-8_PhysicsAsset.uasset
+[2017.04.05-22.07.45:277][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationTests/Jumping/lambert1" FILE="../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/lambert1.uasset" SILENT=true
+[2017.04.05-22.07.45:315][897]LogSavePackage: Save=36.38ms
+[2017.04.05-22.07.45:315][897]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/lambert1070E662B44ABD2B9564FAF93920FD83E.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/lambert1.uasset'
+[2017.04.05-22.07.45:317][897]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/Jumping/lambert1.uasset
+[2017.04.05-22.07.45:348][897]Cmd: MAP LOAD FILE="../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.05-22.07.45:365][897]LightingResults: New page: Lighting Build
+[2017.04.05-22.07.45:394][897]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0006 seconds. Added 5 classes and 0 folders.
+[2017.04.05-22.07.45:396][897]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2017.04.05-22.07.45:417][897]MapCheck: New page: Map Check
+[2017.04.05-22.07.45:417][897]LightingResults: New page: Lighting Build
+[2017.04.05-22.07.45:472][897]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.05-22.07.45:575][897]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.05-22.07.45:617][897]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.462ms to complete.
+[2017.04.05-22.07.45:617][897]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.300
+[2017.04.05-22.07.49:483][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.05-22.08.02:569][268]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.04.05-22.08.02:695][268]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.04.05-22.08.15:580][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationTests/AnimationBP_Male2" FILE="../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset" SILENT=true
+[2017.04.05-22.08.15:681][155]LogSavePackage: Save=83.67ms
+[2017.04.05-22.08.15:681][155]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/AnimationBP_Male2D89932EF4922490DBF72B380A2636D8C.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset'
+[2017.04.05-22.08.15:687][155]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset
+[2017.04.05-22.08.27:051][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationTests/AnimationBP_Male2" FILE="../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset" SILENT=true
+[2017.04.05-22.08.27:127][941]LogSavePackage: Save=72.85ms
+[2017.04.05-22.08.27:127][941]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/AnimationBP_Male2D6465B87409150A632C0E88F42EFC4AD.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset'
+[2017.04.05-22.08.27:129][941]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset
+[2017.04.05-22.08.35:948][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationTests/AnimationBP_Male2" FILE="../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset" SILENT=true
+[2017.04.05-22.08.35:984][540]LogSavePackage: Save=32.27ms
+[2017.04.05-22.08.35:984][540]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/AnimationBP_Male2090EADAD4CB0BEB2FCD3ECB5BCDB6F66.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset'
+[2017.04.05-22.08.35:986][540]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset
+[2017.04.05-22.08.45:348][293]BlueprintLog: New page: Compile AnimationBP_Male2
+[2017.04.05-22.08.45:979][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationTests/AnimationBP_Male2" FILE="../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset" SILENT=true
+[2017.04.05-22.08.46:015][326]LogSavePackage: Save=33.03ms
+[2017.04.05-22.08.46:015][326]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/AnimationBP_Male2B1B631DB46E1E29E69179E8470388E80.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset'
+[2017.04.05-22.08.46:019][326]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/AnimationBP_Male2.uasset
+[2017.04.05-22.08.48:374][532]LogTemp: Repeting last play command: Simulate
+[2017.04.05-22.08.48:448][532]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.08.48:483][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.05-22.08.48:550][532]PIE: New page: SIE session: ThirdPersonExampleMap (Apr 6, 2017, 2:08:48 AM)
+[2017.04.05-22.08.48:572][532]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.05-22.08.48:695][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123566s)
+[2017.04.05-22.08.48:697][532]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.05-22.08.48:697][532]LogPlayLevel: PIE: World Init took: (0.001559s)
+[2017.04.05-22.08.48:709][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.139664s)
+[2017.04.05-22.08.48:750][532]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.05-22.08.48:760][532]LogInit: FAudioDevice initialized.
+[2017.04.05-22.08.48:928][532]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2017.04.05-22.08.48:929][532]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2017.04.05-22.08.48:929][532]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2017.04.05-22.08.48:929][532]LogLoad: Game class is 'GameModeBase'
+[2017.04.05-22.08.48:936][532]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.06-00.08.48
+[2017.04.05-22.08.48:966][532]LogWorld: Bringing up level for play took: 0.034513
+[2017.04.05-22.08.49:234][532]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0026 seconds. Added 11 classes and 0 folders.
+[2017.04.05-22.08.49:331][532]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.28
+[2017.04.05-22.08.49:511][532]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.09.11:633][ 89]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.09.11:986][ 89]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.10.51:135][829]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2017.04.05-22.10.54:043][ 51]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.04.05-22.10.55:428][129]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2017.04.05-22.10.58:378][379]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.04.05-22.10.58:523][379]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.04.05-22.10.58:901][380]LogRenderer: Reallocating scene render targets to support 1208x716 NumSamples 1 (Frame:43398).
+[2017.04.05-22.11.01:801][548]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.04.05-22.11.01:864][548]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.04.05-22.13.01:956][272]LogSavePackage: Save=160.94ms
+[2017.04.05-22.13.01:956][272]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/ThirdPersonExampleMapE037DC7A460A228ECE506D87E95F5BF5.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.05-22.13.02:000][272]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.05-22.13.02:260][272]LogSavePackage: Save=203.15ms
+[2017.04.05-22.13.02:260][272]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/ThirdPersonExampleMap_BuiltData064AD045451CD06F56663ABD56B38A71.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.05-22.13.02:285][272]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.05-22.13.03:716][387]LogTemp: Repeting last play command: Simulate
+[2017.04.05-22.13.03:727][387]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.13.03:727][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.05-22.13.03:728][387]PIE: New page: SIE session: ThirdPersonExampleMap (Apr 6, 2017, 2:13:03 AM)
+[2017.04.05-22.13.03:728][387]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.05-22.13.03:749][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020929s)
+[2017.04.05-22.13.03:749][387]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.05-22.13.03:750][387]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2017.04.05-22.13.03:750][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022103s)
+[2017.04.05-22.13.03:803][387]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.05-22.13.03:813][387]LogInit: FAudioDevice initialized.
+[2017.04.05-22.13.03:846][387]LogLoad: Game class is 'GameModeBase'
+[2017.04.05-22.13.03:849][387]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.06-00.13.03
+[2017.04.05-22.13.03:849][387]LogWorld: Bringing up level for play took: 0.002698
+[2017.04.05-22.13.03:876][387]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.825
+[2017.04.05-22.13.03:971][387]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.13.09:518][971]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.098329 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_167', movement 'Walking'
+[2017.04.05-22.14.13:095][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.14.13:359][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.14.38:768][773]LogTemp: Repeting last play command: Simulate
+[2017.04.05-22.14.38:806][773]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.14.38:806][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.05-22.14.38:806][773]PIE: New page: SIE session: ThirdPersonExampleMap (Apr 6, 2017, 2:14:38 AM)
+[2017.04.05-22.14.38:806][773]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.05-22.14.38:825][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018651s)
+[2017.04.05-22.14.38:826][773]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.05-22.14.38:826][773]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2017.04.05-22.14.38:826][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019779s)
+[2017.04.05-22.14.38:878][773]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.05-22.14.38:888][773]LogInit: FAudioDevice initialized.
+[2017.04.05-22.14.38:944][773]LogLoad: Game class is 'GameModeBase'
+[2017.04.05-22.14.38:967][773]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.06-00.14.38
+[2017.04.05-22.14.38:967][773]LogWorld: Bringing up level for play took: 0.022467
+[2017.04.05-22.14.38:968][773]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.083
+[2017.04.05-22.14.39:063][773]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.14.47:792][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.14.48:157][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.14.52:581][892]LogTemp: Repeting last play command: Simulate
+[2017.04.05-22.14.52:590][892]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.14.52:590][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.05-22.14.52:591][892]PIE: New page: SIE session: ThirdPersonExampleMap (Apr 6, 2017, 2:14:52 AM)
+[2017.04.05-22.14.52:591][892]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.05-22.14.52:608][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016854s)
+[2017.04.05-22.14.52:609][892]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.05-22.14.52:609][892]LogPlayLevel: PIE: World Init took: (0.001375s)
+[2017.04.05-22.14.52:609][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018733s)
+[2017.04.05-22.14.52:709][892]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.05-22.14.52:732][892]LogInit: FAudioDevice initialized.
+[2017.04.05-22.14.52:775][892]LogLoad: Game class is 'GameModeBase'
+[2017.04.05-22.14.52:778][892]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.06-00.14.52
+[2017.04.05-22.14.52:778][892]LogWorld: Bringing up level for play took: 0.002544
+[2017.04.05-22.14.52:795][892]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.256
+[2017.04.05-22.14.52:920][892]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.15.39:069][281]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.15.39:171][281]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.15.59:763][721]LogTemp: Repeting last play command: Simulate
+[2017.04.05-22.15.59:773][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.15.59:773][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.05-22.15.59:773][721]PIE: New page: SIE session: ThirdPersonExampleMap (Apr 6, 2017, 2:15:59 AM)
+[2017.04.05-22.15.59:773][721]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.05-22.15.59:793][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019632s)
+[2017.04.05-22.15.59:793][721]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.05-22.15.59:793][721]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2017.04.05-22.15.59:794][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020652s)
+[2017.04.05-22.15.59:847][721]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.05-22.15.59:856][721]LogInit: FAudioDevice initialized.
+[2017.04.05-22.15.59:887][721]LogLoad: Game class is 'GameModeBase'
+[2017.04.05-22.15.59:890][721]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.06-00.15.59
+[2017.04.05-22.15.59:890][721]LogWorld: Bringing up level for play took: 0.002405
+[2017.04.05-22.15.59:892][721]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.84
+[2017.04.05-22.15.59:988][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.16.12:265][158]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.16.12:365][158]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.16.13:928][268]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (male_test_2__3_2)
+[2017.04.05-22.16.15:434][332]LogEditorViewport: Clicking on Actor (CTRL LMB): SkeletalMeshActor (male_test_2__3_)
+[2017.04.05-22.16.16:556][439]Cmd: DELETE
+[2017.04.05-22.16.16:556][439]Cmd: ACTOR DELETE
+[2017.04.05-22.16.16:906][439]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2017.04.05-22.16.16:907][439]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2017.04.05-22.16.16:921][439]LogEditorActor: Deleted 2 Actors (0.016 secs)
+[2017.04.05-22.16.18:598][578]LogSavePackage: Save=230.87ms
+[2017.04.05-22.16.18:598][578]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/ThirdPersonExampleMap29D7C7B04263FCABAFEA5FB8A6C15ADA.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.05-22.16.18:601][578]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.05-22.16.18:788][578]LogSavePackage: Save=160.26ms
+[2017.04.05-22.16.18:788][578]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/ThirdPersonExampleMap_BuiltDataABD8589344D5B0BC1BF14989A67E9574.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.05-22.16.18:790][578]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.05-22.22.09:906][224]LogTemp: Repeting last play command: Simulate
+[2017.04.05-22.22.09:921][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.22.09:922][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.05-22.22.09:923][224]PIE: New page: SIE session: ThirdPersonExampleMap (Apr 6, 2017, 2:22:09 AM)
+[2017.04.05-22.22.09:925][224]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.05-22.22.09:978][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053191s)
+[2017.04.05-22.22.09:983][224]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.05-22.22.09:986][224]LogPlayLevel: PIE: World Init took: (0.007397s)
+[2017.04.05-22.22.09:988][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.063625s)
+[2017.04.05-22.22.10:062][224]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.05-22.22.10:122][224]LogInit: FAudioDevice initialized.
+[2017.04.05-22.22.10:164][224]LogLoad: Game class is 'GameModeBase'
+[2017.04.05-22.22.10:169][224]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.06-00.22.10
+[2017.04.05-22.22.10:169][224]LogWorld: Bringing up level for play took: 0.003396
+[2017.04.05-22.22.10:185][224]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.133
+[2017.04.05-22.22.10:191][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.22.22:982][715]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.22.23:017][715]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.05-22.22.35:788][875]LogSavePackage: Save=161.76ms
+[2017.04.05-22.22.35:788][875]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/ThirdPersonExampleMap76769E7348105194D1EA2AB04133BF36.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.05-22.22.35:790][875]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.05-22.22.35:993][875]LogSavePackage: Save=150.32ms
+[2017.04.05-22.22.35:993][875]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/ThirdPersonExampleMap_BuiltData9ADA783E4332D402F92E4EB5D5CE95ED.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.05-22.22.35:994][875]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.05-22.22.41:149][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationTests/male_test_2__3__Skeleton" FILE="../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/male_test_2__3__Skeleton.uasset" SILENT=true
+[2017.04.05-22.22.41:158][955]LogSavePackage: Save=2.81ms
+[2017.04.05-22.22.41:158][955]LogSavePackage: Moving '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/male_test_2__3__SkeletonCAA81A9D4E94732C528574A691295D3A.tmp' to '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/male_test_2__3__Skeleton.uasset'
+[2017.04.05-22.22.41:189][955]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/AnimationTests/male_test_2__3__Skeleton.uasset
+[2017.04.05-22.22.41:369][955]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.05-22.22.46:070][956]Cmd: QUIT_EDITOR
+[2017.04.05-22.22.51:452][956]LogExit: Preparing to exit.
+[2017.04.05-22.22.54:861][956]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.04.05-22.22.54:861][956]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.04.05-22.22.55:005][956]LogDirectoryWatcher: A directory notification for 'D:/D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/' was aborted.
+[2017.04.05-22.23.00:362][956]LogExit: Editor shut down
+[2017.04.05-22.23.00:470][956]LogExit: Transaction tracking system shut down
+[2017.04.05-22.23.01:745][956]LogTemp:Display: Removed shader map 0x000001E522EB6B00 from material 0x000001E5195D4100
+[2017.04.05-22.23.10:431][956]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.05-22.23.10:432][956]LogExit: Object subsystem successfully closed.
+[2017.04.05-22.23.11:290][956]LogD3D11RHI: Shutdown
+[2017.04.05-22.23.11:290][956]LogD3D11RHI: CleanupD3DDevice
+[2017.04.05-22.23.11:734][956]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.05-22.23.13:907][956]LogModuleManager: Shutting down and abandoning module AnimationEditor (512)
+[2017.04.05-22.23.13:907][956]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (510)
+[2017.04.05-22.23.13:907][956]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (508)
+[2017.04.05-22.23.13:907][956]LogModuleManager: Shutting down and abandoning module StatsViewer (506)
+[2017.04.05-22.23.13:927][956]LogModuleManager: Shutting down and abandoning module SkeletonEditor (504)
+[2017.04.05-22.23.13:927][956]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (502)
+[2017.04.05-22.23.13:950][956]LogModuleManager: Shutting down and abandoning module BlueprintGraph (500)
+[2017.04.05-22.23.13:950][956]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (498)
+[2017.04.05-22.23.14:114][956]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.04.05-22.23.14:147][956]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.04.05-22.23.14:147][956]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.04.05-22.23.14:147][956]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.04.05-22.23.14:246][956]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.05-22.23.14:922][956]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.04.05-22.23.14:922][956]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.04.05-22.23.14:922][956]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.04.05-22.23.14:947][956]LogDirectoryWatcher: A directory notification for 'D:/D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/Collections/' was aborted.
+[2017.04.05-22.23.14:947][956]LogDirectoryWatcher: A directory notification for 'D:/D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/Developers/Jorn/Collections/' was aborted.
+[2017.04.05-22.23.14:947][956]LogDirectoryWatcher: A directory notification for 'D:/D Drive/MALUM_SVN/MALUM_SVN/MALUM/Saved/Collections/' was aborted.
+[2017.04.05-22.23.14:947][956]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.04.05-22.23.14:947][956]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.04.05-22.23.14:955][956]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.04.05-22.23.14:955][956]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.04.05-22.23.14:955][956]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.04.05-22.23.14:955][956]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.04.05-22.23.14:955][956]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.04.05-22.23.14:964][956]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.04.05-22.23.14:973][956]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.04.05-22.23.14:983][956]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.04.05-22.23.14:991][956]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.04.05-22.23.15:001][956]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.04.05-22.23.15:108][956]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.04.05-22.23.15:108][956]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.04.05-22.23.15:108][956]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.04.05-22.23.15:108][956]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.04.05-22.23.15:108][956]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.04.05-22.23.15:108][956]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.04.05-22.23.15:108][956]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.04.05-22.23.15:108][956]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.04.05-22.23.15:108][956]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.04.05-22.23.15:108][956]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.04.05-22.23.15:108][956]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.04.05-22.23.15:109][956]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.04.05-22.23.15:130][956]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.04.05-22.23.15:215][956]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.04.05-22.23.15:215][956]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.04.05-22.23.15:215][956]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.04.05-22.23.15:215][956]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.04.05-22.23.15:215][956]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.04.05-22.23.15:287][956]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.04.05-22.23.15:298][956]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.04.05-22.23.15:351][956]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.04.05-22.23.15:351][956]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.04.05-22.23.15:351][956]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.04.05-22.23.15:351][956]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.04.05-22.23.15:372][956]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.04.05-22.23.15:745][956]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.04.05-22.23.15:745][956]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.04.05-22.23.15:745][956]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.04.05-22.23.15:772][956]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.04.05-22.23.15:843][956]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.04.05-22.23.15:865][956]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.04.05-22.23.15:885][956]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.04.05-22.23.15:911][956]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.04.05-22.23.15:911][956]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.04.05-22.23.15:949][956]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.04.05-22.23.15:982][956]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.04.05-22.23.16:004][956]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.04.05-22.23.16:013][956]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.04.05-22.23.16:025][956]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.04.05-22.23.16:025][956]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.04.05-22.23.16:171][956]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.04.05-22.23.16:183][956]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.04.05-22.23.16:183][956]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.04.05-22.23.16:223][956]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.04.05-22.23.16:223][956]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.04.05-22.23.16:304][956]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.04.05-22.23.16:333][956]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.04.05-22.23.16:407][956]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.04.05-22.23.16:511][956]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.04.05-22.23.16:598][956]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.04.05-22.23.16:674][956]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.04.05-22.23.16:829][956]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.04.05-22.23.16:880][956]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.04.05-22.23.16:947][956]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.04.05-22.23.16:948][956]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.04.05-22.23.16:972][956]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.04.05-22.23.16:972][956]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.04.05-22.23.16:972][956]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.04.05-22.23.16:972][956]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.04.05-22.23.17:041][956]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.04.05-22.23.17:041][956]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.04.05-22.23.17:093][956]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.04.05-22.23.17:120][956]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.04.05-22.23.17:231][956]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.04.05-22.23.17:263][956]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.04.05-22.23.17:272][956]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.04.05-22.23.17:288][956]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.04.05-22.23.17:289][956]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.04.05-22.23.17:289][956]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.04.05-22.23.17:289][956]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.04.05-22.23.17:289][956]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.04.05-22.23.17:289][956]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.04.05-22.23.17:289][956]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.04.05-22.23.17:289][956]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.04.05-22.23.17:289][956]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.04.05-22.23.17:306][956]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.04.05-22.23.17:306][956]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.04.05-22.23.17:397][956]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.04.05-22.23.17:421][956]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.04.05-22.23.17:421][956]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.04.05-22.23.17:421][956]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.04.05-22.23.17:421][956]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.04.05-22.23.17:428][956]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.04.05-22.23.17:428][956]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.04.05-22.23.17:428][956]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.04.05-22.23.17:428][956]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.04.05-22.23.17:428][956]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.04.05-22.23.17:437][956]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.04.05-22.23.17:437][956]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.04.05-22.23.17:462][956]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.04.05-22.23.17:462][956]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.04.05-22.23.17:469][956]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.04.05-22.23.17:469][956]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.04.05-22.23.17:473][956]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.04.05-22.23.17:473][956]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.04.05-22.23.17:473][956]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.04.05-22.23.17:473][956]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.04.05-22.23.17:473][956]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.04.05-22.23.17:499][956]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.04.05-22.23.17:535][956]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.04.05-22.23.17:535][956]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.04.05-22.23.17:535][956]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.04.05-22.23.17:535][956]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.04.05-22.23.17:535][956]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.04.05-22.23.17:562][956]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.04.05-22.23.17:599][956]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.04.05-22.23.17:634][956]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.04.05-22.23.17:671][956]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.04.05-22.23.17:671][956]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.04.05-22.23.17:671][956]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.04.05-22.23.17:671][956]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.04.05-22.23.17:707][956]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.04.05-22.23.17:731][956]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.04.05-22.23.17:742][956]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.04.05-22.23.17:757][956]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.04.05-22.23.17:757][956]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.04.05-22.23.17:864][956]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.04.05-22.23.17:866][956]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.05-22.23.17:939][956]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.05-22.23.17:939][956]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.05-22.23.17:939][956]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.05-22.23.18:040][956]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.05-22.23.18:153][956]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.05-22.23.18:195][956]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.05-22.23.18:203][956]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.05-22.23.18:203][956]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.05-22.23.18:203][956]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.05-22.23.18:218][956]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.05-22.23.18:254][956]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.05-22.23.18:262][956]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.05-22.23.18:262][956]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.05-22.23.18:262][956]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.05-22.23.18:291][956]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.05-22.23.18:291][956]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.05-22.23.18:291][956]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.05-22.23.18:617][956]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.05-22.23.18:617][956]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.05-22.23.18:641][956]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.05-22.23.18:655][956]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.05-22.23.18:692][956]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.05-22.23.18:718][956]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.05-22.23.18:763][956]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.05-22.23.18:763][956]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.05-22.23.18:763][956]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.05-22.23.18:786][956]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.05-22.23.18:786][956]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.05-22.23.18:869][956]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.05-22.23.18:893][956]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.05-22.23.18:893][956]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.05-22.23.18:893][956]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.05-22.23.18:894][956]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.05-22.23.18:894][956]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.05-22.23.19:639][956]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.05-22.23.19:639][956]LogDirectoryWatcher: A directory notification for '../../../../../D Drive/MALUM_SVN/MALUM_SVN/MALUM/Content/' was aborted.
+[2017.04.05-22.23.19:639][956]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.05-22.23.19:660][956]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.05-22.23.19:666][956]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.05-22.23.19:666][956]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.05-22.23.19:666][956]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.05-22.23.19:716][956]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.05-22.23.19:725][956]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.05-22.23.19:725][956]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.05-22.23.19:762][956]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.05-22.23.19:762][956]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.05-22.23.19:796][956]LogDerivedDataCache: Shutdown
+[2017.04.05-22.23.19:796][956]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.05-22.23.19:856][956]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.05-22.23.19:875][956]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.05-22.23.19:884][956]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.05-22.23.19:903][956]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.05-22.23.19:911][956]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.05-22.23.19:911][956]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.05-22.23.19:911][956]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.05-22.23.19:938][956]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.05-22.23.19:952][956]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.05-22.23.19:952][956]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.05-22.23.19:952][956]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.05-22.23.19:952][956]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.05-22.23.19:977][956]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.05-22.23.19:977][956]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.05-22.23.19:977][956]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.05-22.23.19:977][956]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.05-22.23.20:000][956]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.05-22.23.20:000][956]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.05-22.23.20:008][956]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.05-22.23.20:008][956]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.05-22.23.20:008][956]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.05-22.23.20:016][956]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.05-22.23.20:016][956]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.05-22.23.20:016][956]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.05-22.23.20:016][956]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.05-22.23.20:016][956]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.05-22.23.20:016][956]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.05-22.23.20:016][956]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.05-22.23.20:016][956]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.05-22.23.20:016][956]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.05-22.23.20:016][956]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.05-22.23.20:016][956]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.05-22.23.20:039][956]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.05-22.23.20:039][956]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.05-22.23.20:049][956]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.05-22.23.20:049][956]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.05-22.23.20:070][956]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.05-22.23.20:075][956]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.05-22.23.20:097][956]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.05-22.23.20:097][956]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.05-22.23.20:097][956]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.05-22.23.20:168][956]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.05-22.23.20:180][956]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.05-22.23.20:180][956]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.05-22.23.20:180][956]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.05-22.23.20:180][956]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.05-22.23.20:180][956]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.05-22.23.20:198][956]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.05-22.23.20:298][956]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.05-22.23.20:335][956]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.05-22.23.20:335][956]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0E267396-4105-7495-1F27-8184D611C4D4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=7afd5da54138cf975385b1b79ce0e48c%7Ce72e3b1d3ed940ce8374baf3a3a16f54%7Cd01376f7-cdc9-429a-a070-f0574ff35c93&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.05-22.23.20:367][956]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.05-22.23.20:408][956]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.05-22.23.20:470][956]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.05-22.23.20:520][956]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.05-22.23.20:520][956]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.05-22.23.20:520][956]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.05-22.23.20:610][956]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.05-22.23.20:627][956]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.05-22.23.20:627][956]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.05-22.23.20:643][956]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.05-22.23.20:643][956]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.05-22.23.20:643][956]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.05-22.23.20:643][956]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.05-22.23.20:658][956]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.05-22.23.20:669][956]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.05-22.23.20:669][956]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.05-22.23.20:694][956]LogExit: Exiting.
+[2017.04.05-22.23.20:976][956]Log file closed, 04/06/17 00:23:20
